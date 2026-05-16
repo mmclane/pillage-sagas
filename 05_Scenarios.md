@@ -143,7 +143,7 @@ Winner forces a tribute on the loser, paid in the next post-game.
 
 ## 4. Locations
 
-12 Locations for v0.3. Each Location sets the table's base terrain and applies a light mechanical effect for the duration of the battle. The challenger picks the Location at proposal time; the acceptor may swap it via the *Change Venue* Twist.
+15 Locations for v0.3. Each Location sets the table's base terrain and applies a light mechanical effect for the duration of the battle. The challenger picks the Location at proposal time; the acceptor may swap it via the *Change Venue* Twist.
 
 A Location's terrain rules apply throughout the battle unless overridden by a Twist (e.g., *Burning Building* still adds a fire to whatever Location is chosen).
 
@@ -153,6 +153,7 @@ A Location's terrain rules apply throughout the battle unless overridden by a Tw
 |---|---|---|---|
 | **Open Steppe** | Flat grassland with 1-2 scattered features (lone tree, scrub, rocks). | Cavalry charge rolls gain +1" to charge distance. Visibility unobstructed. | Pitched Battle, Wagon Train Ambush, Cattle Raid |
 | **Snowy Tundra** | Snow-covered plain, 1-2 small drifts or rocks. | Weather is automatically **Snow** for the duration (overrides weather roll). | Pitched Battle, Sack the Hall (winter raid), Wagon Train Ambush |
+| **Lone Hilltop** | A single dominant hill rises in the center of the table, roughly 12"-18" across at the base, with gentle slopes on all sides. 1-2 small features elsewhere (a lone tree, a roadside shrine, scattered rocks). | The hill counts as elevation per Pillage's slope rules: figures fighting uphill take -1 to melee hit rolls; figures fighting downhill take no penalty. Charges uphill do not gain the charge bonus. The summit provides clear line of sight across the table. | Pitched Battle, Coast Watch Tower (the tower sits on the hill), Rival Warband Feud, Pilgrimage (uphill shrine) |
 
 ### Wilderness
 
@@ -162,6 +163,7 @@ A Location's terrain rules apply throughout the battle unless overridden by a Tw
 | **Forest Edge** | A clearing with dense forest on 2-3 edges, covering ~30% of the table. | Wooded areas count as difficult terrain. Picts and Welsh ignore the penalty. Bows take an additional -1 to hit at long range due to obstruction. | Sack the Monastery (a forest monastery), Saga Duel, Rival Warband Feud |
 | **Highland Crags** | 2-3 elevated areas (rocky outcrops, hills), some impassable rocks. | Multiple line-of-sight breakers. Cavalry takes -1" movement on elevated terrain. Picts ignore difficult terrain on rocks per their core rules. | Coast Watch Tower, Rival Warband Feud |
 | **Riverbank** | A river bisects the table; 1-2 fords or shallow crossings. | Crossing the river requires a swimming roll (per Pillage's swimming rules) except at the fords, which count as passable obstacles. | Cattle Raid, Rescue the Hostage |
+| **Tidal Estuary** | A wide muddy river mouth where freshwater meets the sea. Roughly half the table is shallow water (ankle to knee deep), interspersed with sandbars, low islets, and reed beds. 1-2 beached longships sit on the muddy shore. | Shallow water counts as difficult terrain (per Pillage's marsh rules). No swimming roll is required — the water is too shallow to drown. Saxons ignore the movement penalty per their special rule. Cavalry takes -1" movement throughout. Fire-starting rolls take an additional -2 (everything is damp). Ships may be deployed on the beach edges. | Pillage Town (coastal raid), Defend the Longship, Cattle Raid (cattle bogged crossing) |
 
 ### Settled
 
@@ -178,6 +180,7 @@ A Location's terrain rules apply throughout the battle unless overridden by a Tw
 | Location | Default terrain | Effect | Best for |
 |---|---|---|---|
 | **Bridge** | A river bisects the table; 1 main bridge + 0-1 smaller bridges. Steep banks. | Most figures cross via the bridge(s); swimming is possible but bank climbing counts as a passable obstacle. A narrow bridge limits combat to 1-3 figures abreast (player agreement on bridge width). | Pillage Town (coastal raid), Pitched Battle, Storm the Keep (Stamford Bridge style) |
+| **Longship Boarding** | Two longships are lashed rail-to-rail in open water, forming a continuous fighting platform. Each ship is approximately 24" long and 6" wide. The deck counts as difficult terrain (per Pillage's ship rules). Water surrounds the ships entirely. | Cavalry may not be deployed. Per Pillage's naval combat rules: the rails between the two ships count as a single passable obstacle (2" of movement to cross), and figures may charge across. Figures pushed off (per Push Back rule) fall overboard — apply Pillage's swimming rules (figures in armor face significant risk). Loot tokens may be placed on enemy deck or below decks. Fire on a ship spreads at +1 to the roll (the timbers are tarred). | Saga Duel, Rival Warband Feud, Defend the Longship (boarding variant), Pillage Town (interception at sea) |
 
 ### Notes
 
@@ -304,7 +307,7 @@ A club meeting with 4 players. Saga Season, Two Sides Mode (Northmen vs Christen
 ## 9. TODO (v0.4)
 
 - [ ] Expand Twist deck to ~25 cards. Current 16 is enough for first playtest but variety will quickly become an issue.
-- [ ] Add 3 more Locations: Market Square, Henge, Frozen Lake.
+- [ ] Add 3 more Locations: Market Square, Henge, Frozen Lake. (15 in v0.3; aiming for 18 in v0.4.)
 - [ ] Add **multi-player Battle Types** for Feuds Mode club nights with odd numbers: a 3-player free-for-all and a 4-player team (2 vs 2).
 - [ ] Add faction-flavored Battle Types: a Viking longship raid that only Norse warbands can propose; a "Defend the Pilgrimage" only Christian warbands can defend; etc.
 - [ ] Balance the asymmetric force budgets. Default assumption: even gp budgets. Battle Types like Storm the Keep may want explicit asymmetric budgets (defender at 75% of attacker) to be playable.
