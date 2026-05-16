@@ -90,7 +90,7 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 | B05 | **Boast Fulfilled** | One of your figures declares and resolves a charge on Turn 1, and that figure is still alive at the end of Turn 1. |
 | B06 | **Rooftop Raider** | At the end of any turn, one of your figures is on a building's roof (top storey, exterior surface). |
 | B07 | **No Shield, No Fear** | Your Jarl wins a melee without a shield, against an opponent who has a shield. |
-| B08 | **Bared Teeth** | A Berserker in your warband enters his rage state during the game and is still alive at the end of the game. |
+| B08 | **Bared Teeth** | A figure in your warband enters rage state during the game (via Berserker equipment, Hallucinogenic Mushrooms Store, or other means) and is still alive at the end of the game. |
 | B09 | **Last Stand** | At the end of any turn, your Jarl is the last figure of your warband on the table, and your warband does not rout that turn. |
 | B10 | **Skull-Splitter** | One of your figures kills an enemy Chieftain with a single melee hit (the Chieftain went from full HP to 0 in one strike). |
 | B11 | **Mercy Sells** | One of your figures captures an enemy figure alive (per the prisoner rules) and walks them off your own table edge during the game. |

@@ -22,8 +22,7 @@ Tracked here so we don't lose threads. Resolved items move to the **Decisions Ma
 
 ### XP and Talents
 
-- [ ] **Berserker- and Healer-specific Talents**: add them, or stick to Pillage's existing Talent list?
-- [ ] **Optional starting Talent for non-Chieftain Named Characters**: yes vs. no?
+*(Resolved in v0.3 by removing class-locked Named Characters except for Healer/Banner-bearer/Warhorn-bearer — see Decisions Made.)*
 
 ### Renown
 
@@ -76,6 +75,11 @@ Once an open question is settled, move it here with a brief note on the resoluti
 - **Locations as the venue layer.** 15 Locations for v0.3 (3 open country, 5 wilderness, 5 settled, 2 special), each with default terrain and a light mechanical effect. Challenger picks Location at proposal time alongside Battle Type. Acceptor can swap Locations via the *Change Venue* Twist. Locations may be banned by either player at campaign start if they lack the terrain (mutual veto). Twists may not duplicate the chosen Location's effect.
 - **Naval and elevation Locations added.** Lone Hilltop (single dominant hill, slope rules), Tidal Estuary (half-table shallow water, no swim roll, beached ships allowed), Longship Boarding (two ships rail-to-rail, no cavalry, figures push off into the water). Cover the boat/river/hill terrain gaps in v0.3.
 - **Annual Events deck (20 cards) drawn every other meeting.** 4 categories of 5 each: Hazards (Plague, Hard Winter, Crop Failure, Mercenary Discontent, A Distant Raid Calls), Boons (Trading Season, Mercenaries Available, Skald Tour, Famous Warrior, Saga Spreads), Faction-divergent (Christian Faith Stirs, Pagan Revival, Hostile Court, Viking Fleet Arrives, Pilgrimage Passes), Shake-ups/Holdings (Civil War, Comet, Holdings Tribute Doubled, Holdings Raided in Absence, The Old Jarl Dies). Mitigation via Renown spend for some cards (Plague, Hard Winter, Civil War, Old Jarl Dies, etc.); some are unavoidable (Crop Failure, Skald Tour). Effects stay flat regardless of player count. Renown never goes negative; floors at 0.
+- **Named Characters are class-flexible** except for three locked-role specialists. Generals (4-5 max) have no fixed class; their kit is chosen fresh each battle from any warrior/Chieftain/Berserker-equipped option per Pillage's army-building rules. One General is designated Chieftain per battle and only their Talents fire. Healer, Banner-bearer, and Warhorn-bearer are class-locked specialists (max 1 each) who always play in their role when fielded; they do not earn Talents but can earn role-restricted Skills (4 Healer Skills, 3 Banner Skills, 3 Warhorn Skills added to the Saga Advancement Table).
+- **Berserker becomes equipment, not a class.** Any figure can be equipped as a Berserker for a battle by paying the Pillage Berserker cost (faction-restricted to Vikings per Pillage core). They get the full Berserker profile and game-long mushroom rage per Pillage's existing rules.
+- **Hallucinogenic Mushrooms Store reworked.** No longer Berserker-only. Now: any figure may eat them once per game during a non-melee turn, gaining one-turn rage effects (auto-pass morale, +1 attack). A Berserker-equipped figure can stack this on top of their normal Berserker rage.
+- **No Chieftain succession mechanic.** Replaced by per-battle Chieftain designation. If all your Generals die, you must recruit a fresh one for 50 gp from Treasury before your next battle. A free Soubriquet roll is granted to the new Chieftain after a battle in which the previous Chieftain died, representing the warband's new leadership.
+- **Cool Head Skill removed.** Overlapped with the Swift As Lightning Talent. Use the Talent path for Chieftain-level initiative bonuses.
 - **Saga Roll mitigation → 1 Renown per season to re-roll once.** Gives some agency over bad luck without softening the table. Wyrd is Cruel (slots 70-71) ignores this protection by design.
 - **Soubriquet trigger threshold → major victory** = win + (50%+ casualty differential OR Legendary Boast OR killed/captured enemy Chieftain). Multiple trigger paths so the system doesn't favor only kill-heavy playstyles.
 - **Soubriquet stacking → max 2 per character.** A third forces the player to drop one. Keeps names readable.

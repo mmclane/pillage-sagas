@@ -75,7 +75,7 @@ A deck of campaign-wide event cards drawn at the start of every other club meeti
 
 > *A war-band from across the sea offers their swords to any who'll pay.*
 
-**Effect:** For the next battle each warband plays, they may hire 1 specialist (Berserker, Huscarl, Healer, or Pack Master) at half their faction's standard gp cost. The specialist leaves after that battle, taking their pay with them.
+**Effect:** For the next battle each warband plays, they may hire one rank-and-file specialist (Berserker-equipped warrior, Huscarl, Healer, or Pack Master) at half their faction's standard gp cost. The hired specialist is rank-and-file (not a Named Character), is fielded for that battle only, and is gone after — they do not join the Named Roster.
 
 #### AE08 — Skald Tour
 
@@ -87,7 +87,7 @@ A deck of campaign-wide event cards drawn at the start of every other club meeti
 
 > *A man of repute seeks a Jarl worthy of his oath.*
 
-**Effect:** Each warband may immediately recruit a free Named Character of their choice from their faction's available types (Berserker, Huscarl, or Healer), fully equipped at standard kit. The character starts with 0 XP. If the warband's Named Roster is at the cap, decline or replace a current Named Character.
+**Effect:** Each warband may immediately recruit a free Named Character of their choice: either a General Named Character, or a class-locked specialist (Healer, Banner-bearer, or Warhorn-bearer) if they do not already have one. They start with 0 XP. If the warband's roster is at its cap for the chosen type (5 Generals, 1 of each specialist), decline or replace a current Named Character.
 
 #### AE10 — The Saga Spreads
 

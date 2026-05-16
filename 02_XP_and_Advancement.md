@@ -2,9 +2,11 @@
 
 ## 1. Core principle
 
-Pillage's Talents (army-wide buffs traditionally bought for the Chieftain with gp at army-build) are converted into **XP-purchased rewards** that any Named Character on the roster may earn. A Named Character's Talents only **fire** while that character is the army's Chieftain. Move them down the roster, the Talent goes dormant. Promote them, it lights up.
+Pillage's Talents (army-wide buffs traditionally bought for the Chieftain with gp at army-build) are converted into **XP-purchased rewards** owned by individual General Named Characters. A General's Talents only **fire** when that character is the **designated Chieftain** for a battle.
 
-This makes the warband bench worth investing in: a Huscarl who quietly earns Talents over 10 battles becomes a powerful Jarl when the current chief falls.
+Under the campaign's roster model (see [01_Core_Rules.md §3](01_Core_Rules.md)), the Chieftain is chosen at the start of each battle from your General Named Characters — the designation does not persist between battles. This means players rotate Chieftain to bring different Talent suites to different battles. Erik with *Mead Merchant* might be Chieftain in a melee-heavy game; Sven with *Marksmanship Training* in a ranged game.
+
+Specialists (Healer, Banner-bearer, Warhorn-bearer) do not earn Talents. They invest XP in Skills, Stat improvements, and Personal Sagas instead.
 
 ---
 
@@ -47,32 +49,32 @@ Purchase happens in the post-game **Advancement** step.
 
 ## 4. Talent restrictions
 
-- Each character holds at most **2 Talents** (same as Pillage core).
+- **Only General Named Characters may earn Talents.** Specialists (Healer, Banner-bearer, Warhorn-bearer) do not earn Talents.
+- Each General holds at most **2 Talents** (same as Pillage core).
 - Each Talent must be **unique within the entire warband** (tighter than Pillage core's "unique per army"; prevents stockpiling).
 - **Faction restrictions** carry over from Pillage (a Welsh-only Talent stays Welsh-only).
-- **Only the current Chieftain's Talents are active** during a game. Talents on Huscarls, Berserkers, etc. are dormant until succession.
+- **Only the designated Chieftain's Talents are active** during a game. The Chieftain is chosen at the start of each battle from your General Named Characters; their Talents fire that game. Other Generals' Talents are dormant.
 
 ---
 
 ## 5. Starting Talents
 
-At campaign creation, the Chieftain may purchase up to 2 Talents at the standard gp prices, paid from the starting Treasury. This bakes in flavor from day one. After campaign start, all new Talent acquisitions are XP-only.
+At campaign creation, the player may purchase up to 2 Talents distributed across their General Named Characters in any combination (2 on one character, or 1 each on two different Generals) at the standard gp prices, paid from the starting Treasury. This bakes in flavor from day one and lets the player decide whether to concentrate Talents on a "default Chieftain" or spread them for flexibility.
 
-> **Optional starting variant:** Allow other Named Characters to also purchase up to 1 starting Talent at gp cost (still dormant unless they're Chieftain). Adds warband-build richness at campaign start.
+After campaign start, all new Talent acquisitions are XP-only.
 
 ---
 
-## 6. Succession when the Chieftain falls permanently
+## 6. When a General dies
 
-After a battle in which the Chieftain was permanently killed (Saga Injury Table result of "Dead"):
+There is no formal Chieftain succession mechanic. The Chieftain is chosen each battle from your living General Named Characters (per [01_Core_Rules.md §3](01_Core_Rules.md)). When a General dies, you simply have fewer candidates to pick from.
 
-1. **Player chooses** which Named Character on the roster becomes the new Chieftain.
-2. The new Chieftain takes on the Chieftain profile from their faction's equipment list (more HP, chieftain-only equipment options become available).
-3. Their existing Talents become **active** going forward.
-4. The old Chieftain's Talents are lost with him.
-5. A free **Soubriquet roll** is granted to the new Chieftain.
+- A General's death takes their **Talents, Skills, Stat improvements, Named-Weapon Unlock, Personal Saga, and any wielded Relic** with them. Relics may drop to the warband's inventory under specific rules ([04_Stores_and_Relics.md §8c](04_Stores_and_Relics.md)).
+- If a General dies during a battle in which they were the Chieftain, the **new Chieftain for the next battle** (whoever you designate) is granted a free **Soubriquet roll**, representing the warband adopting a new leader with a fresh reputation.
 
-If the player has no Named Characters left, they must spend gp from the Treasury to recruit a new Chieftain at the standard cost. The new Chieftain starts with 0 XP and 0 Talents.
+**If all your Generals die:** You cannot field a battle (someone must be Chieftain). Before your next battle, recruit a fresh General from Treasury for 50 gp. They start with 0 XP and no Skills, Talents, Stat improvements, Named-Weapon Unlocks, or Personal Saga. Name them and add them to your roster.
+
+**A specialist dying** (Healer, Banner-bearer, Warhorn-bearer) follows the same logic: their Skills, Stat improvements, etc. are lost. You may recruit a fresh specialist for 50 gp from Treasury. They start with 0 XP and no advancements.
 
 ---
 
@@ -82,15 +84,15 @@ The Advancement step (post-game step 9) is where Named Characters spend XP. Five
 
 ### Summary of paths
 
-| Path | XP cost | Cap per character | Notes |
-|---|---|---|---|
-| **Talents** | 1–8 (per gp/10 conversion in §3) | 2 Talents | Only fires when this character is Chieftain |
-| **Skills** | 2–3 each | 4 Skills | Always active for the character |
-| **Stat Improvements** | 5 each | +2 cumulative per stat from ALL sources | Permanent |
-| **Named-Weapon Unlocks** | 3 each | 1 per character | Grants access to a weapon outside faction list |
-| **Personal Sagas** | 4 each | 1 per character | Permanent passive Renown generator |
+| Path | XP cost | Cap per character | Available to | Notes |
+|---|---|---|---|---|
+| **Talents** | 1–8 (per gp/10 conversion in §3) | 2 Talents | Generals only | Only fires when this character is the designated Chieftain |
+| **Skills** | 2–3 each | 4 Skills | All Named Characters; some Skills are role-restricted | Always active for the character |
+| **Stat Improvements** | 5 each | +2 cumulative per stat from ALL sources | All Named Characters | Permanent |
+| **Named-Weapon Unlocks** | 3 each | 1 per character | All Named Characters (rarely useful for specialists) | Grants access to a weapon outside faction list |
+| **Personal Sagas** | 4 each | 1 per character | All Named Characters | Permanent passive Renown generator |
 
-Total absolute cap per character: 2 Talents + 4 Skills + 3 Stat Improvements (one of each stat) + 1 Named-Weapon Unlock + 1 Personal Saga = 11 advancements. A character earning 3 XP per battle over a 7-battle season earns 21 XP, enough for maybe 5-7 advancements in practice. The hard cap exists to prevent runaway optimization on a single character who survives many seasons.
+A character earning 3 XP per battle over a 7-battle season earns 21 XP, enough for maybe 5-7 advancements in practice. The hard caps prevent runaway optimization on a single character who survives many seasons.
 
 ---
 
@@ -142,8 +144,6 @@ Skills are permanent traits attached to a specific Named Character. They activat
 |---|---|
 | **Inspiring Voice** | Friendly figures within 4" gain +1 to morale checks (stacks with banners and other auras). |
 | **Wolf-Rallier** | Friendly figures within 3" may re-roll one Fleeing roll per game. |
-| **Banner-Pull** | If this character is the banner-bearer, the banner's effective range increases by 2". |
-| **Cool Head** | If this character is the Jarl, your warband's initiative rolls may re-roll on a result of 1 (once per game). |
 
 #### Tactical and Utility (3 XP each)
 
@@ -153,6 +153,31 @@ Skills are permanent traits attached to a specific Named Character. They activat
 | **Quartermaster** | If this character deploys, your warband may field 4 Stores this battle instead of 3. |
 | **Looter** | This character may carry up to 4 loot tokens instead of 3. |
 | **Skald's Ear** | Boasts that triggered on a previous turn may be claimed retroactively, but only until the end of the turn following the trigger. (Mitigates the "forgot to call it" problem.) |
+
+#### Healer-only Skills (the Healer Named Character only)
+
+| Skill | XP | Effect |
+|---|---|---|
+| **Bone-Setter** | 2 | This Healer's heal rolls succeed on 4+ instead of 5+. |
+| **Cunning Folk** | 2 | Once per game, this Healer may move up to half their movement AND heal in the same turn. |
+| **Field Surgeon** | 3 | This Healer may heal a friendly figure currently engaged in melee. |
+| **Wise Woman** | 3 | The first heal each game does not consume the Healer's action (they get a free first cast). |
+
+#### Banner-bearer-only Skills (the Banner-bearer Named Character only)
+
+| Skill | XP | Effect |
+|---|---|---|
+| **Banner-Pull** | 3 | The banner's effective range increases by 2". |
+| **Defiant Standard** | 3 | Friendly figures within 6" of the banner pass morale checks on a 2+ instead of the usual threshold. |
+| **Banner's Shield** | 3 | Once per game, the banner-bearer ignores one wound (the banner deflects the blow, or a comrade leaps in front). |
+
+#### Warhorn-bearer-only Skills (the Warhorn-bearer Named Character only)
+
+| Skill | XP | Effect |
+|---|---|---|
+| **Trumpet Call** | 2 | The warhorn's effective range increases by 2". |
+| **Forward March** | 2 | Friendly figures within 6" of the warhorn-bearer gain +1" to their charge distance rolls on turns they charge. |
+| **Rallying Bray** | 3 | Once per game, sound the horn to let all friendly figures within 12" re-roll one failed morale check this turn. |
 
 ---
 
@@ -186,7 +211,7 @@ Each character may take **1 Named-Weapon Unlock**, which permanently grants the 
 | **Crossbow Drill** | This character may equip a Crossbow at standard gp cost. |
 | **Sling Mastery** | This character may equip a Sling at standard gp cost AND ignore the long-range penalty when shooting with it. |
 
-> Faction restriction note: Healers, Banner-bearers, and Wagon crew may not take Named-Weapon Unlocks. They're noncombatants.
+> Specialist note: Healers, Banner-bearers, and Warhorn-bearers may technically purchase Named-Weapon Unlocks but rarely benefit, since their locked roles limit weapon use. Allowed but not recommended.
 
 ---
 
@@ -198,7 +223,7 @@ A Personal Saga is a passive Renown generator that fires whenever the character 
 |---|---|---|
 | **The Wave-Rider** | This character ends the game adjacent to a ship, or having crossed water during the game. | +1 per game |
 | **The Foe-Stalker** | This character personally kills an enemy Named Character. | +1 per kill, max +2 per game |
-| **The Berserker's Friend** | A Berserker in your warband enters rage state during the game and is still alive at the end. | +1 per game |
+| **The Berserker's Friend** | A figure in your warband enters rage state during the game (via Berserker equipment, Hallucinogenic Mushrooms Store, or other means) and is still alive at the end. | +1 per game |
 | **The Saga-Voice** | This character is on the table when your warband completes any Boast. | +1 per game |
 | **The Ash-Faced** | This character personally lights a fire that damages or kills at least one enemy figure. | +1 per game |
 | **The Sword-Keeper** | This character is wielding a Relic at the start of the game AND that Relic is still in your warband's possession at game end. | +1 per game |
@@ -213,20 +238,20 @@ A Personal Saga is a passive Renown generator that fires whenever the character 
 
 ### How XP gets spent — example progression
 
-A Huscarl named Ulf participates in his warband's first 4 battles. Over those battles he earns:
+A General Named Character named Ulf participates in his warband's first 4 battles. Over those battles he earns:
 
-- Battle 1: deployed, killed 2 enemies, including a Named Berserker (1 + 1 + 2 = 4 XP)
-- Battle 2: deployed, killed 1 enemy, was wounded but survived (1 + 1 + 1 = 3 XP)
-- Battle 3: deployed, killed 0 enemies, was wounded but survived (1 + 1 = 2 XP)
-- Battle 4: deployed, killed 1 enemy, Chieftain in a winning battle if he had been promoted... but he's a Huscarl, so just (1 + 1 = 2 XP)
+- Battle 1: deployed (equipped as Huscarl-style fighter), killed 2 enemies including an enemy Named Character (1 + 1 + 2 = 4 XP)
+- Battle 2: deployed as Chieftain, killed 1 enemy, was wounded but survived, warband won (1 + 1 + 1 + 1 = 4 XP, capped at 5; he gets 4)
+- Battle 3: deployed as an archer, killed 0 enemies, was wounded but survived (1 + 1 = 2 XP)
+- Battle 4: deployed as Berserker-equipped (paid 50 gp from battle budget), killed 1 enemy (1 + 1 = 2 XP)
 
-Total: 11 XP. Possible spends:
+Total: 12 XP. Possible spends:
 
-- **Quick Strike** (Skill, 2 XP) + **Long Strides** (Stat, 5 XP) + **The Wave-Rider** (Personal Saga, 4 XP) = 11 XP, fully spent.
-- Or: **Force of Nature** Talent (3 XP) + **Quick Strike** (2 XP) + **Iron Stance** (2 XP) + **Sure-Footed** (2 XP) = 9 XP, banking 2.
-- Or: **Long Strides** (5 XP) + **Dane Axe Mastery** (3 XP) + **Pin-Point** (2 XP) = 10 XP, banking 1.
+- **Quick Strike** (Skill, 2 XP) + **Long Strides** (Stat, 5 XP) + **The Wave-Rider** (Personal Saga, 4 XP) = 11 XP, banking 1.
+- Or: **Force of Nature** Talent (3 XP) + **Quick Strike** (2 XP) + **Iron Stance** (2 XP) + **Sure-Footed** (2 XP) + **Pin-Point** (2 XP) = 11 XP, banking 1. This makes Ulf a versatile Chieftain candidate.
+- Or: **Long Strides** (5 XP) + **Dane Axe Mastery** (3 XP) + **Inspiring Voice** (3 XP) = 11 XP, banking 1.
 
-Ulf's growth shape is the player's choice. A Talent-focused Ulf is grooming for succession to Jarl. A Skill-focused Ulf is becoming a battlefield monster regardless of rank.
+Ulf's growth shape is the player's choice. A Talent-focused Ulf is the warband's default Chieftain. A Skill-focused Ulf becomes a flexible specialist who can be deployed in any role.
 
 ---
 

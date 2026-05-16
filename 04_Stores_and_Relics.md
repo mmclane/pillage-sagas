@@ -20,7 +20,7 @@ Two layers of campaign-only gear:
 
 | Item | Cost | Effect (single use, unless noted) |
 |---|---|---|
-| **Hallucinogenic Mushrooms** | 25 gp | Issued to a Berserker. Activated at start of game per existing Pillage Berserker rules. |
+| **Hallucinogenic Mushrooms** | 25 gp | Issued to any one figure (Named Character or rank-and-file) at army-build. Once per game, that figure may eat the mushrooms during the start of any of their turns when not engaged in melee. For the rest of that turn, they gain Berserker rage effects: auto-pass any morale check, +1 attack in melee, and may not flee. Effect ends at the start of their next turn. A figure already equipped as a Berserker may still benefit from this Store on top of their normal Berserker abilities — the boost stacks once. |
 | **Pitch Barrel** | 30 gp | Pre-positioned at deployment within 6" of a friendly figure. If hit by any fire source, ignites on 2+. Counts as a piece of flammable scenery. |
 | **Fire Arrows** | 40 gp | Issued to one specific archer. Once per game, that archer's shot ignites the target's terrain on hit, treating the figure as if it had a torch in base contact. |
 | **Hand Firepot** | 35 gp | Any figure can throw one. Range 4". On a 4+ to hit, target takes a hit AND the spot becomes a small flame that can spread per fire rules. |

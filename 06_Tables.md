@@ -126,9 +126,9 @@ Rolled in **Step 5 of the post-game sequence**, once per player. Adapted from Po
 
 | d100 | Name | Effect |
 |---|---|---|
-| 26–27 | Wandering Berserker | A Berserker offers his service. Add a free Named Berserker to your roster (no Treasury cost). He starts with 0 XP. If your roster is full, decline or replace a current Berserker. |
-| 28 | Healer Arrives | A Healer joins your warband. Add a free Named Healer to your roster, fully equipped. If your roster already has a Healer, decline or replace. |
-| 29 | Warhorn-Bearer | A herald joins. Add a Warhorn special equipment to your inventory, free. He persists between battles. |
+| 26–27 | A Wandering Warrior | A renowned warrior offers his sword. Add a free General Named Character to your roster (no Treasury cost). They start with 0 XP. If your roster of Generals is at the cap of 5, decline or replace one current General. |
+| 28 | Healer Arrives | A Healer joins your warband. Add a free Healer Named Character to your roster, fully equipped. If your roster already has a Healer, decline or replace. |
+| 29 | Warhorn-Bearer Joins | A horn-blower joins. Add a free Warhorn-bearer Named Character to your roster, fully equipped with a Warhorn. If your roster already has a Warhorn-bearer, decline or replace. |
 | 30–31 | A War-Band Joins | 3 free rank-and-file warriors for the next battle only (full kit, faction-appropriate). They do not count toward your standard army budget. |
 | 32 | A Skald Joins | A skald takes residence in your hall. Gain +1 Boast draw per battle for the rest of the season (drawn at the start of each battle, respecting hand size cap). |
 | 33–34 | Mercenary Contract | One specialist (Huscarl, Berserker, Pack Master, or Healer; your choice from your faction's list) joins for the next battle at half gp cost from Treasury. After that battle they leave. |
