@@ -47,7 +47,15 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 
 ## 5. The Deck (v0.3)
 
-50 cards organized by tier. Each entry shows the trigger condition; Renown reward follows the tier (Common = 1, Bold = 2, Legendary = 3). A 🌙 icon marks a multi-game Boast (carries over until completed or discarded; occupies a permanent hand slot).
+67 cards organized by tier. Each entry shows the trigger condition; Renown reward follows the tier (Common = 1, Bold = 2, Legendary = 3). A 🌙 icon marks a multi-game Boast (carries over until completed or discarded; occupies a permanent hand slot).
+
+**Restrictions.** Some Boasts are **faction-locked** (only completable by a warband of the named faction) or **Battle-Type-locked** (only completable in a specific Battle Type). If a player draws a Boast they clearly cannot complete given their warband or the current matchup, they may use their once-per-game **mulligan at deployment** (per §1) to discard and re-draw.
+
+### Distribution
+
+- Common: 33 (49%)
+- Bold: 24 (36%)
+- Legendary: 10 (15%)
 
 ### Common (25 cards — 1 Renown each)
 
@@ -78,8 +86,16 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 | C23 | **Wedge of Steel** | At the end of any turn, you have 4 or more of your figures in a single Shieldwall formation. |
 | C24 | **Sworn Brothers** | At the end of the game, two of your Named Characters are in base-to-base contact and both still alive. They must not have started the game in contact. |
 | C25 | **The Slip Past** | One of your figures ends a turn within 8" of an enemy's table edge and is still on the table at the end of the next turn. |
+| C26 | **Knight of the Realm** *(Normans)* | Field at least one mounted Norman figure that is still alive on the table at game end. |
+| C27 | **War Paint Glory** *(Picts)* | A Pict figure kills an enemy in melee while standing entirely within rocky terrain (Highland Crags Location, equivalent Twist, or other rocky area). |
+| C28 | **Master of the Long Knife** *(Welsh)* | A Welsh figure kills an enemy with an improvised-weapon attack during a charge (per the Master of the Long Knife Talent if held, or any successful charge using an improvised weapon as the killing strike). |
+| C29 | **Cornu's Call** *(Romans, Romano-British)* | A warhorn (Cornu, per the Fall of Rome Talent) is on the table at game end with its bearer alive. |
+| C30 | **Raven-Caller** *(Vikings)* | A Viking figure ends the game in base-to-base contact with a ship, beached vessel, or longship terrain piece. |
+| C31 | **Welsh Volley** *(Welsh)* | Two or more Welsh archers (per Welsh's 50% shooters allowance) each kill at least one enemy figure with a bow during the game. |
+| C32 | **Cattle Drive** *(Cattle Raid only, raider)* | Drive all 3 livestock figures off your own table edge by game end (not just the 2 required for victory). |
+| C33 | **Tower's Voice** *(Coast Watch Tower only, raider)* | Silence the tower (eliminate all defender figures within 4" of the tower) before the end of turn 6. |
 
-### Bold (18 cards — 2 Renown each)
+### Bold (24 cards — 2 Renown each)
 
 | # | Name | Trigger |
 |---|---|---|
@@ -101,8 +117,14 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 | B16 | **Pushed Off** | Using the Push Back rule, one of your figures pushes an enemy off the edge of an elevated piece of scenery (slope, ship rail, building edge, cliff). |
 | B17 | **Reckless Glory** | Your Jarl is engaged in a melee with 3 or more enemy figures simultaneously, and is still alive at the end of that turn. |
 | B18 | **The Lone Wolf** | One of your figures kills 2 or more enemy figures during the game, and at the moment of each kill is more than 8" from any other friendly figure. |
+| B19 | **Mead-Tested** *(Vikings)* | A Viking figure equipped as a Berserker, OR a Viking figure who used the Hallucinogenic Mushrooms Store, enters rage state and kills 2 or more enemies during the rage. |
+| B20 | **Shieldwall Stand** *(Anglo-Saxons)* | At game end, at least one Anglo-Saxon Shieldwall (4+ figures) is still intact on the table. |
+| B21 | **Lance Charge** *(Normans)* | A Norman cavalry figure equipped with a Kontos kills an enemy with a charging attack. |
+| B22 | **Highland Ambush** *(Picts)* | A Pict figure that was hidden (via the Scout Talent, King of Ambushes Talent, or Hidden Force Twist) reveals and kills the first enemy figure of the game. |
+| B23 | **Francisca Cast** *(Merovingian Franks, Saxons, Visigoths)* | A figure equipped with a francisca (per Fall of Rome rules) throws and kills an enemy with their francisca. |
+| B24 | **Hall-Ash** *(Sack the Hall only, raider)* | The specific figure that lit the great hall on fire is still alive and on the table at game end. |
 
-### Legendary (7 cards — 3 Renown each)
+### Legendary (10 cards — 3 Renown each)
 
 | # | Name | Trigger | Side effect |
 |---|---|---|---|
@@ -113,6 +135,9 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 | L05 | **Hall of the Fallen** | One specific Named Character of yours kills 2 or more enemy Named Characters in a single game. | None. |
 | L06 | **Saga of Survival** 🌙 | Your Jarl participates in 3 consecutive battles without going Down (no Saga Injury roll in any of the 3). | None. |
 | L07 | **The Wyrd-Marked** | Your Jarl is the last figure of your warband on the table, AND you still achieve the scenario's primary victory condition (carry the loot off, capture the objective, etc.) before the game ends. | None. |
+| L08 | **Odin's Cup** *(Vikings)* | In the same game: one of your Viking figures dies from fire damage AND another Viking figure carries 2+ loot tokens off your edge from a burning building. The price of wisdom is sacrifice. | None. |
+| L09 | **Sacred Theft** *(Sack the Monastery, Hide Mode only, raider)* | Your figure finds the hidden relic AND extracts it off your table edge before game end. | None. |
+| L10 | **Keep-Crown** *(Storm the Keep only, attacker)* | One of your figures is the first to end a turn on the keep's roof during the game. | None. |
 
 ---
 
@@ -135,8 +160,8 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 ## 7. TODO (v0.4)
 
 - [ ] Playtest balance pass on Renown rewards. Some Bold cards may be Common-difficulty; some Common cards may be Bold-difficulty in practice.
-- [ ] Add 5-10 Holdings Mode-specific Boasts that only trigger when battling for a specific Holding type (e.g., "Burn the Monastery's altar," "Carry the King's banner off a captured port").
-- [ ] Add 5-10 faction-flavored Boasts (Viking-only, Christian-only, Pict-only, etc.) that emphasize each faction's identity.
+- [x] **Holdings-specific Boasts added in v0.3:** Cattle Drive (C32), Tower's Voice (C33), Hall-Ash (B24), Sacred Theft (L09), Keep-Crown (L10). Five total. May expand in v0.4 with more.
+- [x] **Faction-flavored Boasts added in v0.3:** 12 cards covering Vikings (3), Anglo-Saxons (1), Normans (2), Picts (2), Welsh (2), Romans/Romano-British (1), Merovingian Franks/Saxons/Visigoths (1). May expand in v0.4 with Carolingian Frank, Breton, Irish, Hun, and additional cards for under-represented factions.
 - [ ] Decide card production format: index cards (cheap, easy), poker-sized printable PDF (medium effort, looks nice), or commercial print run (later).
 - [ ] Numbering scheme C/B/L is for design tracking. Final cards may not show these prefixes.
 - [ ] Consider a "Boast Index" Renown spend: pay 1 Renown to look at the top 5 cards of the deck and pick 1. Lets players hunt for specific Boasts they want.
