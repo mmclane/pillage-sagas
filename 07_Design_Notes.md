@@ -60,9 +60,11 @@ Once an open question is settled, move it here with a brief note on the resoluti
 
 ### v0.2
 
-- **Saga Injury Table lethality dial → 1 of 20 slots is "Dead" (5% per knockdown).** Moderate lethality. Over a typical 8-game season, with each Named Character likely going down 2-4 times, expect 1-2 permanent deaths per warband per season.
-- **Lasting Injury follow-up rolls → only for Infection (slot 5).** Infection follows a chronic-condition mechanic (d6 per post-game). All other permanent results are simply permanent; no follow-up roll required. Keeps bookkeeping minimal.
+- **Saga Injury Table lethality dial → 1.75 on a 1-5 scale (1 = very lethal, 5 = very low lethal).** 3 of 20 slots are direct "Dead" (15% per knockdown), plus chronic death-spiral mechanics from Death's Door (slot 4) and Infection (slot 8) add another ~5% effective permanent removal. Total effective permanent removal per knockdown: ~20-21%. Over a typical 8-game season, expect most warbands to lose at least one Named Character to permanent death. Vikings die; this is the Norse saga tone. (Lethality dialed up from 1.0 = 5% effective in initial v0.2 spec.)
+- **Death's Door mechanic.** Slot 4 of the Injury Table. Miss 2 battles, then roll d6 each subsequent post-game: 1-2 die, 6 recover, 3-5 persist. Effective death rate ~67%. After 4 failed recovery rolls in a row, the character's wyrd is sealed and they die at the next post-game with no roll.
+- **Lasting Injury follow-up rolls → only for Death's Door (slot 4) and Infection (slot 8).** Both follow chronic-condition mechanics (d6 per post-game). All other permanent results are simply permanent; no follow-up roll required. Keeps bookkeeping minimal.
 - **Healer mitigation → re-roll one Injury per battle if the warband's Healer survived.** Trades the Healer's tactical impact (in-game healing) for strategic insurance (post-game injury insurance).
+- **Feast and Wise Woman bonuses to chronic conditions.** Both grant +1 to the next d6 recovery roll on Death's Door or Infection. Gives players ways to nurse a beloved character back from the brink.
 - **Saga Roll mitigation → 1 Renown per season to re-roll once.** Gives some agency over bad luck without softening the table. Wyrd is Cruel (slots 70-71) ignores this protection by design.
 - **Soubriquet trigger threshold → major victory** = win + (50%+ casualty differential OR Legendary Boast OR killed/captured enemy Chieftain). Multiple trigger paths so the system doesn't favor only kill-heavy playstyles.
 - **Soubriquet stacking → max 2 per character.** A third forces the player to drop one. Keeps names readable.
