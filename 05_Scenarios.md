@@ -92,52 +92,233 @@ When players agree on a Battle Type, they may use a specific published scenario 
 
 12 Battle Types organized by reward category. Each has: a name, reward category, default force balance, brief description, and a target turn limit.
 
+### Quick reference
+
+| Battle Type | Category | Force | Turns | Reward |
+|---|---|---|---|---|
+| Pillage Town | Plunder | even (800 gp) | 8 | Loot (5 gp each) + 30 gp bonus on win |
+| Wagon Train Ambush | Plunder | 600/700 (ambusher / defender) | 6 | 50 gp tribute on win |
+| Cattle Raid | Plunder | even (700 gp) + livestock | 6 | Cattle Fold Holding (+10 gp/Winter + free livestock) |
+| Saga Duel | Glory | each: Chieftain + 4 fig | 6 | +3 Renown + Soubriquet, +1 Renown to loser |
+| Rival Warband Feud | Glory | even (700 gp) | 8 | +2 Renown + Soubriquet |
+| Pitched Battle | Glory | even (800 gp) | 10 | +1 Renown |
+| Sack the Hall | Holding | 800/600 (raider / defender) | 8 | Burned Hall Holding (+30 gp + 1 Renown/Winter) |
+| Coast Watch Tower | Holding | 700/500 (raider / defender) + reinf. | 6 | Watch Tower Holding (+20 gp/Winter) |
+| Storm the Keep | Holding | 1000/700 (attacker / defender) | 10 | Stone Keep Holding (+40 gp + 1 Renown/Winter) |
+| Sack the Monastery | Relic | 800/600 (raider / defender) | 8 | A Relic; or Holy Site Holding if pool empty |
+| Rescue the Hostage | Tribute | even (700 gp) | 6 | Loser pays 30 gp or -2 Renown |
+| Defend the Longship | Tribute | 800/600 (attacker / defender) | 6 | Loser cannot deploy cavalry next battle |
+
+---
+
 ### Plunder Stakes
 
 Winner gains bonus treasure (gp) beyond standard loot extraction.
 
-| Battle Type | Force balance | Description | Reward |
-|---|---|---|---|
-| **Pillage Town** | Asymmetric, raider-favored | A village or trading post. Loot tokens placed densely on the table; defender protects. Raider's victory condition: extract X loot tokens off own edge. | Standard loot at 5 gp each + 30 gp bonus on win. |
-| **Wagon Train Ambush** | Asymmetric, ambusher-favored | A defender's wagon train crosses the table; ambusher must capture or destroy wagons. | Winner gains +50 gp tribute one-time. Standard loot if any wagons looted. |
-| **Cattle Raid** | Asymmetric, raider-favored | Defender protects 3 livestock bases; raider attempts to drive 2+ off the opposite edge. Uses Pillage's prisoner-escort movement rules for livestock. | Winner gains the **Cattle Fold Holding** (+10 gp/Winter + 1 free livestock figure in any subsequent Pillage Town or Wagon Train scenario). |
+#### Pillage Town
+
+A village or trading post is sacked for whatever wealth can be carried off.
+
+- **Force balance:** Even gp (recommended 800 gp each). Raider may be advantaged by Location (Coastal Village, Trading Town).
+- **Turn limit:** 8 turns.
+- **Special elements:** 6 to 8 loot tokens placed across the table — in buildings (use Pillage's search rules), at market stalls, on wagons. Half should be visible loot tokens; half should be search-required tokens in buildings or chests.
+- **Deployment:** Defender deploys first within 6" of their chosen table edge, OR scattered inside buildings (defender's choice). Raider deploys second within 6" of the opposite table edge.
+- **Initiative:** Raider has initiative on turn 1.
+- **Victory:**
+  - **Raider wins** if 4 or more loot tokens are carried off the raider's own table edge by game end.
+  - **Defender wins** if fewer than 4 loot tokens have been extracted by game end.
+  - **Tie** if exactly 4 are extracted AND raider has lost more figures than defender (the raid was technically a loss for the raider).
+- **Special rules:** Standard Pillage rules for loot tokens, search, building entry, fire, and morale apply. Defender may set their own buildings on fire to deny loot (any defender figure may declare arson on a building they occupy at the start of their movement phase).
+- **Reward:** Each extracted loot token converts to 5 gp per Pillage's standard rule (already in the rulebook). If the raider wins, they gain +30 gp bonus to Treasury.
+
+#### Wagon Train Ambush
+
+An ambusher springs from cover on a slow-moving wagon train escorted across the countryside.
+
+- **Force balance:** Ambusher 600 gp, Defender (escort) 700 gp.
+- **Turn limit:** 6 turns.
+- **Special elements:** 2 wagons (per Pillage's wagon rules) on the table, moving along a "road" path that crosses the table from one edge to the other.
+- **Deployment:** Defender places the 2 wagons along the road path, then deploys their escort within 6" of either wagon. Ambusher deploys in 2 separate zones, one on each flank of the road, anywhere more than 8" from a wagon.
+- **Initiative:** Ambusher has initiative on turn 1.
+- **Victory:**
+  - **Ambusher wins** if at least 1 wagon is captured (taken to ambusher's edge or stopped under ambusher control) OR both wagons destroyed (burned).
+  - **Defender wins** if both wagons exit through the opposite "road" edge intact.
+- **Special rules:** Wagons move 4" per turn unless captured (treat as standard wagon rules). Wagons are flammable (per Pillage's fire rules, ignite on 5+). A wagon is "captured" when a non-defender figure ends its movement phase in base contact with it AND no defender figures are within 2" of the wagon. Once captured, the wagon may be moved by the ambusher at 3" per turn.
+- **Reward:** Winner gains +50 gp tribute (one-time, on win). Standard loot if any wagons were captured for their cargo.
+
+#### Cattle Raid
+
+A defender's herd is the target. Raiders attempt to drive the livestock off the table.
+
+- **Force balance:** Even gp (recommended 700 gp each).
+- **Turn limit:** 6 turns.
+- **Special elements:** 3 livestock figures (cows, pigs, or sheep) placed in the defender's deployment zone. Use Pillage's prisoner-escort rules for moving captured livestock.
+- **Deployment:** Defender deploys first within 6" of their edge along with the 3 livestock. Raider deploys second within 6" of the opposite edge.
+- **Initiative:** Raider has initiative on turn 1.
+- **Victory:**
+  - **Raider wins** if 2 or more livestock are driven off the raider's table edge by game end.
+  - **Defender wins** if fewer than 2 livestock leave the raider's edge by game end.
+- **Special rules:** A defender figure in base contact with livestock prevents capture by the raider; the raider must defeat the guarding figure in melee first. Livestock use Pillage's captured-being movement (4" per turn for cattle/oxen, 6" for adult civilian-equivalents). A figure can escort 1 livestock at a time per Pillage's prisoner rules. Livestock may be killed (to deny the raid, defender takes -1 Renown for each killed). Killed livestock yield no Renown to the raider.
+- **Reward:** Winner gains the **Cattle Fold Holding** (+10 gp per Winter, plus 1 free livestock figure to add to any subsequent Pillage Town or Wagon Train Ambush scenario the holder fights in).
+
+---
 
 ### Glory Stakes
 
-Winner gains significant Renown and triggers a Soubriquet roll. No standard loot expected.
+Winner gains significant Renown and triggers a Soubriquet roll. Standard loot is incidental.
 
-| Battle Type | Force balance | Description | Reward |
-|---|---|---|---|
-| **Saga Duel** | Asymmetric, attackers smaller | Jarl-vs-Jarl ceremonial fight with retinues that may intervene under specific triggers. Each side fields their Chieftain + 4-6 figures. | Winner gains +3 Renown + free Soubriquet roll. Loser gains +1 Renown for the spectacle. |
-| **Rival Warband Feud** | Symmetric | Two equally-budgeted warbands meet on neutral ground for a personal score-settling. | Winner gains +2 Renown + Soubriquet trigger. Standard loot if any present. |
-| **Pitched Battle** | Symmetric | Open-field even-budget battle, no specific terrain or objective. Victory by casualty differential. | Winner gains +1 Renown. Standard loot. |
+#### Saga Duel
+
+Two Jarls and their elite retinues meet in a personal score-settling. Honor is on the line.
+
+- **Force balance:** Each side fields their Chieftain (must be a Named Character) plus exactly 4 figures. Total per side limited to 5 figures regardless of gp cost (each player may field whichever 4 figures they wish from their roster, including additional Named Characters). Optional: each side has a 500 gp soft cap on the 4 figures.
+- **Turn limit:** 6 turns.
+- **Special elements:** A "duel zone" 6"×6" in the center of the table, marked clearly. Both Chieftains must enter the duel zone by turn 2 or take a -1 to all rolls until they do.
+- **Deployment:** Both sides deploy simultaneously within 4" of their respective table edges.
+- **Initiative:** Roll-off on turn 1.
+- **Victory:**
+  - **Side wins** if their Chieftain still stands at game end AND the opposing Chieftain is dead or has fled the table.
+  - **If both Chieftains die,** the side with more figures alive wins.
+  - **If both Chieftains die and forces are equal,** draw (both sides gain +1 Renown for the spectacle, no Soubriquet).
+- **Special rules:** Retinue figures may not target the enemy Chieftain in any way (melee, ranged, fire) until turn 3 (the honor of the duel forbids it). Retinues may freely fight each other before then. Chieftains may target each other from turn 1.
+- **Reward:** Winner gains +3 Renown and triggers a Soubriquet roll for their Chieftain. Loser gains +1 Renown for the spectacle.
+
+#### Rival Warband Feud
+
+A grudge match. Two warbands meet on neutral ground to settle it with steel.
+
+- **Force balance:** Even gp (recommended 700 gp each).
+- **Turn limit:** 8 turns.
+- **Special elements:** None required beyond Location defaults.
+- **Deployment:** Both sides deploy within 6" of opposite edges (chosen by mutual agreement or coin flip).
+- **Initiative:** Roll-off on turn 1.
+- **Victory:** Side with more figures alive at game end wins. Tie if equal figure counts (no Renown to either side).
+- **Special rules:** A major victory is awarded if the winner has 50% or more figures alive than the loser. Major victories grant the Soubriquet roll trigger; minor victories grant only the Renown.
+- **Reward:** Winner gains +2 Renown. On a major victory, also triggers a Soubriquet roll.
+
+#### Pitched Battle
+
+A traditional open-field engagement. No subtlety, just steel and shields.
+
+- **Force balance:** Even gp (recommended 800 gp each).
+- **Turn limit:** 10 turns.
+- **Special elements:** None required beyond Location defaults.
+- **Deployment:** Both sides deploy within 6" of opposite edges (chosen by mutual agreement or coin flip).
+- **Initiative:** Roll-off on turn 1.
+- **Victory:** Side with more figures alive at game end wins. Margin determines clear vs. minor victory (50%+ margin is clear).
+- **Special rules:** Standard Pillage Pitched Battle scenario rules apply (per the core rulebook).
+- **Reward:** Winner gains +1 Renown.
+
+---
 
 ### Holding Stakes
 
-Winner gains a persistent Holding (see §5).
+Winner gains a persistent Holding. The Holding's name is chosen at the moment of victory (Olaf's Hall, the Watch Tower of Cyneford, etc.) and recorded on the winner's warband sheet.
 
-| Battle Type | Force balance | Description | Reward |
-|---|---|---|---|
-| **Sack the Hall** | Asymmetric, raider-favored | A great hall, lord's seat. Raider must set fire to the primary hall building. Defender protects. | Winner gains the **Burned Hall Holding** (+30 gp + 1 Renown per Winter). Standard loot. |
-| **Coast Watch Tower** | Asymmetric, raider-favored | A watch tower with a rolling reinforcement timer. Raider must silence the tower (eliminate all defenders inside) before reinforcements arrive. | Winner gains the **Watch Tower Holding** (+20 gp per Winter). |
-| **Storm the Keep** | Asymmetric, defender-favored | A stone keep, fortified building. Attacker storms; defender holds. Uses siege ladder rules from Winding Ways. | Winner gains the **Stone Keep Holding** (+40 gp + 1 Renown per Winter). |
+#### Sack the Hall
+
+A great hall, lord's seat, the symbol of a rival's power. Burn it.
+
+- **Force balance:** Raider 800 gp, Defender 600 gp.
+- **Turn limit:** 8 turns.
+- **Special elements:** 1 great hall building (the primary objective) plus 2-3 outbuildings. The great hall is a fortified building (per Pillage's fortified building rules — fire ignites on 7+ rather than 4+). Defender deploys inside/around the hall.
+- **Deployment:** Defender deploys first within 6" of the hall (interior or exterior). Raider deploys second within 6" of any one table edge (defender may dictate which edge if they wish to use terrain to their advantage).
+- **Initiative:** Raider has initiative on turn 1.
+- **Victory:**
+  - **Raider wins** if the great hall is on fire AND still burning at game end.
+  - **Defender wins** if the great hall is not burning at game end.
+- **Special rules:** The great hall counts as a fortified building. Defender may place loot tokens inside the hall (up to 3) and the raider may attempt to extract them for the standard 5 gp each. The hall's door must be broken to enter (per Pillage's fortified building rules) unless the raider enters through a window (counts as climbing).
+- **Reward:** Winner gains the **Burned Hall Holding** (+30 gp + 1 Renown per Winter). The Holding is named at this moment.
+
+#### Coast Watch Tower
+
+A watch tower must be silenced before reinforcements arrive from the village beyond.
+
+- **Force balance:** Raider 700 gp, Defender 500 gp + reinforcements at turn 7.
+- **Turn limit:** 6 turns of raid + 2 turns of reinforcement window (8 turns max).
+- **Special elements:** 1 watch tower (a small fortified building) where the defender's force starts. Best paired with Highland Crags, Coastal Village, or Lone Hilltop Locations.
+- **Deployment:** Defender deploys all figures inside the watch tower or within 4" of it. Raider deploys second within 6" of any one opposite table edge.
+- **Initiative:** Raider has initiative on turn 1.
+- **Victory:**
+  - **Raider wins** if by turn 6 they have either (a) eliminated all defender figures within 4" of the tower or (b) set the tower on fire.
+  - **Defender wins** if neither raider victory condition is met by turn 6.
+  - From turn 7 onward, defender's reinforcements arrive — 3 free rank-and-file warriors (faction-appropriate, UA, hand weapon) per turn, deploying within 2" of any defender table edge. Raider must withdraw or be overwhelmed. Game ends turn 8 at latest with whatever state stands.
+- **Special rules:** The watch tower is a fortified building. The defender begins each turn within the tower with one figure designated as "lookout" — that figure shoots first in the shooting phase (advantage of high ground).
+- **Reward:** Winner gains the **Watch Tower Holding** (+20 gp per Winter).
+
+#### Storm the Keep
+
+A stone keep is the seat of regional power. Walls must fall.
+
+- **Force balance:** Attacker 1000 gp, Defender 700 gp (the attacker has the gp advantage to balance the keep's fortifications).
+- **Turn limit:** 10 turns.
+- **Special elements:** 1 stone keep at the table center surrounded by an outer wall + small courtyard with 1-2 outbuildings. The keep is a fortified building. The outer wall is high — climbable only via siege ladders or dangerous climb (Pillage rules).
+- **Deployment:** Defender deploys all figures inside the walls (in the keep, on its roof, in the courtyard, or atop the outer wall). Attacker deploys within 8" of any one table edge.
+- **Initiative:** Attacker has initiative on turn 1.
+- **Victory:**
+  - **Attacker wins** if any of their figures ends a turn on the keep's roof OR all defender figures are eliminated.
+  - **Defender wins** if attacker fails to achieve either condition by turn 10.
+- **Special rules:** Attacker may purchase up to 3 siege ladders for 50 gp each from their attacker budget. Siege ladders allow figures to climb the outer wall in 2" of movement (per Winding Ways' Raise the Flag rules). Each ladder requires 2+ figures to carry. The keep's door is a fortified door (FA, 1 HP, no defence roll).
+- **Reward:** Winner gains the **Stone Keep Holding** (+40 gp + 1 Renown per Winter).
+
+---
 
 ### Relic Stakes
 
-Winner gains a Relic.
+Winner gains a Relic from the campaign pool.
 
-| Battle Type | Force balance | Description | Reward |
-|---|---|---|---|
-| **Sack the Monastery** | Asymmetric, raider-favored | A monastery or abbey holding a relic. Raider must extract the relic figure off their edge OR burn the monastery (if no relic available). Defender's choice: hide-the-relic mode (Christ's Sandals style) or extract-the-relic mode (Sack of Saint Lunaire style). | Winner gains a random unassigned **Relic** from the campaign pool, OR if no Relics are available, gain the **Holy Site Holding** (+20 gp + 1 free Boast draw per Winter). |
+#### Sack the Monastery
+
+An abbey holds a sacred relic. Raiders come for it.
+
+- **Force balance:** Raider 800 gp, Defender 600 gp.
+- **Turn limit:** 8 turns.
+- **Special elements:** A chapel building (the primary objective) plus 2-3 monastic outbuildings. The chapel contains a relic, treated as loot (1 loot token, but worth +3 Renown if extracted alive). Defender's choice of mode at proposal time:
+  - **Extract Mode** (default, Sack of Saint Lunaire style): the relic starts inside the chapel; raider searches and extracts.
+  - **Hide Mode** (Christ's Sandals style): the relic starts in the chapel; defender attempts to move and hide it during the game; raider must find it before it's hidden.
+- **Deployment:** Defender deploys within 6" of the chapel (inside or near). Raider deploys within 6" of the opposite table edge.
+- **Initiative:** Raider has initiative on turn 1.
+- **Victory:**
+  - **Extract Mode:** Raider wins if the relic is carried off the raider's table edge by game end. Defender wins if the relic remains on the table at game end OR is destroyed (chapel burned with relic inside).
+  - **Hide Mode:** Defender wins if the relic is hidden before raiders find it (defender's figure carrying the relic ends a turn out of line of sight of all raider figures and declares it hidden). Raider wins if the relic is found and extracted before being hidden.
+- **Special rules:** The relic is found in the chapel via a search roll (4+ on Pillage's search table; if rolled 1, the chapel is empty and the raider may try the chapel's other altar/coffer with another search). Once found, the relic is a single loot token. In Hide Mode, the defender may declare the relic hidden if their carrier ends a turn with no enemy line of sight to them; once hidden, raider may still search the chapel for treasure but the relic cannot be found.
+- **Reward:** Winner gains a random unassigned **Relic** from the campaign's Relic pool (organiser draws). If no Relics are available, instead the winner gains the **Holy Site Holding** (+20 gp + 1 free Boast draw per Winter).
+
+---
 
 ### Tribute Stakes
 
-Winner forces a tribute on the loser, paid in the next post-game.
+Winner forces a tribute on the loser. The loser pays in the next post-game sequence.
 
-| Battle Type | Force balance | Description | Reward |
-|---|---|---|---|
-| **Rescue the Hostage** | Asymmetric | A captive (Named Character or civilian) is held in the defender's deployment area. Attacker must extract the captive to their edge. | If attacker wins: defender pays 30 gp tribute or -2 Renown. If defender wins: attacker pays 30 gp or -2 Renown. |
-| **Defend the Longship** | Asymmetric, defender-favored | Defender's longship is grounded on the beach; attacker must reach and burn it. Inverse of Landing. | If attacker wins: defender cannot deploy cavalry in their next battle. If defender wins: attacker cannot deploy cavalry in their next battle. |
+#### Rescue the Hostage
+
+A captive is held in enemy territory. Pull them out.
+
+- **Force balance:** Even gp (recommended 700 gp each).
+- **Turn limit:** 6 turns.
+- **Special elements:** 1 captive figure (rank-and-file marker; UA, no equipment, no weapons, 1 HP, cannot attack). The captive is placed in the defender's deployment zone.
+- **Deployment:** Defender deploys around the captive within their zone. Attacker deploys within 6" of the opposite table edge.
+- **Initiative:** Attacker has initiative on turn 1.
+- **Victory:**
+  - **Attacker wins** if the captive is extracted off the attacker's table edge.
+  - **Defender wins** if the captive remains in defender's territory at game end, OR the captive is killed (intentionally by defender to deny victory, OR by collateral damage from either side).
+- **Special rules:** The captive moves at 5" per turn under the standard prisoner-escort rules (Pillage); an attacker figure in base contact may escort them. The captive cannot defend themselves. Defender may attempt to kill the captive in melee or ranged attack (no Renown penalty in this scenario — the defender is desperate). If the captive is killed mid-game, the game continues but defender immediately wins the scenario at game end regardless of other conditions.
+- **Reward:** Loser pays 30 gp tribute (immediate, in the post-game sequence) OR -2 Renown if they cannot pay or refuse.
+
+#### Defend the Longship
+
+A defender's longship is grounded on the beach. The attacker must burn it before the tide turns.
+
+- **Force balance:** Attacker 800 gp, Defender 600 gp.
+- **Turn limit:** 6 turns.
+- **Special elements:** 1 longship (24" × 6" per Pillage's ship rules) beached or grounded on the defender's table edge (or center, depending on Location — Tidal Estuary and Coastal Village pair well). Defender's force begins around or aboard the longship.
+- **Deployment:** Defender deploys around the longship within 6". Attacker deploys within 6" of the opposite table edge.
+- **Initiative:** Attacker has initiative on turn 1.
+- **Victory:**
+  - **Attacker wins** if the longship is on fire AND still burning at game end.
+  - **Defender wins** if the longship is not burning at game end.
+- **Special rules:** The longship counts as a flammable wooden structure. Fire on a longship spreads at +1 to the roll (the timbers are tarred). Defender's figures aboard the longship may shoot from the rails (per Pillage's naval rules) and fight as if defending an obstacle when an attacker boards.
+- **Reward:** Loser cannot deploy cavalry figures in their next battle.
 
 ---
 
@@ -310,7 +491,7 @@ A club meeting with 4 players. Saga Season, Two Sides Mode (Northmen vs Christen
 - [ ] Add 3 more Locations: Market Square, Henge, Frozen Lake. (15 in v0.3; aiming for 18 in v0.4.)
 - [ ] Add **multi-player Battle Types** for Feuds Mode club nights with odd numbers: a 3-player free-for-all and a 4-player team (2 vs 2).
 - [ ] Add faction-flavored Battle Types: a Viking longship raid that only Norse warbands can propose; a "Defend the Pilgrimage" only Christian warbands can defend; etc.
-- [ ] Balance the asymmetric force budgets. Default assumption: even gp budgets. Battle Types like Storm the Keep may want explicit asymmetric budgets (defender at 75% of attacker) to be playable.
+- [x] **Battle Type detail completed in v0.3 (each Battle Type has force balance, turn limit, deployment, initiative, victory conditions, special rules, and reward).** Future playtest may adjust gp budgets.
 - [ ] Decide whether the Twist Deck is drawn-and-shuffled (some twists rarer than others) or open-pick (acceptor sees full list and picks). v0.3 says draw 2, keep 1; v0.4 may move to open-pick.
 - [ ] Holdings yield cadence: per post-game vs per Winter. v0.3 says per post-game for fast clubs. Locked decision needed before publication.
 - [ ] Build a sample first-season set of 6 scenarios as a "ready to play" starter chain for clubs that don't want to compose.
