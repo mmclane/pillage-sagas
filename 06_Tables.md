@@ -216,48 +216,71 @@ Rolled in **Step 5 of the post-game sequence**, once per player. Adapted from Po
 
 ## 3. The Soubriquet Table (d10 × d6)
 
-Rolled in **Step 10 of the post-game sequence** for players whose victory margin was wide enough. Adapted from Dux Britanniarum's Reputation system.
+Rolled in **Step 10 of the post-game sequence** for the winner of any battle that qualifies. Adapted from Dux Britanniarum's Reputation system. Each result is a single epithet attached to the Chieftain's name forever (Erik becomes *Erik the Bold*, *Sven Skull-Splitter*, *Aelfric Dungbreath*).
 
-### Design notes
+### When to roll
 
-- Generates a two-part epithet: a d10 roll for an adjective or descriptor, a d6 roll for a noun or qualifier. Player chooses an adjacent cell on either roll (gives narrative control).
-- Victors may also assign **unflattering soubriquets** to losers — pick a different cell, applies as a permanent name component for the loser's Chieftain.
-- A character with a soubriquet uses it as part of their name forever (Erik becomes *Erik the Bold*, *Sven Bone-breaker*, *Aelfric Dungbreath*).
+A Soubriquet roll is triggered by a **major victory**. Define this as winning the scenario AND meeting at least one of these conditions:
 
-### Sample d10 table (adjectives — to be expanded)
+- Inflicted at least 50% more enemy casualties than you took.
+- Completed a Legendary Boast during the battle.
+- Killed the enemy Chieftain.
+- Captured the enemy Chieftain alive.
 
-| d10 | Result |
-|---|---|
-| 1 | the Cruel |
-| 2 | the Bold |
-| 3 | the Magnanimous |
-| 4 | the Cunning |
-| 5 | the Coward |
-| 6 | the Pious |
-| 7 | the Reckless |
-| 8 | the Bald |
-| 9 | Dungbreath |
-| 10 | the Just |
-
-### Sample d6 table (qualifier — to be expanded)
-
-| d6 | Result |
-|---|---|
-| 1 | Bone-breaker |
-| 2 | Skull-splitter |
-| 3 | Raven-friend |
-| 4 | Shield-biter |
-| 5 | Oath-keeper |
-| 6 | Wolf-among-sheep |
+If no condition is met, no Soubriquet roll occurs that battle.
 
 ### Resolution
 
-A Chieftain typically gets one or the other (not both) from a single roll. If the victor was very dominant, they can grant both halves to themselves. Optional: a Legendary Boast completion grants both halves.
+1. Roll **d10 and d6 simultaneously**. The d10 selects a row, the d6 selects a column. Look up the cell.
+2. The player may **keep the rolled cell** OR **pick any orthogonally adjacent cell** (up, down, left, or right — not diagonal). Edge cells have fewer neighbors. This gives narrative control without removing randomness.
+3. The selected soubriquet is appended to the Chieftain's name and recorded on the warband sheet.
 
-### TODO
+### The Table
 
-- [ ] Build the full d10 table with 10 adjectives and the full d6 table with 6 qualifiers.
-- [ ] Decide the victory margin threshold for triggering a roll. (Dux uses +5 or greater victory.)
-- [ ] Decide the rule for "loser is named by winner": is it automatic, optional, or a Renown spend?
-- [ ] Decide if soubriquets are stackable — does a Chieftain accumulate multiple over a season ("*Erik the Bold, Wolf-among-sheep*"), or just one?
-- [ ] Consider faction-flavored sub-tables (Christian soubriquets vs Norse soubriquets).
+| | **d6=1** | **d6=2** | **d6=3** | **d6=4** | **d6=5** | **d6=6** |
+|---|---|---|---|---|---|---|
+| **d10=1** | the Mighty | Bone-Breaker | Skull-Splitter | the Iron-Fisted | the Storm | the Hammer |
+| **d10=2** | the Bold | the Brave | Wolf-Heart | the Berserker | Spear-Famed | Battle-Glad |
+| **d10=3** | the Cunning | the Fox | the Long-Hand | Oath-Keeper | the Bold-Voice | Far-Sailed |
+| **d10=4** | the Magnanimous | the Generous | the Just | the Wise | the Pious | the Twice-Born |
+| **d10=5** | Raven-Friend | Wolf-Among-Sheep | the Red-Handed | the Ash-Bearded | Sea-Cunning | Hearth-Fond |
+| **d10=6** | the Unyielding | the Quiet | the Patient | the Old | the One-Eyed | Stone-Faced |
+| **d10=7** | the Saxon-Slayer | the Christ-Lover | the Tax-Maker | the Pagan-Slayer | the Crow-Feeder | Hall-Burner |
+| **d10=8** | the Reckless | the Hot-Headed | the Loud | the Vain | the Hungry | the Lost |
+| **d10=9** | the Cold-Eyed | the Cruel | the Tall | the Smelly | the Bald | the Drunken |
+| **d10=10** | the Coward | the Slow | Dungbreath | Shield-Biter | the Defeated | Spear-Bent |
+
+### Tone gradient
+
+The table is arranged top-to-bottom from desirable to insulting:
+
+- **Rows 1–2**: heroic martial (winners aim here)
+- **Rows 3–4**: respected character
+- **Rows 5–6**: flavorful neutral
+- **Row 7**: faction-tinted — can read positive or negative depending on who's reading
+- **Rows 8–9**: mildly insulting
+- **Row 10**: clearly insulting (winners assign these to losers)
+
+This gradient means that a roll in the middle gives the player real choice via adjacency: a roll at d10=5 can shift up to d10=4 (more flattering) or down to d10=6 (still respectable). A roll at d10=2 can only shift up to d10=1 or down to d10=3 — both still good. The randomness creates the boundary; adjacency creates the agency.
+
+### Inflicting an unflattering soubriquet on a loser
+
+After a major victory, the winner may **spend 1 Renown** to force the loser's Chieftain to take a soubriquet. The winner rolls d10 and d6 on the loser's behalf and selects an adjacent cell (or the rolled cell). The loser cannot refuse. The winner does not gain a soubriquet of their own from this roll — they spent the Renown to insult, not to glorify.
+
+If the winner wants both — their own soubriquet AND inflict one on the loser — they pay 1 Renown for the loser's insult and also roll separately for themselves (no extra cost for their own roll).
+
+### Stacking
+
+A character may hold up to **2 soubriquets at once**. If a third is gained, the player chooses which two to keep on the character's name. Discarded soubriquets are gone permanently.
+
+### Death and legacy
+
+A character's soubriquets remain part of their saga even after death. When the campaign ends, players read aloud the full saga of each fallen named character including all soubriquets earned. A character who dies as *Erik the Bold, Spear-Famed* is remembered that way forever in the campaign's saga journal.
+
+### TODO (v0.3)
+
+- [ ] Faction-flavored sub-tables (Christian vs Norse) — currently faction-neutral. The Christ-Lover and Pagan-Slayer entries in row 7 are inherently faction-tinted; could be expanded.
+- [ ] Decide if Bald-and-One-Eyed style soubriquets should also reflect Lasting Injury Table results. A character who rolled Lost an Eye should perhaps automatically gain "the One-Eyed" without needing a Soubriquet roll.
+- [ ] Add a small set of legendary super-soubriquets unlocked only by Grand Finale victories: "the Saga-Bound," "the Wyrd-Touched," "the Eternal."
+- [ ] Decide whether soubriquets confer mechanical effects. Currently flavor-only. Possibly: characters named *the Bold* get +1 to charge rolls, *the One-Eyed* takes the existing penalty as canon, etc. Caution: this risks runaway power creep on long-lived characters.
+- [ ] Consider letting the loser's player spend 1 Renown to negate the winner's forced soubriquet. Creates an in-fiction "I challenge that name" mini-bid.

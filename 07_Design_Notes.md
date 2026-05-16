@@ -50,9 +50,7 @@ Tracked here so we don't lose threads. Resolved items move to the **Decisions Ma
 
 ### Soubriquets
 
-- [ ] **Victory margin threshold** for triggering a Soubriquet roll?
-- [ ] **Stackable soubriquets**: one per Chieftain or accumulating over time?
-- [ ] **Faction-flavored sub-tables**: Christian vs Norse vs neutral?
+*(Resolved in v0.2 — see Decisions Made.)*
 
 ---
 
@@ -65,6 +63,11 @@ Once an open question is settled, move it here with a brief note on the resoluti
 - **Saga Injury Table lethality dial → 1 of 20 slots is "Dead" (5% per knockdown).** Moderate lethality. Over a typical 8-game season, with each Named Character likely going down 2-4 times, expect 1-2 permanent deaths per warband per season.
 - **Lasting Injury follow-up rolls → only for Infection (slot 5).** Infection follows a chronic-condition mechanic (d6 per post-game). All other permanent results are simply permanent; no follow-up roll required. Keeps bookkeeping minimal.
 - **Healer mitigation → re-roll one Injury per battle if the warband's Healer survived.** Trades the Healer's tactical impact (in-game healing) for strategic insurance (post-game injury insurance).
+- **Saga Roll mitigation → 1 Renown per season to re-roll once.** Gives some agency over bad luck without softening the table. Wyrd is Cruel (slots 70-71) ignores this protection by design.
+- **Soubriquet trigger threshold → major victory** = win + (50%+ casualty differential OR Legendary Boast OR killed/captured enemy Chieftain). Multiple trigger paths so the system doesn't favor only kill-heavy playstyles.
+- **Soubriquet stacking → max 2 per character.** A third forces the player to drop one. Keeps names readable.
+- **Inflicting soubriquets on losers → costs 1 Renown.** Makes the "Dungbreath" effect a deliberate spend, not a free insult.
+- **Faction-flavored Soubriquet sub-tables → deferred to v0.3.** The current table has faction-tinted entries in row 7 but is otherwise faction-neutral. Will revisit if playtest shows Christendom and Norse warbands feel undifferentiated.
 
 ---
 
