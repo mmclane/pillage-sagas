@@ -10,32 +10,66 @@ Rolled in **Step 1 of the post-game sequence** for each Named Character who fell
 
 ### Design notes
 
-- **Lethality dial:** how often Named Characters die permanently determines the campaign's tone. A high-lethality table makes turnover central to the saga (lots of new Jarls); a low-lethality table makes individual characters the long-running heroes.
-- **Lingering wounds:** entries between "Full Recovery" and "Dead" can include miss-one-game effects, permanent stat penalties, or permanent stat *bonuses* (an Impressive Scar that adds Inspiring).
-- **Recovery via Feast:** Renown spend "Throw a Feast" (per [01_Core_Rules.md](01_Core_Rules.md)) clears one Injury per Named Character.
+- **Lethality dial:** 1 of 20 slots is "Dead" (5% per knockdown). Over a typical 8-game season, with each Named Character likely going down 2 to 4 times, expect 1 or 2 permanent deaths per warband per season. Enough to keep stakes high; rare enough that named characters can be genuine recurring heroes.
+- **Lingering Wounds** are stat penalties that persist until cleared by a Feast Renown spend or by certain Saga Roll results.
+- **Permanent results** (lost limbs, scars, vendettas) cannot be removed by a Feast and stay on the character sheet for the rest of the campaign.
+- **Healer mitigation:** if your warband includes a surviving Healer at the end of the battle, you may re-roll one Saga Injury result per battle. Pick which character benefits before re-rolling.
+- **Multiple knockdowns:** if a Named Character is knocked out and revived (e.g., by Healer effect mid-game) and then knocked out again, they roll on the Injury Table once at the end of the battle, not per knockdown.
+- **Modifiers:** none for v0.2. Faction-specific resilience can be added later as Talents (e.g., "Hardy: re-roll one Saga Injury result per season").
 
-### Sample entries (to be assigned to d20 slots in v0.2)
+### The Table
 
-- ***Full Recovery*** — no lasting effect. (Several slots, the most common result.)
-- ***Concussion*** — miss the first turn of the next battle.
-- ***Slow Recovery*** — miss the next battle entirely.
-- ***Lost Equipment*** — character drops their non-Relic equipment on the battlefield; replace at gp cost. Relics stay with the character (they were buried with them or carried home by retainers).
-- ***Lingering Wound*** — character has -1 to one stat (random: hit/defence/movement) until cleared by a Feast.
-- ***Impressive Scar*** — character gains the Inspiring trait permanently (+1 to morale checks of friendlies within 6").
-- ***Bitter Enmity*** — character gains a personal Vendetta vs. the warband that put them down: +1 to hit rolls against any member of that warband, forever.
-- ***Psychological Trauma*** — once per battle, must pass a morale check at the start of the turn or flee.
-- ***Lost a Hand*** — miss the next battle. Permanent -1 to all rolls to hit in melee, OR loses ability to use a shield (player's choice when the result is rolled).
-- ***Lost an Eye*** — miss the next battle. Permanent -1 to ranged hit rolls.
-- ***Spinal Injury*** — miss the next 2 battles. Permanent -1" movement.
-- ***Infection*** — roll d6 each post-game until cleared: 1 = die, 2-5 = no change, 6 = recover. Counts as Down for the next battle if still infected at game time.
-- ***Dead*** — character is removed from the roster permanently. Triggers Succession if the Chieftain.
+| d20 | Result | Effect |
+|---|---|---|
+| 1 | **Dead** | Character is removed from the roster permanently. Triggers Succession if the Chieftain (per [02_XP_and_Advancement.md](02_XP_and_Advancement.md) §6). Any Relic the character wielded drops to the warband's general inventory and may be reassigned. |
+| 2 | **Spinal Injury** | Miss the next 2 battles entirely. Returns to play with a permanent -1" movement. |
+| 3 | **Lost a Hand** | Miss the next battle. Permanent. Player chooses one when this result is rolled: (a) -1 to all rolls to hit in melee, or (b) character can no longer use a shield. The chosen option is locked in. |
+| 4 | **Lost an Eye** | Miss the next battle. Permanent -1 to all ranged hit rolls. Note: characters who never use ranged weapons can convert this to a permanent -1 to defence against missile fire instead. |
+| 5 | **Infection** | Miss the next battle. Then at each subsequent post-game, roll d6: on 1, the character dies; on 6, the infection clears; on 2-5, the infection persists and the character cannot field next battle. |
+| 6 | **Psychological Trauma** | Permanent. At the start of each subsequent battle, roll a morale check for the character. On a 1, the character flees for the first turn (cannot act). Subsequent turns play normally. |
+| 7 | **Bitter Enmity** | Permanent. Character gains a personal Vendetta against the warband that put them down: +1 to hit rolls against any figure from that warband for the rest of the campaign. The targeted warband is recorded on the character sheet. |
+| 8 | **Lost Equipment** | Character drops their non-Relic equipment on the battlefield. Repurchase at standard gp cost in the Recruit and Re-equip step. Relics stay with the character (assumed retrieved by retainers). |
+| 9 | **Lingering Wound: Movement** | -1" movement until cleared by a Feast (Renown spend per [01_Core_Rules.md](01_Core_Rules.md) §5) or a relevant Saga Roll result. |
+| 10 | **Lingering Wound: Aim** | -1 to all rolls to hit (melee and ranged) until cleared by a Feast. |
+| 11 | **Lingering Wound: Stance** | -1 to all defence rolls until cleared by a Feast. |
+| 12 | **Slow Recovery** | Miss the next battle. No lasting effect after that. |
+| 13 | **Slow Recovery** | Miss the next battle. No lasting effect after that. |
+| 14 | **Concussion** | Available for the next battle, but cannot act in the first turn (treat as deployed but Down for turn 1, then recovers normally). |
+| 15 | **Concussion** | Available for the next battle, but cannot act in the first turn (treat as deployed but Down for turn 1, then recovers normally). |
+| 16 | **Full Recovery** | No lasting effect. Cleaned up and back at full strength. |
+| 17 | **Full Recovery** | No lasting effect. |
+| 18 | **Full Recovery** | No lasting effect. |
+| 19 | **Impressive Scar** | Permanent. Character gains the *Inspiring* trait: friendlies within 6" of this character get +1 to their morale checks. Stacks with banners. |
+| 20 | **Inspiring Recovery** | Permanent narrative reward: the character's return from the brink stirs the warband. Draw 1 free Boast and add it to your hand for the next battle (respecting the hand size cap). Also gains +1 XP next battle if they deploy. |
 
-### TODO
+### Distribution summary
 
-- [ ] Assign the entries above to specific d20 slots.
-- [ ] Decide lethality: how many slots are "Dead" or "death-track" outcomes? Recommend 1-2 of 20 for a moderate-lethality campaign.
-- [ ] Decide if there should be a Lasting Injury follow-up roll (Port Royal's d10 + games-elapsed mechanic) for the chronic-condition entries (Infection, Spinal, etc.).
-- [ ] Consider faction-specific modifiers: do Vikings get a +1 to recover because they're hardy? Or is that better as a Talent?
+| Tone | Slots | Probability |
+|---|---|---|
+| Dead | 1 | 5% |
+| Permanent negative (Spinal, Hand, Eye, Infection, Trauma) | 5 | 25% |
+| Permanent mixed (Bitter Enmity, Lost Equipment) | 2 | 10% |
+| Lingering Wound (recoverable) | 3 | 15% |
+| Miss-time only (Slow Recovery, Concussion) | 4 | 20% |
+| Full Recovery (clean) | 3 | 15% |
+| Permanent positive (Impressive Scar, Inspiring Recovery) | 2 | 10% |
+
+### Interactions with other systems
+
+- A **Healer** in the warband at the end of the battle lets you re-roll **one** Injury result per battle. Pick which character benefits before re-rolling. You must take the second result. Healers do not benefit from their own ability (a wounded Healer is still wounded).
+- The **Throw a Feast** Renown spend (2 Renown) clears one Injury per Named Character. This works on Lingering Wounds (slots 9-11) and on miss-time effects from Slow Recovery (12-13) or Concussion (14-15) only if they have not yet resolved. It does NOT clear Permanent results (1-8) or affect Permanent positive results (19-20).
+- The **Saga Roll** ([§2 below](#2-the-saga-roll-d100)) may contain entries that clear specific Injury types, including Permanent ones in rare cases.
+- A **Commission a Saga** Renown spend (3 Renown) immortalises a Named Character. If they later die (result 1), they still grant +1 morale aura to the warband for the rest of the season.
+- Multiple lingering wounds on a single character stack as -1 each in their relevant area. A character with two Movement results loses 2" of movement.
+
+### Edge cases
+
+- **Chieftain killed (result 1):** see [02_XP_and_Advancement.md §6](02_XP_and_Advancement.md). Succession promotes a Named Character to Chieftain; their dormant Talents become active.
+- **Healer killed (result 1):** the warband loses Healer access for the rest of the campaign unless a new Healer is recruited from Treasury (standard gp cost).
+- **Banner-bearer killed (result 1):** the warband can recruit a new Banner-bearer normally; the existing Banner gp item is recovered (it stayed with retainers).
+- **Character with no eyes left (rolls Lost an Eye result while already missing one):** roll the result again. If Lost an Eye comes up a second time, the character is functionally blind and goes Dead.
+- **Character with no hands left:** same as above; second Lost a Hand result kills the character.
+- **Multiple Bitter Enmity marks:** a character can hold multiple Vendettas against different warbands. The +1 to hit stacks only against the specific warband each mark targets.
 
 ---
 

@@ -33,8 +33,7 @@ Tracked here so we don't lose threads. Resolved items move to the **Decisions Ma
 
 ### Injuries
 
-- [ ] **Saga Injury Table lethality dial**: chars die rarely vs. often? Recommend: 1-2 of 20 slots are "Dead" for moderate lethality.
-- [ ] **Lasting Injury follow-up rolls** (chronic infections, etc.): yes (Port Royal style) vs. no (simpler)?
+*(Resolved in v0.2 — see Decisions Made.)*
 
 ### Stores and Relics
 
@@ -61,7 +60,11 @@ Tracked here so we don't lose threads. Resolved items move to the **Decisions Ma
 
 Once an open question is settled, move it here with a brief note on the resolution.
 
-*(None yet.)*
+### v0.2
+
+- **Saga Injury Table lethality dial → 1 of 20 slots is "Dead" (5% per knockdown).** Moderate lethality. Over a typical 8-game season, with each Named Character likely going down 2-4 times, expect 1-2 permanent deaths per warband per season.
+- **Lasting Injury follow-up rolls → only for Infection (slot 5).** Infection follows a chronic-condition mechanic (d6 per post-game). All other permanent results are simply permanent; no follow-up roll required. Keeps bookkeeping minimal.
+- **Healer mitigation → re-roll one Injury per battle if the warband's Healer survived.** Trades the Healer's tactical impact (in-game healing) for strategic insurance (post-game injury insurance).
 
 ---
 
