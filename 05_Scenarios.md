@@ -322,6 +322,66 @@ A defender's longship is grounded on the beach. The attacker must burn it before
 
 ---
 
+### Custom Battle Types
+
+The 12 codified Battle Types cover the common cases, but the proposal mechanic was always a negotiation. Players who want a specific scenario the catalog doesn't cover may propose a **Custom Battle Type** in place of a catalog pick.
+
+#### How to propose
+
+In Step 1 of the Composition Procedure (§1), the challenger may declare a Custom Battle Type instead of choosing from the catalog. The challenger specifies:
+
+- A **name** for the scenario (e.g., "Burn the Bridge," "The Witch's Grove").
+- A **reward category** from the 5 standard categories: Plunder (gp bonus), Glory (Renown + Soubriquet trigger), Holding (a new Holding the winner gains), Relic (a Relic from the campaign pool), or Tribute (forced cost on the loser).
+- **Force balance** (gp budgets per side).
+- **Turn limit.**
+- **Special elements** (any custom terrain pieces, NPC figures, loot placements, etc.).
+- **Deployment instructions.**
+- **Victory conditions** for both sides.
+- **Special rules** (any scenario-specific mechanics).
+- **Their role** (raider, defender, attacker — whatever the scenario uses).
+- **The reward specifics** (exact gp / Renown / Holding type / Relic / tribute).
+
+#### Response
+
+The target responds as usual but with one extra option:
+
+- **Accept clean** — play as proposed.
+- **Accept with a Twist** — same as catalog Battle Types.
+- **Counter-amend** — propose changes to any element of the Custom Battle Type (force balance, victory conditions, reward, etc.). The challenger then accepts the amended version, counter-amends back, or refuses. After 2 rounds of amendment, both sides agree on a final form or refuse the engagement.
+- **Refuse** — same as refusing any other proposal: -1 Renown to the refuser, locked out of being a target until they propose.
+
+#### Constraints
+
+To keep custom Battle Types fair and consistent with the campaign economy:
+
+- The reward **must map to one of the 5 standard categories**. No inventing rewards like "+10 Renown and a free Relic." A Custom Battle Type cannot grant more than the standard Holding/Relic/Tribute amounts unless both players explicitly agree it's a "Major Stakes" engagement (in which case raise the difficulty proportionally — e.g., add asymmetric force budgets that favor the disadvantaged side).
+- **Force budgets** for both sides should sum to no more than about 1600 gp (the average of catalog Battle Types). Higher budgets are allowed if both players want a "Pitched Battle" scale fight.
+- **Turn limits** should fall within 4 to 12 turns (catalog range).
+- **The campaign organiser may veto** a Custom Battle Type they consider unbalanced or exploitative (e.g., a "Saga Duel" reward category attached to a Pitched Battle setup that gives the proposer easy access to Soubriquets).
+
+#### Archiving
+
+If both players enjoy a Custom Battle Type, they may **submit it to the campaign organiser** for inclusion in the campaign's house-rules supplement. The organiser may then make it available to all warbands for future proposals — effectively growing the catalog from 12 codified Battle Types to 12 plus N homebrew. This is how a campaign's local flavor develops over multiple seasons.
+
+#### Example
+
+Erik wants to fight over a specific battlefield: a frozen river crossing where his Jarl swore an oath to confront Aelfric. None of the 12 catalog Battle Types capture the precise vibe. He proposes a Custom Battle Type:
+
+- **Name:** Oath at the Frozen Ford.
+- **Reward category:** Glory.
+- **Force balance:** 700 gp each.
+- **Turn limit:** 6 turns.
+- **Special elements:** 1 frozen river bisecting the table; figures break through on a natural 1 movement roll (Frozen Lake-style mechanic).
+- **Deployment:** Both sides deploy within 6" of opposite edges. Both Jarls must be deployed.
+- **Initiative:** Roll-off turn 1.
+- **Victory:** The side whose Jarl kills the enemy Jarl in single combat (no supporting attackers) wins +3 Renown + Soubriquet. If both Jarls survive, side with more figures alive wins +1 Renown. If both Jarls die, the side that drew first blood on the enemy Jarl wins +2 Renown.
+- **Special rules:** A Jarl killed by anyone but the enemy Jarl grants the enemy side no Renown bonus.
+- **Reward:** Glory (per Saga Duel scaling).
+
+Aelfric responds: "Counter-amend. I want the budgets at 600 gp each instead of 700 — fewer retinue figures so the Jarls actually fight. Otherwise accepted." Erik accepts. They play.
+
+---
+
 ## 4. Locations
 
 15 Locations for v0.3. Each Location sets the table's base terrain and applies a light mechanical effect for the duration of the battle. The challenger picks the Location at proposal time; the acceptor may swap it via the *Change Venue* Twist.
