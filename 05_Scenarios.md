@@ -1,6 +1,8 @@
 # 05 — Scenarios and Composition
 
-This system replaces the v0.1 random-draw Scenario Deck with a **composition** approach inspired by Blood Eagle's scenario × complication × landscape model. Instead of drawing a card, players compose each battle through a brief negotiation: one player proposes a Battle Type, the other accepts with a Twist. Weather is rolled or chosen. Each Battle Type grants a thematic reward category beyond loot.
+This system replaces the v0.1 random-draw Scenario Deck with a **composition** approach inspired by Blood Eagle's scenario × complication × landscape model. Instead of drawing a card, players compose each battle through a brief negotiation: one player proposes a Battle Type and a Location, the other accepts with a Twist. Weather is rolled or chosen. Each Battle Type grants a thematic reward category beyond loot.
+
+A composed battle has four layers: **Battle Type** (the objective and reward), **Location** (the venue, with light terrain rules), **Twist** (an acceptor-chosen complication), and **Weather** (rolled).
 
 There is no map. Holdings — abstract named places a warband controls — accumulate over the season as rewards from specific Battle Types. The campaign's geography lives in the holdings each player has won.
 
@@ -15,20 +17,23 @@ Before each battle, the two players who will fight resolve four steps:
 The **challenger** announces:
 
 - A **Battle Type** from the catalog (§3)
-- Their **role** in it (raider or defender, attacker or defender — for asymmetric types only)
+- A **Location** from the catalog (§4)
+- Their **role** in the Battle Type (raider or defender, attacker or defender — for asymmetric types only)
 - The **target** of the proposal (which opposing player they're challenging)
 
 In Two Sides Mode the target must be on the opposite side. In Feuds Mode the target may be any other player.
 
-The proposal is made openly. Flavor encouraged: "I propose Sack the Hall — I am the raider, you are the defender, I will burn your seat of power for the killing of my kinsman Olaf last summer." A clear in-fiction grievance makes the campaign sing.
+The proposal is made openly. Flavor encouraged: "I propose Sack the Hall at the Hall Compound — I am the raider, you are the defender, I will burn your seat of power for the killing of my kinsman Olaf last summer." A clear in-fiction grievance makes the campaign sing.
+
+Some Battle Types pair more naturally with some Locations (Sack the Monastery in Monastery Grounds, Storm the Keep at a Stone Keep, etc.). Each Location's entry includes a "Best For" hint, but no pairing is forbidden. A Pillage Town set in Snowy Tundra (a winter raid on an isolated steading) is a different story than the same Battle Type in a Coastal Village — that variety is the whole point.
 
 ### Step 2: Respond
 
 The **target** chooses one of four responses:
 
 - **Accept clean.** No Twist, no modification. The target takes the role the challenger left them. This is rare; the target usually gains an edge by adding a Twist.
-- **Accept with a Twist.** The target draws **2 Twist cards** from the Twist Deck (§4), keeps 1, discards the other. The Twist applies to this battle only and is discarded after.
-- **Counter-propose.** The target refuses the proposed Battle Type but proposes a different one. The challenger now becomes the target of the counter-proposal and may accept (clean, twist, or counter again). After **2 rounds of counter-proposal**, both players either agree on a third Battle Type or refuse the engagement.
+- **Accept with a Twist.** The target draws **2 Twist cards** from the Twist Deck (§5), keeps 1, discards the other. The Twist applies to this battle only and is discarded after. Some Twists (notably *Change Venue*) modify the Location rather than the battle itself.
+- **Counter-propose.** The target refuses the proposed Battle Type and/or Location but proposes a different combination. The challenger now becomes the target of the counter-proposal and may accept (clean, twist, or counter again). After **2 rounds of counter-proposal**, both players either agree on a third combination or refuse the engagement.
 - **Refuse the challenge.** The target declines to fight. They lose **1 Renown** (cost of dishonor). The challenger may roll on the Saga Roll for a consolation event. After a refusal, the refusing player may not be a target of any proposal until they propose at least one Battle Type themselves.
 
 ### Step 3: Roll Weather
@@ -48,7 +53,7 @@ Roll d6 on Pillage's standard weather table (rulebook p.86):
 
 ### Step 4: Play
 
-Resolve the battle per Pillage rules with the agreed Battle Type, Twist, and Weather. The reward (per §3) is awarded in the post-game sequence.
+Resolve the battle per Pillage rules with the agreed Battle Type, Location, Twist, and Weather. The reward (per §3) is awarded in the post-game sequence.
 
 ### Pairing for club meetings
 
@@ -136,11 +141,61 @@ Winner forces a tribute on the loser, paid in the next post-game.
 
 ---
 
-## 4. The Twist Deck
+## 4. Locations
 
-15 Twists. Each Twist applies to one battle and is discarded after.
+12 Locations for v0.3. Each Location sets the table's base terrain and applies a light mechanical effect for the duration of the battle. The challenger picks the Location at proposal time; the acceptor may swap it via the *Change Venue* Twist.
+
+A Location's terrain rules apply throughout the battle unless overridden by a Twist (e.g., *Burning Building* still adds a fire to whatever Location is chosen).
+
+### Open country
+
+| Location | Default terrain | Effect | Best for |
+|---|---|---|---|
+| **Open Steppe** | Flat grassland with 1-2 scattered features (lone tree, scrub, rocks). | Cavalry charge rolls gain +1" to charge distance. Visibility unobstructed. | Pitched Battle, Wagon Train Ambush, Cattle Raid |
+| **Snowy Tundra** | Snow-covered plain, 1-2 small drifts or rocks. | Weather is automatically **Snow** for the duration (overrides weather roll). | Pitched Battle, Sack the Hall (winter raid), Wagon Train Ambush |
+
+### Wilderness
+
+| Location | Default terrain | Effect | Best for |
+|---|---|---|---|
+| **Marshlands** | Half the table is marshy lowlands; a few firm patches and scattered low trees. | Marsh areas count as difficult terrain. Saxon warbands ignore the penalty per their core rules. | Pillage Town, Defend the Longship, Rival Warband Feud |
+| **Forest Edge** | A clearing with dense forest on 2-3 edges, covering ~30% of the table. | Wooded areas count as difficult terrain. Picts and Welsh ignore the penalty. Bows take an additional -1 to hit at long range due to obstruction. | Sack the Monastery (a forest monastery), Saga Duel, Rival Warband Feud |
+| **Highland Crags** | 2-3 elevated areas (rocky outcrops, hills), some impassable rocks. | Multiple line-of-sight breakers. Cavalry takes -1" movement on elevated terrain. Picts ignore difficult terrain on rocks per their core rules. | Coast Watch Tower, Rival Warband Feud |
+| **Riverbank** | A river bisects the table; 1-2 fords or shallow crossings. | Crossing the river requires a swimming roll (per Pillage's swimming rules) except at the fords, which count as passable obstacles. | Cattle Raid, Rescue the Hostage |
+
+### Settled
+
+| Location | Default terrain | Effect | Best for |
+|---|---|---|---|
+| **Coastal Village** | Beach on one table edge with water beyond; 4-6 small buildings inland; 1-2 fences. | Ships (per Pillage's ship rules) may be deployed by either player on the beach edge. Water counts as impassable except for swimming. | Pillage Town, Coast Watch Tower, Defend the Longship |
+| **Trading Town** | 6-8 buildings with lanes between them; market in the center with 2-3 stalls (per Hecatomb supplement) and a well. | Closing shots take an additional -1 penalty due to crowded lanes. Stalls may be used per the Hecatomb scenario rules (barrels, grain sacks, projectile stalls). | Pillage Town, Rival Warband Feud, Market Brawl |
+| **Monastery Grounds** | 1 large chapel + 3-4 smaller buildings (dorms, kitchen, scriptorium) + low garden walls. | The chapel always contains a relic-search opportunity (per Pillage's search rules). All buildings are flammable. Civilian non-combatants may be added by the defender as flavor. | Sack the Monastery, Pilgrimage |
+| **Hall Compound** | 1 great hall + 2-3 outbuildings (barn, byre, sheds) + low palisade wall around the compound. | The palisade counts as a passable obstacle (2" of movement to cross). The defender deploys inside the compound. | Sack the Hall, Rescue the Hostage |
+| **Stone Keep** | 1 fortified stone keep dominating the table + outer wall + small courtyard with 1-2 outbuildings. | The keep is a fortified building (per Pillage's special building rules — fire ignites on 7+, doors must be broken). The outer wall is high (passable only by ladders or dangerous climb). | Storm the Keep |
+
+### Special
+
+| Location | Default terrain | Effect | Best for |
+|---|---|---|---|
+| **Bridge** | A river bisects the table; 1 main bridge + 0-1 smaller bridges. Steep banks. | Most figures cross via the bridge(s); swimming is possible but bank climbing counts as a passable obstacle. A narrow bridge limits combat to 1-3 figures abreast (player agreement on bridge width). | Pillage Town (coastal raid), Pitched Battle, Storm the Keep (Stamford Bridge style) |
+
+### Notes
+
+- Locations may be re-used freely across the season. There is no "once per season" limit.
+- Each player may, before the campaign starts, ban one Location from their personal battles (e.g., "I don't have terrain for a Stone Keep yet"). Bans are mutual: if either player has banned a Location, it can't appear in their battles.
+- Pillage's core scenarios that called for specific terrain (Stamford Bridge, Sack of Saint Lunaire, etc.) map naturally onto specific Locations; players may use those scenarios' published terrain layouts when matching Battle Types and Locations.
+
+> **TODO (v0.4):** Add Market Square (a Hecatomb-style standalone marketplace), Henge (sacred stone circle with single-shot effects), and Frozen Lake (figures break through ice on a 1) — three Locations cut from v0.3 for scope.
+
+---
+
+## 5. The Twist Deck
+
+16 Twists. Each Twist applies to one battle and is discarded after.
 
 When accepting a proposal with a Twist, draw 2 and keep 1.
+
+> **Constraint:** Twists may not duplicate the Location's existing effect. For example, you cannot play the *Marshlands* Twist on a Marshlands Location (already marshy); the *Snowfall* Twist on Snowy Tundra (already snowing); etc. If a drawn Twist is redundant with the chosen Location, discard and draw another.
 
 ### Weather Twists
 
@@ -177,9 +232,15 @@ When accepting a proposal with a Twist, draw 2 and keep 1.
 | **Hidden Force** | Defender gains the King of Ambushes Talent free for this battle (may hide up to 25% of their figures per the Talent rules). |
 | **Armed Civilians** | 5 NPC armed peasant figures (UA, improvised weapons, 1 HP each) are placed by the defender within their deployment area. They cannot leave the area but defend it normally. They count toward neither side's army size. |
 
+### Composition
+
+| Twist | Effect |
+|---|---|
+| **Change Venue** | The acceptor picks a different Location from the catalog. This overrides the challenger's proposed Location entirely. The new Location's effects apply for the battle. |
+
 ---
 
-## 5. Holdings — no map, accumulated rewards
+## 6. Holdings — no map, accumulated rewards
 
 Holdings are abstract named places a warband controls. They are won via specific Battle Types and grant passive yield each Winter (post-game).
 
@@ -208,7 +269,7 @@ Pillage's tactical layer doesn't reward map-based campaign play (no movement on 
 
 ---
 
-## 6. Two-mode interaction
+## 7. Two-mode interaction
 
 ### In Feuds Mode
 
@@ -220,29 +281,30 @@ Proposals must be cross-side. Holdings are individual property (the player who w
 
 ---
 
-## 7. Worked example
+## 8. Worked example
 
 A club meeting with 4 players. Saga Season, Two Sides Mode (Northmen vs Christendom).
 
 **Players:** Erik (Northman), Sven (Northman), Aelfric (Christendom), Cynewulf (Christendom).
 
-**Erik proposes:** "I challenge Aelfric. Sack the Hall — I am the raider, you defend. I want to burn your hall in retaliation for the cattle your men stole last month."
+**Erik proposes:** "I challenge Aelfric. Sack the Hall at the Hall Compound — I am the raider, you defend. I want to burn your hall in retaliation for the cattle your men stole last month."
 
 **Aelfric responds:** "I accept with a Twist." He draws 2 Twists: *Snowfall* and *Hidden Force*. He picks *Hidden Force* — gives him the ambush advantage in his own hall.
 
 **Weather:** rolled, comes up 4 (Heavy Rain).
 
-**They play.** Erik wins, burning Aelfric's hall.
+**They play.** Battle is Sack the Hall in a Hall Compound during Heavy Rain, with Aelfric using Hidden Force to hide a quarter of his defenders. Erik wins, burning Aelfric's hall.
 
 **Reward:** Erik gains the **Burned Hall of Cyneford** Holding (+30 gp + 1 Renown per Winter). Erik adds it to his warband sheet.
 
-**Meanwhile:** Sven proposes a Cattle Raid to Cynewulf, who counter-proposes a Rival Warband Feud. Sven accepts the counter, no Twist. They play. Cynewulf wins, gaining +2 Renown and a Soubriquet trigger.
+**Meanwhile:** Sven proposes a Cattle Raid in Riverbank to Cynewulf, who counter-proposes a Rival Warband Feud in Forest Edge. Sven accepts the counter, no Twist. They play. Cynewulf wins among the trees, gaining +2 Renown and a Soubriquet trigger.
 
 ---
 
-## 8. TODO (v0.4)
+## 9. TODO (v0.4)
 
-- [ ] Expand Twist deck to ~25 cards. Current 15 is enough for first playtest but variety will quickly become an issue.
+- [ ] Expand Twist deck to ~25 cards. Current 16 is enough for first playtest but variety will quickly become an issue.
+- [ ] Add 3 more Locations: Market Square, Henge, Frozen Lake.
 - [ ] Add **multi-player Battle Types** for Feuds Mode club nights with odd numbers: a 3-player free-for-all and a 4-player team (2 vs 2).
 - [ ] Add faction-flavored Battle Types: a Viking longship raid that only Norse warbands can propose; a "Defend the Pilgrimage" only Christian warbands can defend; etc.
 - [ ] Balance the asymmetric force budgets. Default assumption: even gp budgets. Battle Types like Storm the Keep may want explicit asymmetric budgets (defender at 75% of attacker) to be playable.
