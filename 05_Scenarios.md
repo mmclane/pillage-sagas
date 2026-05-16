@@ -435,7 +435,7 @@ A Location's terrain rules apply throughout the battle unless overridden by a Tw
 
 ## 5. The Twist Deck
 
-16 Twists. Each Twist applies to one battle and is discarded after.
+25 Twists. Each Twist applies to one battle and is discarded after.
 
 When accepting a proposal with a Twist, draw 2 and keep 1.
 
@@ -457,7 +457,9 @@ When accepting a proposal with a Twist, draw 2 and keep 1.
 | **Surprise Attack** | Attacker has initiative for the first 2 turns AND defender starts in a single 6"×6" deployment zone instead of their usual area. |
 | **Forced March** | Attacker is fatigued: -1 to morale checks for the first 3 turns. |
 | **Late Hour** | Game length is reduced by 2 turns from the default. |
+| **First Light** | Game length is extended by 2 turns from the default. Both sides have more time to develop their positions. |
 | **Cavalry Arrives** | At the start of turn 5, defender places 3 free cavalry figures within 6" of their table edge (faction-appropriate). |
+| **Foreign Mercenary** | At the start of turn 3, the acceptor rolls d6: on 4+, a free rank-and-file figure (faction-appropriate, UA, hand weapon + shield + armor, no Named status) appears within 2" of their table edge. On 1-3, no figure appears. |
 
 ### Terrain
 
@@ -466,8 +468,12 @@ When accepting a proposal with a Twist, draw 2 and keep 1.
 | **Marshlands** | Half the table is marshy terrain. Saxon warbands ignore the movement penalty (per Pillage Saxon special rules). |
 | **Hilltop Defence** | Defender deploys on a hill (counts as elevation per Pillage's elevation rules). |
 | **Burning Building** | One building (defender's choice) starts the game on fire. |
+| **Burning Field** | One field on the table starts the game on fire. Counts as a piece of burning scenery for fire spread purposes (per Pillage's fire rules). |
 | **Sheep Loose** | 1-2 flocks of sheep on the table per Pillage's Sheep & Beehives rules. Roll d3: 1 flock on 1, 2 flocks on 2-3. |
 | **Beehive** | 1 beehive on the table per Pillage's Sheep & Beehives rules. Placed by mutual agreement or coin flip. |
+| **Treacherous Footing** | Mud, ice, loose scree, frostbite. Every charge roll this game requires a follow-up d6: on a 1, the charging figure trips. Their charge fails entirely (they don't reach the target) and they cannot attack or take any other action this turn. |
+| **Sacred Stone** | A standing stone or ancient marker is placed in the center of the table (impassable). A figure ending a turn in base contact with the stone gains +1 to their next morale check. Killing an enemy in base contact with the stone grants the killer +1 Renown (one-time, first such kill only). |
+| **Open Pit** | Place 2 pit markers (each 2" diameter) within 8" of the center of the table at deployment, by mutual agreement or coin flip. A figure that moves over a pit rolls d6; on 1, they fall in. A figure in a pit counts as Down for 1 turn, then may climb out on a 4+ each subsequent turn. |
 
 ### Force and Composition
 
@@ -475,6 +481,14 @@ When accepting a proposal with a Twist, draw 2 and keep 1.
 |---|---|
 | **Hidden Force** | Defender gains the King of Ambushes Talent free for this battle (may hide up to 25% of their figures per the Talent rules). |
 | **Armed Civilians** | 5 NPC armed peasant figures (UA, improvised weapons, 1 HP each) are placed by the defender within their deployment area. They cannot leave the area but defend it normally. They count toward neither side's army size. |
+| **No Cavalry** | Neither side may field cavalry figures this battle. If a player's army was built with cavalry, those figures sit this one out. |
+| **Bowmen in Cover** | Defender gains 3 free archer figures (UA, bow, hand weapon, faction-appropriate) placed within their deployment zone. These figures may not move from their starting positions for the duration of the battle. They count toward neither side's army size. |
+
+### Narrative
+
+| Twist | Effect |
+|---|---|
+| **A Wandering Skald** | A neutral NPC skald figure (UA, no equipment, 1 HP, cannot attack) starts in the center of the table. At the end of each turn, the skald moves d6 inches in a randomly determined direction (scatter die or 1=N, 2=NE, 3=SE, 4=S, 5=SW, 6=NW). If killed by any figure, that warband loses 2 Renown (the gods note ill omens). If escorted off a warband's own table edge using Pillage's prisoner-escort rules, that warband gains 2 Renown (the skald sings their saga). The skald is loot to no one — they're a person. |
 
 ### Composition
 
@@ -547,7 +561,7 @@ A club meeting with 4 players. Saga Season, Two Sides Mode (Northmen vs Christen
 
 ## 9. TODO (v0.4)
 
-- [ ] Expand Twist deck to ~25 cards. Current 16 is enough for first playtest but variety will quickly become an issue.
+- [x] **Twist deck expanded to 25 cards in v0.3.** Categories: Weather (4), Timing and Reinforcements (6), Terrain (9), Force and Composition (4), Narrative (1), Composition (1). May still want to push to 30+ in v0.4 for richer multi-season play.
 - [ ] Add 3 more Locations: Market Square, Henge, Frozen Lake. (15 in v0.3; aiming for 18 in v0.4.)
 - [ ] Add **multi-player Battle Types** for Feuds Mode club nights with odd numbers: a 3-player free-for-all and a 4-player team (2 vs 2).
 - [ ] Add faction-flavored Battle Types: a Viking longship raid that only Norse warbands can propose; a "Defend the Pilgrimage" only Christian warbands can defend; etc.
