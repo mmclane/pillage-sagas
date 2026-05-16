@@ -12,7 +12,6 @@ Tracked here so we don't lose threads. Resolved items move to the **Decisions Ma
 
 - [ ] **Campaign mode lock-in**: pick one at start vs. let it evolve mid-season? Recommend: lock at start.
 - [ ] **Season length**: 6 raids is brisk, 8 is meatier. Open-ended option?
-- [ ] **Annual Events**: deck of about 20 cards, or rolled on a table, or scheduled by the organiser?
 - [ ] **Roster size and budget**: is 600-800 gp per battle and 2-4 Named Characters the right scale?
 - [ ] **Painting requirement**: yes vs. no? (Hobby gate, not rules gate.)
 
@@ -76,6 +75,7 @@ Once an open question is settled, move it here with a brief note on the resoluti
 - **Refusing a challenge → -1 Renown + cannot be targeted until the refuser proposes.** Discourages camp-and-grind play; rewards aggressive proposals.
 - **Locations as the venue layer.** 15 Locations for v0.3 (3 open country, 5 wilderness, 5 settled, 2 special), each with default terrain and a light mechanical effect. Challenger picks Location at proposal time alongside Battle Type. Acceptor can swap Locations via the *Change Venue* Twist. Locations may be banned by either player at campaign start if they lack the terrain (mutual veto). Twists may not duplicate the chosen Location's effect.
 - **Naval and elevation Locations added.** Lone Hilltop (single dominant hill, slope rules), Tidal Estuary (half-table shallow water, no swim roll, beached ships allowed), Longship Boarding (two ships rail-to-rail, no cavalry, figures push off into the water). Cover the boat/river/hill terrain gaps in v0.3.
+- **Annual Events deck (20 cards) drawn every other meeting.** 4 categories of 5 each: Hazards (Plague, Hard Winter, Crop Failure, Mercenary Discontent, A Distant Raid Calls), Boons (Trading Season, Mercenaries Available, Skald Tour, Famous Warrior, Saga Spreads), Faction-divergent (Christian Faith Stirs, Pagan Revival, Hostile Court, Viking Fleet Arrives, Pilgrimage Passes), Shake-ups/Holdings (Civil War, Comet, Holdings Tribute Doubled, Holdings Raided in Absence, The Old Jarl Dies). Mitigation via Renown spend for some cards (Plague, Hard Winter, Civil War, Old Jarl Dies, etc.); some are unavoidable (Crop Failure, Skald Tour). Effects stay flat regardless of player count. Renown never goes negative; floors at 0.
 - **Saga Roll mitigation → 1 Renown per season to re-roll once.** Gives some agency over bad luck without softening the table. Wyrd is Cruel (slots 70-71) ignores this protection by design.
 - **Soubriquet trigger threshold → major victory** = win + (50%+ casualty differential OR Legendary Boast OR killed/captured enemy Chieftain). Multiple trigger paths so the system doesn't favor only kill-heavy playstyles.
 - **Soubriquet stacking → max 2 per character.** A third forces the player to drop one. Keeps names readable.

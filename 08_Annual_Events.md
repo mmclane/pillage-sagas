@@ -1,0 +1,210 @@
+# 08 — Annual Events Deck
+
+A deck of campaign-wide event cards drawn at the start of every other club meeting. Annual Events affect every warband simultaneously, though some have asymmetric (faction-based) effects. They are the "kingdom shifts" — the larger world reacting around the warbands.
+
+20 cards for v0.3, organised into 4 categories of 5 each: Hazards, Boons, Faction-Divergent, and Shake-ups & Holdings.
+
+---
+
+## 1. Trigger and timing
+
+**The campaign organiser draws and reveals one Annual Event card at the start of every other club meeting**, before any proposals are made. The event applies to all warbands and all battles that meeting, plus any post-game effects that follow.
+
+- Over an 8-meeting season, that's 4 Annual Events.
+- The deck shuffles fresh at campaign start. Cards drawn are set aside; the deck does not reshuffle mid-campaign unless exhausted (unlikely with 20 cards and only 4 draws).
+- Players see the event before proposing, so the event can shape that meeting's strategic choices.
+- Events with mitigation options are resolved during the relevant post-game step (typically post-game step 6 Divide Shares, or step 9 Advancement, or step 11 Holdings Updates depending on the card).
+
+---
+
+## 2. The Deck
+
+### Hazards (5 cards)
+
+#### AE01 — Plague Sweeps the Halls
+
+> *Black sores erupt on the men's necks. The wise women have no answer; the priests are no help.*
+
+**Effect:** Each warband rolls d6 for each Named Character on their roster. On a 1, the character takes a Lingering Wound: Stance (-1 to defence rolls until cleared by a Feast or relevant Saga Roll result).
+
+**Mitigation:** Spend 2 Renown per character to skip this roll for one chosen Named Character.
+
+#### AE02 — Hard Winter
+
+> *The snows come early and the granaries empty before spring.*
+
+**Effect:** All warbands lose 50 gp from Treasury (minimum 0).
+
+**Mitigation:** Spend 1 Renown to lose only 25 gp instead.
+
+#### AE03 — Crop Failure
+
+> *The fields lie barren; the war-bands tighten their belts.*
+
+**Effect:** For the next 2 battles each warband fights, their maximum army budget is reduced by 50 gp from their normal default.
+
+**Mitigation:** None. A bad farming year.
+
+#### AE04 — Mercenary Discontent
+
+> *Word spreads that some Jarls pay better than others. Loyalty grows thin.*
+
+**Effect:** All Oathbreaking Checks this Winter (post-game step 6 Divide Shares) take a +1 penalty (harder to retain Named Characters when underpaid).
+
+**Mitigation:** Spend 1 Renown to negate the +1 penalty for your warband only.
+
+#### AE05 — A Distant Raid Calls
+
+> *News of plunder in the south draws the war-bands away on personal expeditions.*
+
+**Effect:** Each warband's Jarl rolls d6. On a 1, that Jarl is away on a personal raid for the next battle and may not be deployed (succession does not trigger; the Jarl returns the battle after).
+
+**Mitigation:** None. The Jarl chose to leave.
+
+---
+
+### Boons (5 cards)
+
+#### AE06 — A Successful Trading Season
+
+> *Goods flow up the rivers, and silver flows in.*
+
+**Effect:** All warbands gain 30 gp.
+
+#### AE07 — Mercenaries Available
+
+> *A war-band from across the sea offers their swords to any who'll pay.*
+
+**Effect:** For the next battle each warband plays, they may hire 1 specialist (Berserker, Huscarl, Healer, or Pack Master) at half their faction's standard gp cost. The specialist leaves after that battle, taking their pay with them.
+
+#### AE08 — Skald Tour
+
+> *A famed skald passes through the kingdom, telling tales by every hearth.*
+
+**Effect:** Each warband draws +1 Boast for their next battle (respecting the hand size cap; if at cap, discard one current Boast first).
+
+#### AE09 — A Famous Warrior Arrives
+
+> *A man of repute seeks a Jarl worthy of his oath.*
+
+**Effect:** Each warband may immediately recruit a free Named Character of their choice from their faction's available types (Berserker, Huscarl, or Healer), fully equipped at standard kit. The character starts with 0 XP. If the warband's Named Roster is at the cap, decline or replace a current Named Character.
+
+#### AE10 — The Saga Spreads
+
+> *The names of the war-bands are sung in distant halls. All gain renown by being remembered.*
+
+**Effect:** All warbands gain +1 Renown.
+
+---
+
+### Faction-divergent (5 cards)
+
+These cards have asymmetric effects on Norse and Christian warbands. Faction assignment:
+
+- **Christian factions:** Anglo-Saxons, Normans, Carolingian Franks, Bretons, Welsh, Romano-British. (Some Fall of Rome factions also: Visigoths if playing them as Arian Christians.)
+- **Norse factions:** Vikings, Norse-Gaels.
+- **Pagan / Other:** Irish, Scots, Picts, Huns, Saxons (pre-conversion if so flavored), Merovingian Franks (mixed period). For these, treat as Norse for Pagan Revival, but as their own category for some cards.
+
+In Two Sides Mode, all warbands on the Northmen side count as Norse; all on the Christendom side count as Christian, regardless of strict historical faction. The flavor and effect follow the side.
+
+#### AE11 — Christian Faith Stirs
+
+> *A traveling preacher inspires Christendom while shaming the heathens.*
+
+**Effect:** Christian warbands gain +1 Renown. Norse / Pagan warbands suffer a -1 to all morale checks in their next battle.
+
+**Mitigation:** Norse / Pagan warbands may spend 1 Renown to negate the morale penalty.
+
+#### AE12 — Pagan Revival
+
+> *Old gods speak through the wise women. Heathen warriors feel courage; Christians feel doubt.*
+
+**Effect:** Norse / Pagan warbands gain +1 Renown. Christian warbands suffer a -1 to all morale checks in their next battle.
+
+**Mitigation:** Christian warbands may spend 1 Renown to negate the morale penalty.
+
+#### AE13 — Hostile Court
+
+> *The local king demands tribute from his vassal lords; pagans are spared because no envoy dares speak to them.*
+
+**Effect:** All Christian-faction warbands lose 20 gp from Treasury (forced tribute to a distant court). Norse and Pagan warbands are unaffected.
+
+**Mitigation:** A Christian warband may spend 1 Renown to negate this loss (their personal envoys swore fealty in person, avoiding the tribute).
+
+#### AE14 — Viking Fleet Arrives
+
+> *A dragon-ship squadron beaches itself in the kingdom; news travels fast.*
+
+**Effect:** Norse warbands gain 30 gp (kinsmen share their spoils). Christian warbands' next defensive battle has the *Surprise Attack* Twist applied automatically by the proposing attacker (regardless of who proposes that battle).
+
+**Mitigation:** Christian warbands may spend 2 Renown to negate the Surprise Attack effect on their next defensive battle.
+
+#### AE15 — A Pilgrimage Passes
+
+> *A procession of monks bearing relics moves through the kingdom.*
+
+**Effect:**
+- **Christian warbands** choose: bless the pilgrimage for +1 Renown, or rob it for +30 gp (taking -1 Renown for the sin).
+- **Norse / Pagan warbands** automatically rob the pilgrimage for +30 gp. No Renown loss; this is who they are.
+
+---
+
+### Shake-ups and Holdings (5 cards)
+
+#### AE16 — Civil War
+
+> *A succession crisis rocks the kingdom. Loyalties shift in the night.*
+
+**Effect:** Each warband rolls d6 for each Named Character on their roster. On a 1, that character defects to a randomly determined other warband (campaign organiser determines randomly among other players' warbands). The departing character takes any wielded Relic with them.
+
+**Mitigation:** Spend 1 Renown to make any one of your Named Characters immune to this roll (chosen by you).
+
+#### AE17 — A Comet Streaks the Sky
+
+> *An omen written in flame. The skalds say great deeds are at hand.*
+
+**Effect:** Each warband may immediately draw a free Bold Boast and add it to their hand (respecting the hand size cap; if at cap, discard a current Boast first).
+
+#### AE18 — Holdings Tribute Doubled
+
+> *The villages produce well this year; their lords prosper.*
+
+**Effect:** At the next Winter (next applicable Holdings Updates step in the post-game sequence), all Holdings yield double their normal value (both gp and Renown components).
+
+#### AE19 — Holdings Raided in Absence
+
+> *While the war-bands fought elsewhere, opportunists struck their distant holdings.*
+
+**Effect:** Each warband that holds at least one Holding rolls d6 per Holding. On a 1 or 2, that Holding is destroyed (lost permanently — does not transfer to anyone).
+
+**Mitigation:** Spend 2 Renown to make all of one warband's Holdings immune to this event.
+
+#### AE20 — The Old Jarl Dies
+
+> *A great chieftain of the old generation passes; his warriors look to a new face. The other Jarls feel the weight of mortality.*
+
+**Effect:** Each warband's Jarl rolls d6. On a 1, the Jarl dies of natural causes (treated as a "Dead" result on the Saga Injury Table). Succession is forced per the standard rules ([02_XP_and_Advancement.md §6](02_XP_and_Advancement.md)).
+
+**Mitigation:** Spend 3 Renown to make your Jarl immune to this roll.
+
+---
+
+## 3. Rules notes
+
+- **Resolution order:** when an Annual Event fires, resolve all simultaneous effects in the post-game sequence step it most logically belongs to (gp gains/losses at step 8 Recruit and Re-equip; Renown changes at step 2 Tally Renown; Holdings effects at step 11; Named Character changes at step 6 or step 9). Use organiser judgment when a card touches multiple steps.
+- **Mitigation timing:** declare and spend any Renown or gp mitigation before the affected roll is made or before the loss is applied. Once the dice are cast or the gp deducted, mitigation can't reverse the result.
+- **Faction lookup for divergent cards:** for clarity, the campaign organiser writes each warband's faction allegiance on a shared sheet at campaign start (Norse / Christian / Pagan-other). This avoids per-card debates about edge cases.
+- **Renown cannot go negative:** if a card's effect (or its inability to mitigate) would push a warband below 0 Renown, the warband simply lands at 0. Renown does not go negative in this campaign system.
+- **Multi-event interactions:** Annual Events do not directly interact with each other. If an event affects a Holding that was destroyed by a previous event, just skip that part of the new event for that warband. If a Jarl killed by AE20 was scheduled to roll on a previous unfired event, ignore the Jarl's roll on the prior event.
+- **Players who joined the campaign late** (after some Annual Events have fired) do not retroactively suffer past events. Their Treasury, Renown, and Holdings start fresh per the standard new-warband rules.
+
+---
+
+## 4. TODO (v0.4)
+
+- [ ] Expand the deck to 30 cards. 20 is enough for one season's variety but a second season would feel repetitive.
+- [ ] Add Holdings-specific events that interact with specific Holding types (a Burned Hall is rebuilt, a Watch Tower is reinforced).
+- [ ] Add 2-3 "Grand Finale Approaches" cards that fire only in the second half of the season — building campaign-arc tension.
+- [ ] Decide whether some Annual Events should be **mode-locked** (e.g., AE19 Holdings Raided in Absence only fires if at least one player holds a Holding). v0.3 fires all cards regardless of state.
+- [ ] Balance pass on mitigation costs. 2 Renown to skip a Plague roll on one character may be too cheap or too expensive depending on Renown income rates we see in playtest.
+- [ ] Add seasonal flavor variants (a Spring deck, a Summer deck, etc.) for campaigns that run multiple seasons.

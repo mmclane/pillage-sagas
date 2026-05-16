@@ -76,7 +76,7 @@ A season is a sequence of **6 to 8 battles**, ending with a **Grand Finale**. Th
 | Phase | Cadence | What happens |
 |---|---|---|
 | **Raid** | One per club meeting (or per week) | A single Pillage battle composed via the proposal/accept/twist procedure (see [05_Scenarios.md](05_Scenarios.md)). Post-game sequence resolved after each. |
-| **Annual Event** | Every 2 or 3 raids | A campaign-wide card fires: plague, hard winter, mercenary contingent arrives, a famous skald visits, etc. Affects every warband at once. |
+| **Annual Event** | Every other club meeting (4 per typical season) | The campaign organiser draws and reveals a card from the Annual Events deck before proposals begin (see [08_Annual_Events.md](08_Annual_Events.md)). Affects every warband at once. |
 | **Grand Finale** | Season's final battle | All players field their full Treasury and Roster in one battle (Sides Mode: coalition battle; Feuds Mode: multi-player free-for-all). Renown bonuses for victory. |
 
 ---
