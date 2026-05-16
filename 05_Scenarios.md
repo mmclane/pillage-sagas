@@ -435,7 +435,7 @@ A Location's terrain rules apply throughout the battle unless overridden by a Tw
 
 ## 5. The Twist Deck
 
-24 Twists. Each Twist applies to one battle and is discarded after.
+25 Twists. Each Twist applies to one battle and is discarded after.
 
 When accepting a proposal with a Twist, draw 2 and keep 1.
 
@@ -473,6 +473,7 @@ When accepting a proposal with a Twist, draw 2 and keep 1.
 | **Beehive** | 1 beehive on the table per Pillage's Sheep & Beehives rules. Placed by mutual agreement or coin flip. |
 | **Treacherous Footing** | Mud, ice, loose scree, frostbite. Every charge roll this game requires a follow-up d6: on a 1, the charging figure trips. Their charge fails entirely (they don't reach the target) and they cannot attack or take any other action this turn. |
 | **Sacred Stone** | A standing stone or ancient marker is placed in the center of the table (impassable). A figure ending a turn in base contact with the stone gains +1 to their next morale check. Killing an enemy in base contact with the stone grants the killer +1 Renown (one-time, first such kill only). |
+| **Roving Hounds** | Roll 1d3 at deployment for the number of ownerless warhound figures on the table. Place them by alternating, each player placing one at a time, at least 8" from any deployment zone. They follow Pillage's masterless-warhound rules (FAQ p.80): each hound charges the closest figure of any side within 8" each turn. They never flee and never check morale. Killing a hound grants +1 Renown to the killing warband. |
 
 ### Force and Composition
 
@@ -560,7 +561,7 @@ A club meeting with 4 players. Saga Season, Two Sides Mode (Northmen vs Christen
 
 ## 9. TODO (v0.4)
 
-- [x] **Twist deck expanded to 24 cards in v0.3.** Categories: Weather (4), Timing and Reinforcements (6), Terrain (8), Force and Composition (4), Narrative (1), Composition (1). May still want to push to 30+ in v0.4 for richer multi-season play.
+- [x] **Twist deck expanded to 25 cards in v0.3.** Categories: Weather (4), Timing and Reinforcements (6), Terrain (9), Force and Composition (4), Narrative (1), Composition (1). May still want to push to 30+ in v0.4 for richer multi-season play.
 - [ ] Add 3 more Locations: Market Square, Henge, Frozen Lake. (15 in v0.3; aiming for 18 in v0.4.)
 - [ ] Add **multi-player Battle Types** for Feuds Mode club nights with odd numbers: a 3-player free-for-all and a 4-player team (2 vs 2).
 - [ ] Add faction-flavored Battle Types: a Viking longship raid that only Norse warbands can propose; a "Defend the Pilgrimage" only Christian warbands can defend; etc.
