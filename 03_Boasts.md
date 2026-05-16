@@ -45,61 +45,98 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 
 ---
 
-## 5. Sample Boasts (starter list, not final)
+## 5. The Deck (v0.3)
 
-Wording is provisional. Each card should specify trigger, Renown reward, tier, and whether it's multi-game.
+50 cards organized by tier. Each entry shows the trigger condition; Renown reward follows the tier (Common = 1, Bold = 2, Legendary = 3). A 🌙 icon marks a multi-game Boast (carries over until completed or discarded; occupies a permanent hand slot).
 
-### Use the unloved rules
+### Common (25 cards — 1 Renown each)
 
-- ***Mercyman*** (Common) — heal a friendly figure with a Healer this game.
-- ***Volley*** (Common) — kill at least one enemy with Volley Fire.
-- ***War-Dogs*** (Bold) — kill at least 2 enemies with warhounds in one game.
-- ***Hand of Hjalmar*** (Common) — successfully swim across water with at least one figure.
-- ***Sling Sing*** (Bold) — kill an FA figure with a sling.
-- ***Banner Battle*** (Bold) — slay the enemy banner-bearer.
-- ***Brave the Flames*** (Bold) — light a fire then escape the burning building alive (the figure that lit the fire must end the game alive and off the burning piece).
-- ***Reach for the Sky*** (Common) — successfully climb to a second storey of a building.
+| # | Name | Trigger |
+|---|---|---|
+| C01 | **Mercyman** | One of your Healers successfully heals a friendly figure during the game. |
+| C02 | **Volley** | At least one enemy figure is killed by your Volley Fire shot. |
+| C03 | **Hand of Hjalmar** | At least one of your figures successfully completes a swimming test during the game. |
+| C04 | **Reach for the Sky** | One of your figures climbs to a second storey of a building during the game. |
+| C05 | **Stand Fast** | A morale check made for one of your figures succeeds on a natural die roll of 6. |
+| C06 | **Cold Iron Only** | One of your figures wins a melee using an improvised-weapon attack as their final blow. |
+| C07 | **Odin's Eye** | One of your figures is killed by fire damage. (You *suffer* this. Odin paid for wisdom with an eye.) |
+| C08 | **The Quiet Death** | One of your figures kills an enemy when no other friendly figure is within 6" of the killer. |
+| C09 | **Drink the Mead** | Your Jarl is on the table and has lost no hit points at the end of the game. |
+| C10 | **Cavalry Glory** | One of your cavalry figures kills an enemy with a charging attack. |
+| C11 | **Spear of Reach** | One of your figures kills an enemy in a melee where a supporting spear's bonus contributed to the win. |
+| C12 | **Dogged Pursuit** | One of your figures catches and kills a Fleeing enemy figure. |
+| C13 | **Door-Burster** | One of your figures breaks down a fortified door during the game. |
+| C14 | **First Blood** | The first enemy figure killed in the game (across both warbands) is killed by one of your figures. |
+| C15 | **The Bowman's Pride** | One of your figures kills an enemy with a bow at long range (greater than half the bow's maximum range). |
+| C16 | **Single Combat** | One of your figures wins a melee against exactly one enemy figure, with no supporting attackers or defenders from either side, and no warhounds involved. |
+| C17 | **Defender's Right** | One of your figures, charged by an enemy, kills that enemy with either a closing shot or in the resulting melee. |
+| C18 | **The Quick Strike** | One of your figures kills an enemy during Turn 1 or Turn 2 of the game. |
+| C19 | **The Slow Burn** | One of your figures kills an enemy during Turn 6 or later of the game. |
+| C20 | **Hoof and Spear** | One of your figures kills an enemy cavalry figure's rider (not the horse). |
+| C21 | **A Pyre for the Dead** | Two or more buildings are burning on the table at the same time during the game, with the fires started by your figures. |
+| C22 | **The Captive Trail** | One of your figures ends the game with a captured prisoner in tow (a living being captured per Pillage's Seize Them rules, not a loot token). |
+| C23 | **Wedge of Steel** | At the end of any turn, you have 4 or more of your figures in a single Shieldwall formation. |
+| C24 | **Sworn Brothers** | At the end of the game, two of your Named Characters are in base-to-base contact and both still alive. They must not have started the game in contact. |
+| C25 | **The Slip Past** | One of your figures ends a turn within 8" of an enemy's table edge and is still on the table at the end of the next turn. |
 
-### Take the cinematic risk
+### Bold (18 cards — 2 Renown each)
 
-- ***Boast Fulfilled*** (Bold) — declare a charge on Turn 1 and survive it.
-- ***Rooftop Raider*** (Bold) — end a turn with a friendly figure on a building roof.
-- ***Stand Fast*** (Common) — pass a morale check on a natural 6.
-- ***Cold Iron Only*** (Common) — win a melee with an improvised-weapon attack.
-- ***No Shield, No Fear*** (Bold) — your Jarl wins a melee without a shield against a shielded opponent.
-- ***Bared Teeth*** (Bold) — survive a Berserker rampage with him still alive at game end.
-- ***Last Stand*** (Bold) — your Jarl is the last figure of your warband on the table for at least one full turn, and you don't rout that turn.
+| # | Name | Trigger |
+|---|---|---|
+| B01 | **War-Dogs** | Your warhounds kill at least 2 enemy figures during the game. |
+| B02 | **Sling Sing** | One of your figures kills an FA enemy with a sling shot. |
+| B03 | **Banner Battle** | One of your figures kills the enemy banner-bearer. |
+| B04 | **Brave the Flames** | One of your figures lights a fire and is still alive and off the burning piece of scenery at the end of the game. |
+| B05 | **Boast Fulfilled** | One of your figures declares and resolves a charge on Turn 1, and that figure is still alive at the end of Turn 1. |
+| B06 | **Rooftop Raider** | At the end of any turn, one of your figures is on a building's roof (top storey, exterior surface). |
+| B07 | **No Shield, No Fear** | Your Jarl wins a melee without a shield, against an opponent who has a shield. |
+| B08 | **Bared Teeth** | A Berserker in your warband enters his rage state during the game and is still alive at the end of the game. |
+| B09 | **Last Stand** | At the end of any turn, your Jarl is the last figure of your warband on the table, and your warband does not rout that turn. |
+| B10 | **Skull-Splitter** | One of your figures kills an enemy Chieftain with a single melee hit (the Chieftain went from full HP to 0 in one strike). |
+| B11 | **Mercy Sells** | One of your figures captures an enemy figure alive (per the prisoner rules) and walks them off your own table edge during the game. |
+| B12 | **Last Laugh** | One of your figures, in the same turn as they take their killing blow, kills an enemy figure in the resolving melee. |
+| B13 | **Ravens' Choice** | Your warband inflicts 6 or more casualties on the enemy during the game (Down figures count). |
+| B14 | **Reaver's Hoard** | One of your figures personally carries 3 loot tokens off your own table edge during the game. |
+| B15 | **Defy the Wall** | One of your figures kills a member of an enemy Shieldwall such that the wall is broken (fewer than the required members remain). |
+| B16 | **Pushed Off** | Using the Push Back rule, one of your figures pushes an enemy off the edge of an elevated piece of scenery (slope, ship rail, building edge, cliff). |
+| B17 | **Reckless Glory** | Your Jarl is engaged in a melee with 3 or more enemy figures simultaneously, and is still alive at the end of that turn. |
+| B18 | **The Lone Wolf** | One of your figures kills 2 or more enemy figures during the game, and at the moment of each kill is more than 8" from any other friendly figure. |
 
-### Norse flavor / sagas in the making
+### Legendary (7 cards — 3 Renown each)
 
-- ***Slayer of Jarls*** (Legendary, multi-game) — your Jarl personally kills the enemy Jarl. Creates a Relic on completion (a unique sword named for the slain Jarl).
-- ***Skull-Splitter*** (Bold) — kill a Chieftain in melee with a single hit.
-- ***Mercy Sells*** (Bold) — capture a prisoner alive and walk them off your edge.
-- ***Last Laugh*** (Bold) — kill an enemy with your figure's final action before dying.
-- ***Ravens' Choice*** (Bold) — cause 6+ enemy casualties in one game.
-- ***Reaver's Hoard*** (Bold) — personally carry 3 loot off the table with one figure.
-- ***Odin's Eye*** (Common) — lose a figure to fire damage. (Yes, *suffer* this; Odin paid for wisdom with an eye.)
-- ***One Against Many*** (Legendary) — your Jarl ends a turn in melee against 3+ enemies and survives.
-- ***Threefold Saga*** (Legendary, multi-game) — one named warrior kills 3+ enemies in one game.
-- ***The Quiet Death*** (Common) — kill an enemy with no friendly figures within 6".
-- ***Drink the Mead*** (Common) — end the game with your Jarl unwounded.
-- ***Blood Eagle*** (Legendary) — execute a captured enemy Jarl. Generates Bitter Enmity from the victim's warband.
-
-### Encourage interesting combat choices
-
-- ***Cavalry Glory*** (Common) — kill an enemy with a charging cavalry attack.
-- ***Spear of Reach*** (Common) — kill an enemy in melee using a supporting spear bonus.
-- ***Defy the Wall*** (Bold) — break an enemy shieldwall by killing one of its members.
-- ***Dogged Pursuit*** (Common) — catch and kill a Fleeing enemy figure.
-- ***Door-Burster*** (Common) — be the figure who breaks down a fortified door.
-- ***Pushed Off*** (Bold) — push an enemy off a slope, ship, or elevation using the Push Back rule.
+| # | Name | Trigger | Side effect |
+|---|---|---|---|
+| L01 | **Slayer of Jarls** 🌙 | Your Jarl personally kills the enemy Jarl in melee (your Jarl strikes the killing blow). | Generates a Relic: a unique sword named after the slain Jarl (e.g., "Aelfric's Bane"). The Jarl who killed becomes its starting wielder. |
+| L02 | **One Against Many** | At the end of any turn, your Jarl is in melee with 3 or more enemy figures and has lost no hit points that turn. | None. |
+| L03 | **Threefold Saga** 🌙 | One specific Named Character of your choice (declared when this Boast is drawn) kills 3 or more enemy figures in a single game. | None. |
+| L04 | **Blood Eagle** | In the post-game Ransom step, you execute a captured enemy Jarl (refuse all ransom). | Generates Bitter Enmity on the victim's warband against your warband's killer. (See Saga Injury Table.) |
+| L05 | **Hall of the Fallen** | One specific Named Character of yours kills 2 or more enemy Named Characters in a single game. | None. |
+| L06 | **Saga of Survival** 🌙 | Your Jarl participates in 3 consecutive battles without going Down (no Saga Injury roll in any of the 3). | None. |
+| L07 | **The Wyrd-Marked** | Your Jarl is the last figure of your warband on the table, AND you still achieve the scenario's primary victory condition (carry the loot off, capture the objective, etc.) before the game ends. | None. |
 
 ---
 
-## 6. TODO
+## 6. Edge cases and rulings
 
-- [ ] Expand to a v0.1 deck of about 50 cards: 25 Common, 17-18 Bold, 7-8 Legendary.
-- [ ] Add Multi-game Boast iconography and rules text to each multi-game card.
-- [ ] Edge-case rulings: what counts as "single combat" for *Slayer of Jarls*? What counts as the figure "lighting" a fire for *Brave the Flames*? Each card needs a small ruling note.
-- [ ] Card layout: name, tier, trigger, Renown reward, multi-game flag, flavor text.
-- [ ] Decide deck print format: index cards, poker cards, or printable PDF.
+- **"Killed by your figures"** means your figure made the killing roll (the wound that took the target to 0 HP), regardless of supports or warhounds nearby.
+- **Multi-game Boasts 🌙** stay in the player's hand between battles until completed or actively discarded (which counts as the player's once-per-game mulligan for that battle's standard draw). A multi-game Boast does not block the standard draw; it just occupies one of the 2 hand slots.
+- **Slayer of Jarls (L01)** generates a Relic only on the first completion in the campaign. If completed again later, award the Renown but no second Relic.
+- **Saga of Survival (L06)** resets if your Jarl ever goes Down during the streak. The 3 consecutive battles must include at least one battle where the Jarl was deployed and actively in danger (a battle the Jarl sat out doesn't count toward the streak).
+- **Threefold Saga (L03) and Hall of the Fallen (L05)** require declaring which Named Character is the target when the Boast is drawn. The named character is locked in for the duration of the Boast.
+- **One Against Many (L02), Last Stand (B09), Wyrd-Marked (L07)** all require the same character (your Jarl) to be in specific situations. A single game can complete multiple of these at once if the conditions overlap. Award Renown for each.
+- **Sworn Brothers (C24)** requires the two Named Characters to be alive at the moment of game end, not just that they survived a previous turn. If both die on the last turn, the Boast fails.
+- **First Blood (C14)** triggers only when the very first enemy is killed. If your opponent's figure dies first (to your hand), the Boast completes. If your figure dies first, the Boast fails (cannot be re-attempted later in the game).
+- **Defender's Right (C17)** does not trigger if the enemy charging your figure rolled a failed charge (didn't reach). The enemy must successfully contact your figure with their charge.
+- **A Pyre for the Dead (C21)** requires 2 buildings simultaneously burning at any moment. Buildings that have burned out (per scenario rules, if used) and are extinguished do not count.
+- **Hall of the Fallen (L05) versus Slayer of Jarls (L01)** can overlap. If a single Named Character kills both a Huscarl and the Jarl in the same game, both Boasts trigger.
+
+---
+
+## 7. TODO (v0.4)
+
+- [ ] Playtest balance pass on Renown rewards. Some Bold cards may be Common-difficulty; some Common cards may be Bold-difficulty in practice.
+- [ ] Add 5-10 Holdings Mode-specific Boasts that only trigger when battling for a specific Holding type (e.g., "Burn the Monastery's altar," "Carry the King's banner off a captured port").
+- [ ] Add 5-10 faction-flavored Boasts (Viking-only, Christian-only, Pict-only, etc.) that emphasize each faction's identity.
+- [ ] Decide card production format: index cards (cheap, easy), poker-sized printable PDF (medium effort, looks nice), or commercial print run (later).
+- [ ] Numbering scheme C/B/L is for design tracking. Final cards may not show these prefixes.
+- [ ] Consider a "Boast Index" Renown spend: pay 1 Renown to look at the top 5 cards of the deck and pick 1. Lets players hunt for specific Boasts they want.

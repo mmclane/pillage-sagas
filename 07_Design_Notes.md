@@ -20,7 +20,6 @@ Tracked here so we don't lose threads. Resolved items move to the **Decisions Ma
 
 - [ ] **Boast claim**: public-on-trigger (current default, recommended) vs. fully secret until game end?
 - [ ] **Hand size**: 1 active (recommended) vs. 2 vs. 3?
-- [ ] **v0.1 deck size**: 50 cards before first playtest?
 
 ### XP and Talents
 
@@ -65,6 +64,7 @@ Once an open question is settled, move it here with a brief note on the resoluti
 - **Lasting Injury follow-up rolls → only for Death's Door (slot 4) and Infection (slot 8).** Both follow chronic-condition mechanics (d6 per post-game). All other permanent results are simply permanent; no follow-up roll required. Keeps bookkeeping minimal.
 - **Healer mitigation → re-roll one Injury per battle if the warband's Healer survived.** Trades the Healer's tactical impact (in-game healing) for strategic insurance (post-game injury insurance).
 - **Feast and Wise Woman bonuses to chronic conditions.** Both grant +1 to the next d6 recovery roll on Death's Door or Infection. Gives players ways to nurse a beloved character back from the brink.
+- **Boast deck size for first playtest → 50 cards.** Split: 25 Common (1 Renown), 18 Bold (2 Renown), 7 Legendary (3 Renown). Three Legendary cards are multi-game 🌙. Faction-flavored and Holdings-specific Boasts deferred to v0.4.
 - **Saga Roll mitigation → 1 Renown per season to re-roll once.** Gives some agency over bad luck without softening the table. Wyrd is Cruel (slots 70-71) ignores this protection by design.
 - **Soubriquet trigger threshold → major victory** = win + (50%+ casualty differential OR Legendary Boast OR killed/captured enemy Chieftain). Multiple trigger paths so the system doesn't favor only kill-heavy playstyles.
 - **Soubriquet stacking → max 2 per character.** A third forces the player to drop one. Keeps names readable.
