@@ -43,9 +43,12 @@ Tracked here so we don't lose threads. Resolved items move to the **Decisions Ma
 
 ### Scenarios
 
-- [ ] **Asymmetric raid scenarios**: how heavily do we lean on them vs. balanced fights?
-- [ ] **Scenario Deck composition**: equal probability, weighted, or hand-picked?
-- [ ] **Draw mechanic**: random shuffle, weighted random, or player picks from hand?
+*(Architectural shift in v0.3 — see Decisions Made. Open questions for v0.4:)*
+- [ ] **Twist Deck size**: 15 in v0.3 is minimal; expand to ~25 in v0.4?
+- [ ] **Twist draw vs open-pick**: v0.3 draws 2 keeps 1; v0.4 may switch to open-pick from the full Twist list.
+- [ ] **Holdings yield cadence**: per post-game (fast clubs) vs per Winter (longer arcs)? Recommended: per post-game default, organiser can switch.
+- [ ] **Multi-player Battle Types**: 3-player free-for-all and 2v2 team Battle Types for odd club counts.
+- [ ] **Faction-flavored Battle Types**: longship raids for Norse only, defend-the-pilgrimage for Christians only.
 
 ### Soubriquets
 
@@ -67,6 +70,10 @@ Once an open question is settled, move it here with a brief note on the resoluti
 - **Boast deck size for first playtest → 50 cards.** Split: 25 Common (1 Renown), 18 Bold (2 Renown), 7 Legendary (3 Renown). Three Legendary cards are multi-game 🌙. Faction-flavored and Holdings-specific Boasts deferred to v0.4.
 - **Saga Advancement Table → five-path open-choice menu.** Talents (1-8 XP, max 2, gated by Chieftain) + Skills (2-3 XP, max 4) + Stat Improvements (5 XP, capped +2 cumulative per stat) + Named-Weapon Unlocks (3 XP, max 1) + Personal Sagas (4 XP, max 1). 25 Skills across 6 sub-categories, 3 Stat Improvements, 6 Named-Weapon Unlocks, 10 Personal Sagas. Open-choice for v0.3 (Mordheim-style draw-from-deck deferred to v0.4).
 - **Personal Sagas as passive Renown generators.** Each character can hold 1 for life, generating +1 (sometimes +2) Renown per game when their trigger fires. Encourages thematic play (Wave-Rider for sea raids, Foe-Stalker for elite hunting, Ash-Faced for arsonists) without forcing it.
+- **Scenario system → composition, not deck.** Major architectural shift in v0.3. Inspired by Blood Eagle's scenario × complication × landscape model. Each battle is composed: one player proposes a Battle Type + role, the other accepts (clean / with a Twist / counter-proposes / refuses), then weather is rolled. Doubles as the pairing mechanism for a club meeting.
+- **Battle Types grant thematic rewards beyond loot.** Five reward categories: Plunder (gp), Glory (Renown + Soubriquet), Holding (passive yield), Relic, Tribute. 12 Battle Types for v0.3.
+- **No campaign map.** Holdings are abstract named places in each warband's portfolio, won through specific Battle Types. Each player may hold at most one of each Holding type. Holdings count toward individual Renown (Feuds Mode) or side Renown (Two Sides Mode).
+- **Refusing a challenge → -1 Renown + cannot be targeted until the refuser proposes.** Discourages camp-and-grind play; rewards aggressive proposals.
 - **Saga Roll mitigation → 1 Renown per season to re-roll once.** Gives some agency over bad luck without softening the table. Wyrd is Cruel (slots 70-71) ignores this protection by design.
 - **Soubriquet trigger threshold → major victory** = win + (50%+ casualty differential OR Legendary Boast OR killed/captured enemy Chieftain). Multiple trigger paths so the system doesn't favor only kill-heavy playstyles.
 - **Soubriquet stacking → max 2 per character.** A third forces the player to drop one. Keeps names readable.
@@ -100,4 +107,4 @@ Stated explicitly so future revisions can check against them.
 4. **The bench matters.** Named Characters other than the Jarl should be worth investing in. Talents-as-XP-rewards is the keystone mechanic here.
 5. **Renown is the carrot, not the stick.** Players who fall behind on Renown should still feel like they're in their own saga. The system never crushes a player; it just rewards another more.
 6. **Bookkeeping budget is small.** A player should be able to update their warband sheet in 10 minutes after a battle. If the post-game sequence creeps over 15 minutes, simplify.
-7. **The scenario deck does the heavy lifting.** Most campaign flavor comes from the variety of battles, not from the meta-game. A great Scenario Deck makes a passable engine sing.
+7. **The scenarios do the heavy lifting.** Most campaign flavor comes from the variety of battles, not from the meta-game. The scenario composition system (propose / twist / weather) plus a rich Battle Type catalog with distinct rewards makes the engine sing.

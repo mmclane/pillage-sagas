@@ -26,13 +26,11 @@ Each player runs an independent warband. Pairings each round are random, chosen,
 
 Warbands are split into two loose coalitions at campaign start (Northmen vs Christendom is the obvious theme, but any two-side narrative works). All scheduled battles are cross-side. Side-aggregate Renown decides a **Season Victory**, and within the winning side an individual **Champion** is named. Within each side, individuals still compete on personal Renown.
 
-### 2c. Holdings Mode (carve-out-an-area, no map)
+### 2c. Holdings are universal, not a separate mode
 
-A shared pool of about 12 to 16 named **Holdings** sits in play at campaign start. Each Holding has a *type* (monastery, port, hall, village, henge, watchtower) and a *prestige value*. Players claim Holdings by winning specific scenarios; held Holdings provide passive income (gp) and Renown each Winter, but make their holder a target. Rivals may attack to flip them. Whoever owns the most Holding-prestige at season's end wins.
+Both Feuds Mode and Two Sides Mode include **Holdings** — abstract named places a warband wins through specific Battle Types. There is no campaign map; Holdings are won, named, and held in each warband's portfolio. See [05_Scenarios.md §5](05_Scenarios.md) for the full mechanic. Holdings are won during the season (no pre-seeding at campaign start) and grant passive yield (gp and/or Renown) per Winter or per post-game.
 
-### 2d. Hybrid
-
-Sides Mode and Holdings Mode combine well. Two coalitions claim Holdings collectively while individuals within each side compete for personal glory.
+In Feuds Mode, Holdings count toward individual Renown. In Two Sides Mode, Holdings count toward side Renown for season-end victory, but remain personal property of the warband that won them.
 
 ---
 
@@ -77,7 +75,7 @@ A season is a sequence of **6 to 8 battles**, ending with a **Grand Finale**. Th
 
 | Phase | Cadence | What happens |
 |---|---|---|
-| **Raid** | One per club meeting (or per week) | A single Pillage battle drawn from the Scenario Deck. Post-game sequence resolved after each. |
+| **Raid** | One per club meeting (or per week) | A single Pillage battle composed via the proposal/accept/twist procedure (see [05_Scenarios.md](05_Scenarios.md)). Post-game sequence resolved after each. |
 | **Annual Event** | Every 2 or 3 raids | A campaign-wide card fires: plague, hard winter, mercenary contingent arrives, a famous skald visits, etc. Affects every warband at once. |
 | **Grand Finale** | Season's final battle | All players field their full Treasury and Roster in one battle (Sides Mode: coalition battle; Feuds Mode: multi-player free-for-all). Renown bonuses for victory. |
 
@@ -111,5 +109,5 @@ After every battle, resolve in order. Skip any step that doesn't apply.
 8. **Recruit and Re-equip.** Spend gp on replacement warriors, new equipment, Stores. Hire specialists.
 9. **Advancement.** XP-eligible Named Characters spend XP per [02_XP_and_Advancement.md](02_XP_and_Advancement.md).
 10. **Reputation Check.** Players whose victory margin was wide enough (TBD threshold) roll on the **Soubriquet Table** ([06_Tables.md](06_Tables.md)) for a new epithet. Victors may also assign unflattering soubriquets to losers.
-11. **Holdings Updates** (Holdings Mode only). Flip control of any contested Holdings; pay tribute or Renown income from Holdings still held.
+11. **Holdings Updates.** Pay yield (gp + Renown) from any Holdings still held (per [05_Scenarios.md §5](05_Scenarios.md)). If this battle contested a Holding, resolve the change of control.
 12. **Draw Next Boasts.** Each player draws 2 and keeps 1 (carried-over multi-game Boasts stay; see [03_Boasts.md](03_Boasts.md)).
