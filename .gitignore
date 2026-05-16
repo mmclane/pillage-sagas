@@ -1,0 +1,14 @@
+# Source materials (commercial PDFs and rule extracts)
+# Replace with your own copies of the original rulebooks for design reference.
+Sources/
+
+# OS-generated files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
