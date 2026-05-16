@@ -76,17 +76,167 @@ If the player has no Named Characters left, they must spend gp from the Treasury
 
 ---
 
-## 7. The Saga Advancement Table (broader than Talents)
+## 7. The Saga Advancement Table
 
-The Advancement step covers more than Talents. A character with XP to spend chooses from:
+The Advancement step (post-game step 9) is where Named Characters spend XP. Five paths are available. A character may spend XP across multiple paths between battles as long as their accumulated XP supports it.
 
-- **A Talent** (per §3-4 above).
-- **An individual skill** that affects only this character (re-roll one defence per game, +1 to fire rolls, etc.). XP cost: 2-3.
-- **A named-weapon unlock** (this Huscarl may carry a Dane Axe permanently even if normally not in this faction's roster). XP cost: 3.
-- **A stat improvement** (+1 HP, +1" movement). XP cost: 4-5.
-- **A personal Saga** (this character gains a permanent personal Boast that earns Renown each game they survive). XP cost: 4.
+### Summary of paths
 
-> **TODO (v0.2):** Build out the full Saga Advancement Table with all options listed and XP costs balanced.
+| Path | XP cost | Cap per character | Notes |
+|---|---|---|---|
+| **Talents** | 1–8 (per gp/10 conversion in §3) | 2 Talents | Only fires when this character is Chieftain |
+| **Skills** | 2–3 each | 4 Skills | Always active for the character |
+| **Stat Improvements** | 5 each | +2 cumulative per stat from ALL sources | Permanent |
+| **Named-Weapon Unlocks** | 3 each | 1 per character | Grants access to a weapon outside faction list |
+| **Personal Sagas** | 4 each | 1 per character | Permanent passive Renown generator |
+
+Total absolute cap per character: 2 Talents + 4 Skills + 3 Stat Improvements (one of each stat) + 1 Named-Weapon Unlock + 1 Personal Saga = 11 advancements. A character earning 3 XP per battle over a 7-battle season earns 21 XP, enough for maybe 5-7 advancements in practice. The hard cap exists to prevent runaway optimization on a single character who survives many seasons.
+
+---
+
+### Path B: Skills
+
+Skills are permanent traits attached to a specific Named Character. They activate whenever the character is on the table, regardless of whether they're Chieftain. Each character may hold up to **4 Skills**.
+
+#### Combat — Melee (2 XP each)
+
+| Skill | Effect |
+|---|---|
+| **Quick Strike** | Once per game, this character may re-roll one failed melee hit roll. |
+| **Iron Stance** | Once per game, this character may re-roll one failed defence roll. |
+| **Backswing** | When fighting with a hand weapon, +1 to all melee hit rolls. |
+| **Beast-Bane** | +1 to melee hit rolls against cavalry figures (rider). |
+| **Wall-Breaker** | +1 to melee hit rolls against figures currently in a Shieldwall. |
+| **Spear-Wise** | When supporting an ally with a spear, the supported ally gains +1 to their melee hit roll (in addition to the support bonus). |
+| **Two-Fisted** | If this character is equipped with two hand weapons (paying gp for both), they make +1 attack in melee. |
+
+#### Combat — Ranged (2 XP each)
+
+| Skill | Effect |
+|---|---|
+| **Eagle Eye** | +1 to ranged hit rolls at long range. |
+| **Steady Aim** | Ignore the -1 penalty for moving and shooting in the same turn. |
+| **Volley Leader** | When within 3" of 2 or more friendly archers, +1 to ranged hit rolls. |
+| **Pin-Point** | +1 to ranged hit rolls against FA figures. |
+
+#### Defence and Survival (2 XP each)
+
+| Skill | Effect |
+|---|---|
+| **Step Aside** | When targeted by a closing shot, the shooter takes an additional -1 penalty. |
+| **Bone Density** | Once per game, re-roll one failed defence roll against a ranged attack. |
+| **Stoic** | This character passes morale checks on a 1 (treat 1 as Stoic, not Rout). |
+| **Berserker's Echo** | While engaged in melee, this character grants the Inspiring trait to friendlies within 4" (+1 morale). |
+
+#### Movement and Positioning (2 XP each)
+
+| Skill | Effect |
+|---|---|
+| **Sure-Footed** | This character ignores the movement penalty for difficult terrain (treat as normal terrain). |
+| **Climber** | Once per game, re-roll a failed climbing or rail-crossing roll. |
+| **Strong Swimmer** | +2 to swimming rolls. |
+
+#### Leadership and Aura (3 XP each)
+
+| Skill | Effect |
+|---|---|
+| **Inspiring Voice** | Friendly figures within 4" gain +1 to morale checks (stacks with banners and other auras). |
+| **Wolf-Rallier** | Friendly figures within 3" may re-roll one Fleeing roll per game. |
+| **Banner-Pull** | If this character is the banner-bearer, the banner's effective range increases by 2". |
+| **Cool Head** | If this character is the Jarl, your warband's initiative rolls may re-roll on a result of 1 (once per game). |
+
+#### Tactical and Utility (3 XP each)
+
+| Skill | Effect |
+|---|---|
+| **Hunter's Mark** | At the start of any turn, declare one enemy figure as Marked. Until end of turn, +1 to all your warband's hit rolls against the Marked figure. Once per game. |
+| **Quartermaster** | If this character deploys, your warband may field 4 Stores this battle instead of 3. |
+| **Looter** | This character may carry up to 4 loot tokens instead of 3. |
+| **Skald's Ear** | Boasts that triggered on a previous turn may be claimed retroactively, but only until the end of the turn following the trigger. (Mitigates the "forgot to call it" problem.) |
+
+---
+
+### Path C: Stat Improvements (5 XP each)
+
+Permanent stat bumps. Capped at **+2 cumulative per stat from ALL sources** (Talents, Skills, Stat Improvements, Saga Injury Table, Relics — anything).
+
+| Improvement | Effect |
+|---|---|
+| **Iron-Bodied** | +1 maximum HP. May be taken twice (max +2). |
+| **Long Strides** | +1" maximum movement. May be taken twice (max +2). |
+| **Eagle-Wing** | This character's ranged weapons gain +2" maximum range. May be taken once. |
+
+Stat caps with sample stacking:
+- Iron-Bodied + Force of Nature Talent → +2 HP total (cap).
+- Iron-Bodied twice → +2 HP total (cap).
+- Long Strides + Hunter Talent → effective +1" from Long Strides (Hunter Talent affects terrain, not raw movement, so they stack without hitting the cap).
+
+---
+
+### Path D: Named-Weapon Unlocks (3 XP each)
+
+Each character may take **1 Named-Weapon Unlock**, which permanently grants the ability to wield a weapon outside their faction's standard equipment list. The character pays standard gp cost for the weapon, but can now equip it where they couldn't before. Once unlocked, the weapon is bound to this specific character — it doesn't transfer to others in the warband.
+
+| Unlock | Effect |
+|---|---|
+| **Dane Axe Mastery** | This character may equip a Dane Axe at standard gp cost, regardless of their faction's normal access. |
+| **Heavy Bow** | This character may equip a Bow at standard gp cost, regardless of their faction's normal access. |
+| **Hasta Drill** | This character may equip a Hasta (per Fall of Rome rules) at standard gp cost. |
+| **Lance-Drilled** | This character (if cavalry) may equip a Kontos at standard gp cost. |
+| **Crossbow Drill** | This character may equip a Crossbow at standard gp cost. |
+| **Sling Mastery** | This character may equip a Sling at standard gp cost AND ignore the long-range penalty when shooting with it. |
+
+> Faction restriction note: Healers, Banner-bearers, and Wagon crew may not take Named-Weapon Unlocks. They're noncombatants.
+
+---
+
+### Path E: Personal Sagas (4 XP each)
+
+A Personal Saga is a passive Renown generator that fires whenever the character meets a specific condition during a battle. Each character may hold **1 Personal Saga** for life. The saga sticks to that character's name in the saga journal.
+
+| Saga | Trigger | Renown |
+|---|---|---|
+| **The Wave-Rider** | This character ends the game adjacent to a ship, or having crossed water during the game. | +1 per game |
+| **The Foe-Stalker** | This character personally kills an enemy Named Character. | +1 per kill, max +2 per game |
+| **The Berserker's Friend** | A Berserker in your warband enters rage state during the game and is still alive at the end. | +1 per game |
+| **The Saga-Voice** | This character is on the table when your warband completes any Boast. | +1 per game |
+| **The Ash-Faced** | This character personally lights a fire that damages or kills at least one enemy figure. | +1 per game |
+| **The Sword-Keeper** | This character is wielding a Relic at the start of the game AND that Relic is still in your warband's possession at game end. | +1 per game |
+| **The Hearth-Loyal** | This character ends the game alive AND your Jarl ended the game alive AND you are still in contact with your Jarl. | +1 per game |
+| **The Spear-Famed** | This character kills an enemy with a spear's supporting bonus contributing to the killing roll. | +1 per game |
+| **The Pyre-Lighter** | This character causes at least 2 enemy casualties via fire (directly or by structures they ignited). | +2 per game |
+| **The Sun-Standard** | This character is your banner-bearer AND ends the game on the table with the banner still in your warband's possession. | +1 per game |
+
+> **Open design question (v0.4):** Personal Sagas are deliberately "always-on" passive abilities. Should there be a more powerful tier of "Legendary Saga" earned via XP later in the campaign (e.g., 8 XP, unlocks at level 2 of seasoning), like the legendary unlocks in Mordheim?
+
+---
+
+### How XP gets spent — example progression
+
+A Huscarl named Ulf participates in his warband's first 4 battles. Over those battles he earns:
+
+- Battle 1: deployed, killed 2 enemies, including a Named Berserker (1 + 1 + 2 = 4 XP)
+- Battle 2: deployed, killed 1 enemy, was wounded but survived (1 + 1 + 1 = 3 XP)
+- Battle 3: deployed, killed 0 enemies, was wounded but survived (1 + 1 = 2 XP)
+- Battle 4: deployed, killed 1 enemy, Chieftain in a winning battle if he had been promoted... but he's a Huscarl, so just (1 + 1 = 2 XP)
+
+Total: 11 XP. Possible spends:
+
+- **Quick Strike** (Skill, 2 XP) + **Long Strides** (Stat, 5 XP) + **The Wave-Rider** (Personal Saga, 4 XP) = 11 XP, fully spent.
+- Or: **Force of Nature** Talent (3 XP) + **Quick Strike** (2 XP) + **Iron Stance** (2 XP) + **Sure-Footed** (2 XP) = 9 XP, banking 2.
+- Or: **Long Strides** (5 XP) + **Dane Axe Mastery** (3 XP) + **Pin-Point** (2 XP) = 10 XP, banking 1.
+
+Ulf's growth shape is the player's choice. A Talent-focused Ulf is grooming for succession to Jarl. A Skill-focused Ulf is becoming a battlefield monster regardless of rank.
+
+---
+
+### TODO (v0.4)
+
+- [ ] Playtest balance pass. Some Skills (Backswing, Eagle Eye) are strictly better than equivalent Talents and may be undercosted.
+- [ ] Faction-specific Personal Sagas (Viking-only, Christian-only).
+- [ ] Berserker- and Healer-specific Skills and Sagas (currently the path B–E options are largely Chieftain/Huscarl flavored).
+- [ ] Decide whether Advancement options should be drawn from a deck (Mordheim-style rare-find flavor) or chosen openly (current default).
+- [ ] Consider adding a "Forgo Advancement" option: spend 3 XP to gain +1 Renown directly for the warband. Gives a low-floor exit for XP that can't find a home.
 
 ---
 
