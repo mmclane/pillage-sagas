@@ -384,7 +384,7 @@ Aelfric responds: "Counter-amend. I want the budgets at 600 gp each instead of 7
 
 ## 4. Locations
 
-15 Locations for v0.3. Each Location sets the table's base terrain and applies a light mechanical effect for the duration of the battle. The challenger picks the Location at proposal time; the acceptor may swap it via the *Change Venue* Twist.
+18 Locations. Each Location sets the table's base terrain and applies a light mechanical effect for the duration of the battle. The challenger picks the Location at proposal time; the acceptor may swap it via the *Change Venue* Twist.
 
 A Location's terrain rules apply throughout the battle unless overridden by a Twist (e.g., *Burning Building* still adds a fire to whatever Location is chosen).
 
@@ -415,6 +415,7 @@ A Location's terrain rules apply throughout the battle unless overridden by a Tw
 | **Monastery Grounds** | 1 large chapel + 3-4 smaller buildings (dorms, kitchen, scriptorium) + low garden walls. | The chapel always contains a relic-search opportunity (per Pillage's search rules). All buildings are flammable. Civilian non-combatants may be added by the defender as flavor. | Sack the Monastery, Pilgrimage |
 | **Hall Compound** | 1 great hall + 2-3 outbuildings (barn, byre, sheds) + low palisade wall around the compound. | The palisade counts as a passable obstacle (2" of movement to cross). The defender deploys inside the compound. | Sack the Hall, Rescue the Hostage |
 | **Stone Keep** | 1 fortified stone keep dominating the table + outer wall + small courtyard with 1-2 outbuildings. | The keep is a fortified building (per Pillage's special building rules — fire ignites on 7+, doors must be broken). The outer wall is high (passable only by ladders or dangerous climb). | Storm the Keep |
+| **Market Square** | A market square at the center, roughly 16" wide. Within it: 4 market stalls placed by alternating between players, with a well at the center. 1-2 small buildings around the edges of the square. The square itself is open ground. | Stalls follow Pillage's Hecatomb supplement rules — a figure in base contact may throw barrels (range 6", strength roll), grain sacks (range 4", knockdown on hit), or use the stall as a one-shot sling (per Pillage's sling rules, once per game per stall). The well allows one figure at a time to take refuge inside (per Hecatomb rules: out of action one turn, returns next). Closing shots within the market take an additional -1 penalty due to crowded stalls. | Pillage Town (small-scale market raid), Rival Warband Feud, Hecatomb's Market Brawl scenario |
 
 ### Special
 
@@ -422,6 +423,8 @@ A Location's terrain rules apply throughout the battle unless overridden by a Tw
 |---|---|---|---|
 | **Bridge** | A river bisects the table; 1 main bridge + 0-1 smaller bridges. Steep banks. | Most figures cross via the bridge(s); swimming is possible but bank climbing counts as a passable obstacle. A narrow bridge limits combat to 1-3 figures abreast (player agreement on bridge width). | Pillage Town (coastal raid), Pitched Battle, Storm the Keep (Stamford Bridge style) |
 | **Longship Boarding** | Two longships are lashed rail-to-rail in open water, forming a continuous fighting platform. Each ship is approximately 24" long and 6" wide. The deck counts as difficult terrain (per Pillage's ship rules). Water surrounds the ships entirely. | Cavalry may not be deployed. Per Pillage's naval combat rules: the rails between the two ships count as a single passable obstacle (2" of movement to cross), and figures may charge across. Figures pushed off (per Push Back rule) fall overboard — apply Pillage's swimming rules (figures in armor face significant risk). Loot tokens may be placed on enemy deck or below decks. Fire on a ship spreads at +1 to the roll (the timbers are tarred). | Saga Duel, Rival Warband Feud, Defend the Longship (boarding variant), Pillage Town (interception at sea) |
+| **Henge** | A circle of 6-8 standing stones at the center of the table, forming a ring roughly 8" in diameter. The stones are impassable. The interior of the circle is sacred ground. Beyond the circle, the table is open ground or lightly wooded. | A figure ending a turn within the henge circle gains +1 to their next morale check (the gods favor the bold). Killing a figure within the henge: the killer gains +1 Renown (one-time, the first such kill in the battle); the slain figure's warband loses 1 Renown (sacrilege witnessed). Fires cannot be started or spread within the henge (the gods protect their site). | Saga Duel, Rival Warband Feud, Sack the Monastery (a monastery built atop a henge for Pagan/Christian tension), Pilgrimage variants |
+| **Frozen Lake** | Half to two-thirds of the table is a frozen lake or wide river surface. Snow drifts at the edges. 1-2 small islands of stable ground in the middle (each 4" wide). Reeds and brush at the shore edges. | Weather is automatically **Snow** for the duration (overrides weather roll). Figures moving on the ice roll d6 each turn they move (regardless of distance): on a 1, they break through the ice. A figure who breaks through is Down and counts as fallen into water (per Pillage's swimming rules — armored figures may be killed). Cavalry takes greater risk: breaks through on 1-2; on a break-through, the rider may dismount and the horse rolls d6 separately (horse drowns on 1-3, escapes on 4-6). Fires cannot be started on the ice. The stable islands behave as normal ground. | Pitched Battle (atmospheric winter clash), Defend the Longship (the ship is frozen in), Rival Warband Feud, Sack the Monastery (winter raid on a frozen lake monastery) |
 
 ### Notes
 
@@ -429,7 +432,7 @@ A Location's terrain rules apply throughout the battle unless overridden by a Tw
 - Each player may, before the campaign starts, ban one Location from their personal battles (e.g., "I don't have terrain for a Stone Keep yet"). Bans are mutual: if either player has banned a Location, it can't appear in their battles.
 - Pillage's core scenarios that called for specific terrain (Stamford Bridge, Sack of Saint Lunaire, etc.) map naturally onto specific Locations; players may use those scenarios' published terrain layouts when matching Battle Types and Locations.
 
-> **TODO (v0.4):** Add Market Square (a Hecatomb-style standalone marketplace), Henge (sacred stone circle with single-shot effects), and Frozen Lake (figures break through ice on a 1) — three Locations cut from v0.3 for scope.
+> **Note:** Market Square, Henge, and Frozen Lake (the three stretch Locations originally cut from v0.3) are now included in the catalog above.
 
 ---
 
@@ -562,7 +565,7 @@ A club meeting with 4 players. Saga Season, Two Sides Mode (Northmen vs Christen
 ## 9. TODO (v0.4)
 
 - [x] **Twist deck expanded to 25 cards in v0.3.** Categories: Weather (4), Timing and Reinforcements (6), Terrain (9), Force and Composition (4), Narrative (1), Composition (1). May still want to push to 30+ in v0.4 for richer multi-season play.
-- [ ] Add 3 more Locations: Market Square, Henge, Frozen Lake. (15 in v0.3; aiming for 18 in v0.4.)
+- [x] **Added Market Square, Henge, and Frozen Lake.** Catalog now at 18 Locations.
 - [ ] Add **multi-player Battle Types** for Feuds Mode club nights with odd numbers: a 3-player free-for-all and a 4-player team (2 vs 2).
 - [ ] Add faction-flavored Battle Types: a Viking longship raid that only Norse warbands can propose; a "Defend the Pilgrimage" only Christian warbands can defend; etc.
 - [x] **Battle Type detail completed in v0.3 (each Battle Type has force balance, turn limit, deployment, initiative, victory conditions, special rules, and reward).** Future playtest may adjust gp budgets.
