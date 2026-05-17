@@ -16,7 +16,8 @@ A persistent multiplayer campaign layer for *Pillage: Ransack the Middle Ages* (
 | [06_Tables.md](06_Tables.md) | Saga Injury Table (d20), Saga Roll (d100), Title Table (d10 × d6) — all three complete |
 | [07_Design_Notes.md](07_Design_Notes.md) | Open design questions tracked across all files; sources mined for inspiration |
 | [08_Annual_Events.md](08_Annual_Events.md) | 30-card deck of campaign-wide events drawn every other club meeting. Hazards, boons, faction-divergent events, and shake-ups affecting all warbands. |
-| [09_Quick_Start.md](09_Quick_Start.md) | Onboarding guide: setup, first-meeting walkthrough, sample 6-meeting season ("The Cold Coast"), Warband Sheet template, common questions, and a one-page quick reference card. |
+| [09_Quick_Start.md](09_Quick_Start.md) | Onboarding guide: setup, first-meeting walkthrough, sample 6-meeting season ("The Cold Coast"), inline Warband Sheet template, common questions, and a one-page quick reference card. |
+| [10_Warband_Sheet.md](10_Warband_Sheet.md) | Full printable-friendly Warband Sheet with all fields: identity, resources, Holdings, Stores, 5 General Named Character entries, 3 specialist entries, current Boast hand, battle log, and Saga Journal section. |
 
 ## Where we are
 
