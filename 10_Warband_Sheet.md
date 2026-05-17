@@ -4,6 +4,8 @@ A clean, printable-friendly tracking sheet for a single warband across a Saga Se
 
 Each player fills in their sheet at campaign creation and updates it during the post-game sequence. The campaign organiser keeps a master sheet that mirrors key totals (Treasury, Renown, Holdings) for the leaderboard.
 
+> **Future work:** This markdown sheet is intended as the canonical content. A stylized, illustrated PDF version — with proper layout, faction flavor art, parchment background, and printable form fields — is planned for a later revision. The fields and structure below are the source of truth.
+
 ---
 
 ## Identity
@@ -239,4 +241,4 @@ lost, the rivals slain or escaped, the Titles earned and inflicted.]
 - **Erase or annotate Injuries** that have resolved. A character with a healed Lingering Wound: Movement should have it crossed out from their Injuries field.
 - **Titles accumulate** but max 2 per character. Old ones may be retained in the Saga Journal even after dropped.
 
-A printable A4/Letter PDF version of this sheet may follow in v0.4 — currently the markdown table format is intended for digital tracking (in a spreadsheet, app, or printed-and-scribbled-on).
+A **stylized printable PDF** of this sheet — with faction art, parchment styling, and proper form-fillable fields — is on the roadmap for a future revision. Until then, the markdown table format above is the canonical version, suitable for digital tracking (in a spreadsheet, note-taking app, etc.) or for printing as-is and writing on.
