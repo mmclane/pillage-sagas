@@ -382,6 +382,108 @@ Aelfric responds: "Counter-amend. I want the budgets at 600 gp each instead of 7
 
 ---
 
+### Faction-flavored Battle Types
+
+In addition to the 12 standard Battle Types, three additional types are restricted to specific factions. These let factions express their identity through scenarios that only they can propose or defend.
+
+#### Longship Raid (Norse-only)
+
+Only a Norse warband may propose this as the raider. The target may accept regardless of their faction.
+
+A Norse warband strikes from the sea, beaches a longship, and raids inland before the defenders can muster.
+
+- **Force balance:** Raider (Norse) 800 gp, Defender 600 gp.
+- **Turn limit:** 8 turns.
+- **Special elements:** 1 longship beached on one of the raider's table edges (treat as Pillage longship rules). 4-6 loot tokens placed across the table (similar to Pillage Town's distribution). Best paired with Coastal Village or Tidal Estuary Locations.
+- **Deployment:** Defender deploys first within 6" of their chosen table edge or within scattered buildings. The raider's figures start aboard the longship; they may disembark during their first movement phase per Pillage's ship rules.
+- **Initiative:** Raider has initiative on turn 1.
+- **Victory:**
+  - **Raider wins** if 3+ loot tokens are extracted off their own table edge AND at least one figure boards the longship to escape by game end (the longship must still be intact).
+  - **Defender wins** if the raider fails either condition.
+- **Special rules:** The longship is flammable. Defender may attempt to set it on fire to deny the raider's escape. If the longship burns, raider auto-loses (lost their ride home).
+- **Reward:** Standard loot at 5 gp each. Raider gains +40 gp bonus on win (greater plunder than Pillage Town due to risk).
+
+#### Defend the Pilgrimage (Christian-only)
+
+Only a Christian warband (Anglo-Saxons, Normans, Carolingian Franks, Bretons, Welsh, Romano-British, Visigoths) may propose this as the defender. The attacker may be any faction.
+
+A pilgrimage of monks and relic-bearers moves across the countryside. The Christian warband escorts them; the attacker raids them.
+
+- **Force balance:** Defender (Christian) 600 gp, Attacker 800 gp.
+- **Turn limit:** 6 turns.
+- **Special elements:** 4 NPC pilgrim figures (UA, no equipment, 1 HP each, cannot attack). Placed in a column along a road. They move 4" per turn under the defender's control toward the defender's table edge.
+- **Deployment:** Defender deploys the pilgrims and their warband within a single 12" zone along the road. Attacker deploys within 6" of any table edge (not the road's exit edge).
+- **Initiative:** Attacker has initiative on turn 1.
+- **Victory:**
+  - **Defender wins** if 3+ pilgrims exit the defender's table edge by game end.
+  - **Attacker wins** if fewer than 3 pilgrims escape.
+- **Special rules:** Killed pilgrims do not count for either side's Renown (they are noncombatants). The attacker may choose to capture pilgrims alive (per prisoner rules) to ransom — a captured pilgrim escorted off the attacker's edge counts as +1 Renown. Defender figures may guard pilgrims by being in base contact.
+- **Reward:** Defender gains the **Holy Site Holding** (+20 gp + 1 Boast draw per Winter) on win. Attacker gains 30 gp per killed/captured pilgrim plus Glory bonus +2 Renown on win.
+
+#### Forest Ambush (Pict, Welsh, or Irish/Scots only)
+
+Only a Pict, Welsh, or Irish/Scots warband may propose this as the ambusher. The target may be any faction.
+
+A warband uses the deep forests they know to surprise an invader.
+
+- **Force balance:** Ambusher 700 gp, Target 800 gp (the target is stronger but disadvantaged by terrain).
+- **Turn limit:** 6 turns.
+- **Special elements:** Must be played in Forest Edge Location (per the Best For pairing). Optional: 1-2 hidden ambush markers (per the King of Ambushes Talent rules, free for this battle).
+- **Deployment:** Ambusher deploys hidden — they write down deployment positions on paper, hidden from the target. The target deploys first within 6" of their chosen table edge.
+- **Initiative:** Ambusher has initiative on turn 1.
+- **Victory:** Whichever side has more figures alive at game end wins. Major victory if 50%+ margin.
+- **Special rules:** The ambusher gains the King of Ambushes Talent free for this battle (may hide up to 25% of their figures). Forest terrain reduces target's bow long range as per Forest Edge Location rules.
+- **Reward:** Winner gains +2 Renown + Title trigger (on major victory).
+
+---
+
+### Multi-player Battle Types
+
+Three Battle Types designed for 3 or 4 players when pairing doesn't work — odd club nights, big group fights, or planned multi-warband events.
+
+#### The Althing (4 players)
+
+Drawn from Pillage's Winding Ways supplement, formalized into the campaign system. 4 Jarls meet at the Althing in supposedly peaceful gathering. Each has been assigned a secret target by lot. First to kill their target wins.
+
+- **Force balance:** Each warband 600 gp.
+- **Turn limit:** Ends when first target dies (or rout).
+- **Special elements:** All 4 Jarls must be Named Character Chieftains. Targets assigned secretly via lottery (per Winding Ways scenario).
+- **Deployment:** Each player rolls d6. Highest deploys first, lowest last. Jarls deploy in the center within 6" of each other.
+- **Initiative:** Roll-off each turn.
+- **Victory:** First player to kill their assigned target wins. A warband that drops below 10% strength routs and the controlling player loses.
+- **Special rules:** Private discussions between Jarls require figures within 4" of each other. All other discussion is public. Brief truce — no charges or contacts before turn 3 (per Winding Ways).
+- **Reward:** Winner gains +4 Renown + Title trigger. Routed players lose 2 Renown. Surviving but non-winning players gain +1 Renown each.
+
+#### Three-Way Free-For-All (3 players)
+
+Three warbands meet on neutral ground. No alliances; pure score-settling.
+
+- **Force balance:** Each warband 600 gp.
+- **Turn limit:** 10 turns.
+- **Special elements:** None beyond Location defaults.
+- **Deployment:** Each player picks one table edge. They deploy within 6" of their chosen edge.
+- **Initiative:** Roll-off each turn, with first-place initiative resolving their full turn before second-place starts.
+- **Victory:** At game end, the player with the most figures alive wins. Tie if equal.
+- **Special rules:** Temporary alliances between two players are allowed (no formal mechanic — just don't shoot each other for now). May be broken at any time. Backstabbing is encouraged.
+- **Reward:** Winner gains +3 Renown + Title trigger. 2nd place +1 Renown. 3rd place 0 Renown.
+
+#### Coalition Battle (2 vs 2)
+
+Two pairs of allied warbands fight together. Pair members coordinate.
+
+- **Force balance:** Each warband 600 gp; each side fields 1200 gp total.
+- **Turn limit:** 10 turns.
+- **Special elements:** Both sides agree on alliance structure before deployment. Allied warbands may share initiative and Boast hand-offs.
+- **Deployment:** Each side deploys within 8" of one table edge. The allies on a side may intermix freely.
+- **Initiative:** Roll-off; the winning side decides whether their allied pair takes turns or moves simultaneously. Once decided, locked for the battle.
+- **Victory:** Side with more total figures alive at game end wins. Major victory at 50%+ margin.
+- **Special rules:** Allied warbands may not fire on or charge their allies. A warband's figure killed by an ally is treated as routed for Renown purposes (no Renown to the killer's warband for friendly fire).
+- **Reward:** Each warband on the winning side gains +2 Renown + Title trigger (on major victory). Each warband on the losing side gains +0 Renown but no penalty.
+
+> **Note:** Multi-player Battle Types do not use the standard 2-player proposal mechanic. Instead, the campaign organiser announces a multi-player battle in advance (e.g., "The Althing will be held at meeting 6"), and players sign up to participate. The proposal mechanic resumes for the next regular meeting.
+
+---
+
 ## 4. Locations
 
 18 Locations. Each Location sets the table's base terrain and applies a light mechanical effect for the duration of the battle. The challenger picks the Location at proposal time; the acceptor may swap it via the *Change Venue* Twist.
@@ -566,8 +668,8 @@ A club meeting with 4 players. Saga Season, Two Sides Mode (Northmen vs Christen
 
 - [x] **Twist deck expanded to 25 cards in v0.3.** Categories: Weather (4), Timing and Reinforcements (6), Terrain (9), Force and Composition (4), Narrative (1), Composition (1). May still want to push to 30+ in v0.4 for richer multi-season play.
 - [x] **Added Market Square, Henge, and Frozen Lake.** Catalog now at 18 Locations.
-- [ ] Add **multi-player Battle Types** for Feuds Mode club nights with odd numbers: a 3-player free-for-all and a 4-player team (2 vs 2).
-- [ ] Add faction-flavored Battle Types: a Viking longship raid that only Norse warbands can propose; a "Defend the Pilgrimage" only Christian warbands can defend; etc.
+- [x] **Multi-player Battle Types added in v0.5:** The Althing (4-player Jarl-vs-Jarl with secret targets), Three-Way Free-For-All (3 players), Coalition Battle (2v2). Section in §3 above.
+- [x] **Faction-flavored Battle Types added in v0.5:** Longship Raid (Norse-only), Defend the Pilgrimage (Christian-only), Forest Ambush (Pict/Welsh/Irish-Scots only). Section in §3 above.
 - [x] **Battle Type detail completed in v0.3 (each Battle Type has force balance, turn limit, deployment, initiative, victory conditions, special rules, and reward).** Future playtest may adjust gp budgets.
 - [ ] Decide whether the Twist Deck is drawn-and-shuffled (some twists rarer than others) or open-pick (acceptor sees full list and picks). v0.3 says draw 2, keep 1; v0.4 may move to open-pick.
 - [ ] Holdings yield cadence: per post-game vs per Winter. v0.3 says per post-game for fast clubs. Locked decision needed before publication.

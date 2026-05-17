@@ -47,17 +47,17 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 
 ## 5. The Deck (v0.3)
 
-67 cards organized by tier. Each entry shows the trigger condition; Renown reward follows the tier (Common = 1, Bold = 2, Legendary = 3). A 🌙 icon marks a multi-game Boast (carries over until completed or discarded; occupies a permanent hand slot).
+73 cards organized by tier. Each entry shows the trigger condition; Renown reward follows the tier (Common = 1, Bold = 2, Legendary = 3). A 🌙 icon marks a multi-game Boast (carries over until completed or discarded; occupies a permanent hand slot).
 
 **Restrictions.** Some Boasts are **faction-locked** (only completable by a warband of the named faction) or **Battle-Type-locked** (only completable in a specific Battle Type). If a player draws a Boast they clearly cannot complete given their warband or the current matchup, they may use their once-per-game **mulligan at deployment** (per §1) to discard and re-draw.
 
 ### Distribution
 
-- Common: 33 (49%)
-- Bold: 24 (36%)
-- Legendary: 10 (15%)
+- Common: 36 (49%)
+- Bold: 27 (37%)
+- Legendary: 10 (14%)
 
-### Common (25 cards — 1 Renown each)
+### Common (36 cards — 1 Renown each)
 
 | # | Name | Trigger |
 |---|---|---|
@@ -94,8 +94,11 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 | C31 | **Welsh Volley** *(Welsh)* | Two or more Welsh archers (per Welsh's 50% shooters allowance) each kill at least one enemy figure with a bow during the game. |
 | C32 | **Cattle Drive** *(Cattle Raid only, raider)* | Drive all 3 livestock figures off your own table edge by game end (not just the 2 required for victory). |
 | C33 | **Tower's Voice** *(Coast Watch Tower only, raider)* | Silence the tower (eliminate all defender figures within 4" of the tower) before the end of turn 6. |
+| C34 | **Wolf-Friend** *(Irish, Scots, Picts)* | Have at least one warhound figure on the table and alive at game end. |
+| C35 | **Breton Stalker** *(Bretons)* | A Breton cavalry figure successfully flees from melee at least once during the game (per the Master Stalker Talent's improved flee rolls). |
+| C36 | **The Free Northman** *(Generic, non-faction-locked)* | Your warband has no Chieftain in the army for this battle. (Saxons' Men Without Kings rule, generalized — any faction may attempt this once per season.) |
 
-### Bold (24 cards — 2 Renown each)
+### Bold (27 cards — 2 Renown each)
 
 | # | Name | Trigger |
 |---|---|---|
@@ -123,6 +126,9 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 | B22 | **Highland Ambush** *(Picts)* | A Pict figure that was hidden (via the Scout Talent, King of Ambushes Talent, or Hidden Force Twist) reveals and kills the first enemy figure of the game. |
 | B23 | **Francisca Cast** *(Merovingian Franks, Saxons, Visigoths)* | A figure equipped with a francisca (per Fall of Rome rules) throws and kills an enemy with their francisca. |
 | B24 | **Hall-Ash** *(Sack the Hall only, raider)* | The specific figure that lit the great hall on fire is still alive and on the table at game end. |
+| B25 | **Palace Guard's Charge** *(Carolingian Franks)* | A Frankish heavy cavalry figure kills 2 or more enemies in melee in a single game. |
+| B26 | **Storm of the Steppe** *(Huns)* | Hun mounted archers (figures with composite bows from horseback) kill 3 or more enemies with bow shots in a single game. |
+| B27 | **Tribute of the Hostage** *(Rescue the Hostage only)* | The hostage is extracted off the relevant player's own edge AND your warband suffered 2 or fewer casualties during the game (a near-bloodless rescue). |
 
 ### Legendary (10 cards — 3 Renown each)
 
@@ -161,7 +167,8 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 
 - [ ] Playtest balance pass on Renown rewards. Some Bold cards may be Common-difficulty; some Common cards may be Bold-difficulty in practice.
 - [x] **Holdings-specific Boasts added in v0.3:** Cattle Drive (C32), Tower's Voice (C33), Hall-Ash (B24), Sacred Theft (L09), Keep-Crown (L10). Five total. May expand in v0.4 with more.
-- [x] **Faction-flavored Boasts added in v0.3:** 12 cards covering Vikings (3), Anglo-Saxons (1), Normans (2), Picts (2), Welsh (2), Romans/Romano-British (1), Merovingian Franks/Saxons/Visigoths (1). May expand in v0.4 with Carolingian Frank, Breton, Irish, Hun, and additional cards for under-represented factions.
+- [x] **Faction-flavored Boasts added in v0.3:** 12 cards covering Vikings (3), Anglo-Saxons (1), Normans (2), Picts (2), Welsh (2), Romans/Romano-British (1), Merovingian Franks/Saxons/Visigoths (1).
+- [x] **Under-represented faction Boasts added in v0.5:** 6 more cards — Wolf-Friend (Irish/Scots/Picts), Breton Stalker (Bretons), The Free Northman (Generic, non-faction-locked), Palace Guard's Charge (Carolingian Franks), Storm of the Steppe (Huns), Tribute of the Hostage (Rescue the Hostage only). Deck total: 73 cards.
 - [ ] Decide card production format: index cards (cheap, easy), poker-sized printable PDF (medium effort, looks nice), or commercial print run (later).
 - [ ] Numbering scheme C/B/L is for design tracking. Final cards may not show these prefixes.
 - [ ] Consider a "Boast Index" Renown spend: pay 1 Renown to look at the top 5 cards of the deck and pick 1. Lets players hunt for specific Boasts they want.

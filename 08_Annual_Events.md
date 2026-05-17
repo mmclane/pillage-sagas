@@ -2,7 +2,7 @@
 
 A deck of campaign-wide event cards drawn at the start of every other club meeting. Annual Events affect every warband simultaneously, though some have asymmetric (faction-based) effects. They are the "kingdom shifts" — the larger world reacting around the warbands.
 
-30 cards organised into 4 categories: Hazards (8), Boons (8), Faction-Divergent (7), and Shake-ups & Holdings (7).
+35 cards organised into 4 categories: Hazards (8), Boons (8), Faction-Divergent (7), and Shake-ups & Holdings (12).
 
 ---
 
@@ -207,7 +207,7 @@ In Two Sides Mode, all warbands on the Northmen side count as Norse; all on the 
 
 ---
 
-### Shake-ups and Holdings (7 cards)
+### Shake-ups and Holdings (12 cards)
 
 #### AE16 — Civil War
 
@@ -260,6 +260,50 @@ In Two Sides Mode, all warbands on the Northmen side count as Norse; all on the 
 - +1 Renown if their Chieftain has any Title.
 - +1 Renown for each Holding they currently control (no cap; a warband with 3 Holdings gains 3 Renown from this clause alone).
 
+#### AE31 — The Hall is Rebuilt
+
+> *A war-band who lost a hall in last season's fires has rebuilt. Word spreads it's strong again.*
+
+**Effect:** Any warband that has lost a Burned Hall Holding in the last 3 meetings may attempt to rebuild it. Roll d6: on 4+, the warband regains the Burned Hall Holding (with the same name as before, or a new name if desired). On 1-3, the Hall remains lost.
+
+**Mitigation:** None. Pure chance.
+
+#### AE32 — The Watch Tower is Reinforced
+
+> *Garrisoned with fresh troops, the local watch towers grow harder to challenge.*
+
+**Effect:** Watch Tower Holdings cannot be challenged for the next meeting. Any Coast Watch Tower Battle Type proposal targeting a held Watch Tower is automatically refused (and counts as a refusal for the refuser per the standard rules). Standard Coast Watch Tower battles against unoccupied watch towers proceed normally.
+
+**Mitigation:** Spend 2 Renown to ignore (the challenger pushes through anyway).
+
+#### AE33 — The Skalds Gather
+
+> *In the second half of the season, the great skalds gather to record the coming deeds. Every warband feels the weight of the saga upon them.*
+
+**Trigger restriction:** This card only fires if drawn during the **second half of the season** (meetings 4+ of an 8-meeting season, meetings 4+ of a 6-meeting Short Season). If drawn earlier, replace it with the next card in the deck.
+
+**Effect:** All warbands gain +1 Boast draw at every battle for the rest of the season (drawn at battle start, respecting the hand size cap; held Boasts may need to be discarded to make room).
+
+#### AE34 — The High King's Court Summons
+
+> *The High King demands attendance at his court. Whoever brings the greatest deeds is honored.*
+
+**Trigger restriction:** Only fires at meeting 6+ of any season. If drawn earlier, replace it with the next card in the deck.
+
+**Effect:** Each warband's current Renown total is multiplied by 1.5 (rounded up) for the **Grand Finale only**. The bonus is calculated at the start of the Grand Finale battle and applies for that game's final tally. After the Finale, Renown returns to its pre-bonus value (this is a one-time bonus for the Finale's tiebreaker math).
+
+#### AE35 — The Druid Stirs
+
+> *An old wise woman walks the kingdom, hinting at omens. Some warbands hear; others don't.*
+
+**Effect:** Each warband rolls d6:
+- **1**: The omen turns against them. -1 Renown.
+- **2-3**: No effect.
+- **4-5**: The omen favors them. Draw a free Boast.
+- **6**: The omen is great. Gain a free Soubriquet roll (Title) for their current Chieftain.
+
+**Mitigation:** Spend 1 Renown to re-roll once (take the second result).
+
 ---
 
 ## 3. Rules notes
@@ -276,6 +320,7 @@ In Two Sides Mode, all warbands on the Northmen side count as Norse; all on the 
 ## 4. TODO (v0.4)
 
 - [x] **Expanded the deck to 30 cards in v0.3.** Added 10 cards: Hazards (3): Wolves Stir, Old Curses Wake, Sea-Storm; Boons (3): A Treasure Found, Diplomatic Envoy, Festival of the Year; Faction-divergent (2): Norse Raid Far Away, Holy Feast Day; Shake-ups (2): A New Hall Rises, The Saga Journal.
+- [x] **Expanded the deck to 35 cards in v0.5.** Added 5 Shake-ups/Holdings cards: AE31 The Hall is Rebuilt (d6 4+ to regain a lost Burned Hall), AE32 The Watch Tower is Reinforced (no Watch Tower challenges next meeting), AE33 The Skalds Gather (Grand Finale Approaches — +1 Boast per battle for rest of season), AE34 The High King's Court Summons (Grand Finale Approaches — 1.5x Renown multiplier for the Finale only), AE35 The Druid Stirs (d6 roll for warband-specific omen).
 - [ ] Add Holdings-specific events that interact with specific Holding types (a Burned Hall is rebuilt, a Watch Tower is reinforced).
 - [ ] Add 2-3 "Grand Finale Approaches" cards that fire only in the second half of the season — building campaign-arc tension.
 - [ ] Decide whether some Annual Events should be **mode-locked** (e.g., AE19 Holdings Raided in Absence only fires if at least one player holds a Holding). v0.3 fires all cards regardless of state.
