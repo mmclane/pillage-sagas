@@ -65,11 +65,11 @@ Max 3 fielded per battle.
 
 ---
 
-## Named Roster — Generals (max 5)
+## Named Roster — Characters (max 5)
 
 Each is a class-flex Named Character. One is designated Chieftain each battle.
 
-### General 1
+### Character 1
 
 | Field | Value |
 |---|---|
@@ -84,7 +84,7 @@ Each is a class-flex Named Character. One is designated Chieftain each battle.
 | Injuries (lingering or permanent) | _________________________________ |
 | Wielded Relic | _________________________________ |
 
-### General 2
+### Character 2
 
 | Field | Value |
 |---|---|
@@ -99,7 +99,7 @@ Each is a class-flex Named Character. One is designated Chieftain each battle.
 | Injuries | _________________________________ |
 | Wielded Relic | _________________________________ |
 
-### General 3
+### Character 3
 
 | Field | Value |
 |---|---|
@@ -114,7 +114,7 @@ Each is a class-flex Named Character. One is designated Chieftain each battle.
 | Injuries | _________________________________ |
 | Wielded Relic | _________________________________ |
 
-### General 4
+### Character 4
 
 | Field | Value |
 |---|---|
@@ -129,7 +129,7 @@ Each is a class-flex Named Character. One is designated Chieftain each battle.
 | Injuries | _________________________________ |
 | Wielded Relic | _________________________________ |
 
-### General 5
+### Character 5
 
 | Field | Value |
 |---|---|

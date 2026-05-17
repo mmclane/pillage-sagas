@@ -17,7 +17,7 @@ A persistent multiplayer campaign layer for *Pillage: Ransack the Middle Ages* (
 | [07_Design_Notes.md](07_Design_Notes.md) | Open design questions tracked across all files; sources mined for inspiration |
 | [08_Annual_Events.md](08_Annual_Events.md) | 35-card deck of campaign-wide events drawn every other club meeting. Hazards, boons, faction-divergent events, shake-ups, and Grand Finale Approaches cards. |
 | [09_Quick_Start.md](09_Quick_Start.md) | Onboarding guide: setup, first-meeting walkthrough, sample 6-meeting season ("The Cold Coast"), inline Warband Sheet template, common questions, and a one-page quick reference card. |
-| [10_Warband_Sheet.md](10_Warband_Sheet.md) | Full printable-friendly Warband Sheet with all fields: identity, resources, Holdings, Stores, 5 General Named Character entries, 3 specialist entries, current Boast hand, battle log, and Saga Journal section. |
+| [10_Warband_Sheet.md](10_Warband_Sheet.md) | Full printable-friendly Warband Sheet with all fields: identity, resources, Holdings, Stores, 5 Named Character entries, 3 specialist entries, current Boast hand, battle log, and Saga Journal section. |
 | [11_Edge_Cases_and_Rulings.md](11_Edge_Cases_and_Rulings.md) | Proactive rulings on ambiguous interactions across the campaign's systems. Organized by topic. Designed to grow with play. |
 
 ## Where we are

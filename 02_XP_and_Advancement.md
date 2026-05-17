@@ -2,9 +2,9 @@
 
 ## 1. Core principle
 
-Pillage's Talents (army-wide buffs traditionally bought for the Chieftain with gp at army-build) are converted into **XP-purchased rewards** owned by individual General Named Characters. A General's Talents only **fire** when that character is the **designated Chieftain** for a battle.
+Pillage's Talents (army-wide buffs traditionally bought for the Chieftain with gp at army-build) are converted into **XP-purchased rewards** owned by individual Named Characters. A Character's Talents only **fire** when that character is the **designated Chieftain** for a battle.
 
-Under the campaign's roster model (see [01_Core_Rules.md §3](01_Core_Rules.md)), the Chieftain is chosen at the start of each battle from your General Named Characters — the designation does not persist between battles. This means players rotate Chieftain to bring different Talent suites to different battles. Erik with *Mead Merchant* might be Chieftain in a melee-heavy game; Sven with *Marksmanship Training* in a ranged game.
+Under the campaign's roster model (see [01_Core_Rules.md §3](01_Core_Rules.md)), the Chieftain is chosen at the start of each battle from your Named Characters — the designation does not persist between battles. This means players rotate Chieftain to bring different Talent suites to different battles. Erik with *Mead Merchant* might be Chieftain in a melee-heavy game; Sven with *Marksmanship Training* in a ranged game.
 
 Specialists (Healer, Banner-bearer, Warhorn-bearer) do not earn Talents. They invest XP in Skills, Stat improvements, and Personal Sagas instead.
 
@@ -49,30 +49,30 @@ Purchase happens in the post-game **Advancement** step.
 
 ## 4. Talent restrictions
 
-- **Only General Named Characters may earn Talents.** Specialists (Healer, Banner-bearer, Warhorn-bearer) do not earn Talents.
-- Each General holds at most **2 Talents** (same as Pillage core).
+- **Only Named Characters may earn Talents.** Specialists (Healer, Banner-bearer, Warhorn-bearer) do not earn Talents.
+- Each Character holds at most **2 Talents** (same as Pillage core).
 - Each Talent must be **unique within the entire warband** (tighter than Pillage core's "unique per army"; prevents stockpiling).
 - **Faction restrictions** carry over from Pillage (a Welsh-only Talent stays Welsh-only).
-- **Only the designated Chieftain's Talents are active** during a game. The Chieftain is chosen at the start of each battle from your General Named Characters; their Talents fire that game. Other Generals' Talents are dormant.
+- **Only the designated Chieftain's Talents are active** during a game. The Chieftain is chosen at the start of each battle from your Named Characters; their Talents fire that game. Other Characters' Talents are dormant.
 
 ---
 
 ## 5. Starting Talents
 
-At campaign creation, the player may purchase up to 2 Talents distributed across their General Named Characters in any combination (2 on one character, or 1 each on two different Generals) at the standard gp prices, paid from the starting Treasury. This bakes in flavor from day one and lets the player decide whether to concentrate Talents on a "default Chieftain" or spread them for flexibility.
+At campaign creation, the player may purchase up to 2 Talents distributed across their Named Characters in any combination (2 on one character, or 1 each on two different Characters) at the standard gp prices, paid from the starting Treasury. This bakes in flavor from day one and lets the player decide whether to concentrate Talents on a "default Chieftain" or spread them for flexibility.
 
 After campaign start, all new Talent acquisitions are XP-only.
 
 ---
 
-## 6. When a General dies
+## 6. When a Character dies
 
-There is no formal Chieftain succession mechanic. The Chieftain is chosen each battle from your living General Named Characters (per [01_Core_Rules.md §3](01_Core_Rules.md)). When a General dies, you simply have fewer candidates to pick from.
+There is no formal Chieftain succession mechanic. The Chieftain is chosen each battle from your living Named Characters (per [01_Core_Rules.md §3](01_Core_Rules.md)). When a Character dies, you simply have fewer candidates to pick from.
 
-- A General's death takes their **Talents, Skills, Stat improvements, Named-Weapon Unlock, Personal Saga, and any wielded Relic** with them. Relics may drop to the warband's inventory under specific rules ([04_Stores_and_Relics.md §8c](04_Stores_and_Relics.md)).
-- If a General dies during a battle in which they were the Chieftain, the **new Chieftain for the next battle** (whoever you designate) is granted a free **Title roll**, representing the warband adopting a new leader with a fresh reputation.
+- A Character's death takes their **Talents, Skills, Stat improvements, Named-Weapon Unlock, Personal Saga, and any wielded Relic** with them. Relics may drop to the warband's inventory under specific rules ([04_Stores_and_Relics.md §8c](04_Stores_and_Relics.md)).
+- If a Character dies during a battle in which they were the Chieftain, the **new Chieftain for the next battle** (whoever you designate) is granted a free **Title roll**, representing the warband adopting a new leader with a fresh reputation.
 
-**If all your Generals die:** You cannot field a battle (someone must be Chieftain). Before your next battle, recruit a fresh General from Treasury for 50 gp. They start with 0 XP and no Skills, Talents, Stat improvements, Named-Weapon Unlocks, or Personal Saga. Name them and add them to your roster.
+**If all your Characters die:** You cannot field a battle (someone must be Chieftain). Before your next battle, recruit a fresh Character from Treasury for 50 gp. They start with 0 XP and no Skills, Talents, Stat improvements, Named-Weapon Unlocks, or Personal Saga. Name them and add them to your roster.
 
 **A specialist dying** (Healer, Banner-bearer, Warhorn-bearer) follows the same logic: their Skills, Stat improvements, etc. are lost. You may recruit a fresh specialist for 50 gp from Treasury. They start with 0 XP and no advancements.
 
@@ -86,7 +86,7 @@ The Advancement step (post-game step 9) is where Named Characters spend XP. Five
 
 | Path | XP cost | Cap per character | Available to | Notes |
 |---|---|---|---|---|
-| **Talents** | 1–8 (per gp/10 conversion in §3) | 2 Talents | Generals only | Only fires when this character is the designated Chieftain |
+| **Talents** | 1–8 (per gp/10 conversion in §3) | 2 Talents | Characters only | Only fires when this character is the designated Chieftain |
 | **Skills** | 2–3 each | 4 Skills | All Named Characters; some Skills are role-restricted | Always active for the character |
 | **Stat Improvements** | 5 each | +2 cumulative per stat from ALL sources | All Named Characters | Permanent |
 | **Named-Weapon Unlocks** | 3 each | 1 per character | All Named Characters (rarely useful for specialists) | Grants access to a weapon outside faction list |
@@ -254,7 +254,7 @@ Use cases:
 
 ### How XP gets spent — example progression
 
-A General Named Character named Ulf participates in his warband's first 4 battles. Over those battles he earns:
+A Named Character named Ulf participates in his warband's first 4 battles. Over those battles he earns:
 
 - Battle 1: deployed (equipped as Huscarl-style fighter), killed 2 enemies including an enemy Named Character (1 + 1 + 2 = 4 XP)
 - Battle 2: deployed as Chieftain, killed 1 enemy, was wounded but survived, warband won (1 + 1 + 1 + 1 = 4 XP, capped at 5; he gets 4)

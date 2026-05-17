@@ -126,7 +126,7 @@ Rolled in **Step 5 of the post-game sequence**, once per player. Adapted from Po
 
 | d100 | Name | Effect |
 |---|---|---|
-| 26–27 | A Wandering Warrior | A renowned warrior offers his sword. Add a free General Named Character to your roster (no Treasury cost). They start with 0 XP. If your roster of Generals is at the cap of 5, decline or replace one current General. |
+| 26–27 | A Wandering Warrior | A renowned warrior offers his sword. Add a free Named Character to your roster (no Treasury cost). They start with 0 XP. If your roster of Characters is at the cap of 5, decline or replace one current Character. |
 | 28 | Healer Arrives | A Healer joins your warband. Add a free Healer Named Character to your roster, fully equipped. If your roster already has a Healer, decline or replace. |
 | 29 | Warhorn-Bearer Joins | A horn-blower joins. Add a free Warhorn-bearer Named Character to your roster, fully equipped with a Warhorn. If your roster already has a Warhorn-bearer, decline or replace. |
 | 30–31 | A War-Band Joins | 3 free rank-and-file warriors for the next battle only (full kit, faction-appropriate). They do not count toward your standard army budget. |

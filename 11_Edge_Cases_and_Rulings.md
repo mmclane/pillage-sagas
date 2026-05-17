@@ -12,17 +12,17 @@ Organized by the system the question is *about*, not where the rule lives.
 
 No. A character whose chronic-condition recovery roll hasn't resolved cannot deploy, and therefore cannot be Chieftain. They sit out battles until they recover.
 
-### A Chieftain's General dies mid-battle. Can another General become Chieftain mid-game?
+### The Chieftain dies mid-battle. Can another Character become Chieftain mid-game?
 
 No. The Chieftain designation is locked at the start of a battle and persists for that game. If the Chieftain falls, their Talents stop functioning (no Chieftain to anchor them), but no other character becomes Chieftain until the next battle's army-build step.
 
-### A General dies as Chieftain. Does the free Title roll for the next Chieftain apply once, or every time a Chieftain dies?
+### A Character dies as Chieftain. Does the free Title roll for the next Chieftain apply once, or every time a Chieftain dies?
 
 It applies **once per death**. The next Chieftain designation after a Chieftain's death triggers one Title roll. If that successor Chieftain also dies in their first battle, the next successor gets another Title roll. The free Title is a recognition of fresh leadership, not a one-time campaign event.
 
 ### Can a Specialist (Healer / Banner-bearer / Warhorn-bearer) become Chieftain?
 
-No. The Chieftain must be a General Named Character (per [01_Core_Rules.md §3b](01_Core_Rules.md)). Specialists are locked to their roles and never lead the warband. If all Generals die and no replacements are recruited, the warband cannot field a battle.
+No. The Chieftain must be a Named Character (per [01_Core_Rules.md §3b](01_Core_Rules.md)). Specialists are locked to their roles and never lead the warband. If all Characters die and no replacements are recruited, the warband cannot field a battle.
 
 ---
 
@@ -142,7 +142,7 @@ No (per [06 §1 Interactions](06_Tables.md)): a wounded Healer cannot re-roll th
 
 ### Saga Roll result "Wandering Berserker" → free Named Character — what role do they take?
 
-Under the v0.3 class-flex model, this entry adds a free General Named Character. They start with 0 XP and no advancements. (The original Berserker class no longer exists as a Named Character class; if a player wants the new General to focus on Berserker-style play, they can equip them as a Berserker each battle.)
+Under the v0.3 class-flex model, this entry adds a free Named Character. They start with 0 XP and no advancements. (The original Berserker class no longer exists as a Named Character class; if a player wants the new Character to focus on Berserker-style play, they can equip them as a Berserker each battle.)
 
 ### Wyrd is Cruel (Saga Roll 70-71) — can it cascade?
 
@@ -170,7 +170,7 @@ Yes. Per the card text, the departing character takes any wielded Relic with the
 
 ### Old Curses Wake (AE22) — if my Chieftain just died, who rolls?
 
-The character who would be Chieftain in your next battle. If you have multiple Generals and haven't decided who'll be Chieftain, designate now before rolling.
+The character who would be Chieftain in your next battle. If you have multiple Characters and haven't decided who'll be Chieftain, designate now before rolling.
 
 ---
 

@@ -44,17 +44,17 @@ Starts at **300 gp** at campaign creation, in addition to the standard army-buil
 
 ### Glossary note: Jarl and Chieftain
 
-The Norse-flavored term **Jarl** and the rules-mechanic term **Chieftain** are used interchangeably throughout these documents. They refer to the same role: the General Named Character a player has designated as their army's leader for a given battle. Use whichever reads better in context.
+The Norse-flavored term **Jarl** and the rules-mechanic term **Chieftain** are used interchangeably throughout these documents. They refer to the same role: the Named Character a player has designated as their army's leader for a given battle. Use whichever reads better in context.
 
 ### 3b. Named Roster
 
-Each warband carries a roster of Named Characters who persist between battles. Named Characters are *people* with personal sagas — they earn XP, hold Talents and Skills, accumulate Titles, and pass into legend. They are not locked into fixed combat roles; you decide how they are kitted out each battle.
+Each warband carries a **Named Roster** of warriors who persist between battles. They are *people* with personal sagas — they earn XP, hold Talents and Skills, accumulate Titles, and pass into legend. They are not locked into fixed combat roles; you decide how they are kitted out each battle.
 
-A warband's roster has two kinds of Named Characters:
+The Named Roster has two kinds of members:
 
-**General Named Characters** (1 to 5; class-flex)
-- No fixed class. Each battle, the player chooses how each fielded General is equipped from any options available to their faction (warrior with Dane Axe, archer, Berserker per Pillage's army-building rules, light cavalry, etc.), paid from the battle's army budget.
-- One General Named Character is designated as **Chieftain** at the start of each battle. They take the Chieftain profile from their faction for that battle (more HP, Chieftain-only equipment options). Only that character's Talents fire that game.
+**Characters** (1 to 5; class-flex)
+- No fixed class. Each battle, the player chooses how each fielded Character is equipped from any options available to their faction (warrior with Dane Axe, archer, Berserker per Pillage's army-building rules, light cavalry, etc.), paid from the battle's army budget.
+- One Character is designated as **Chieftain** at the start of each battle. They take the Chieftain profile from their faction for that battle (more HP, Chieftain-only equipment options). Only that character's Talents fire that game.
 - The Chieftain designation does **not persist between battles**. Erik may be Chieftain in Game 1, Sven in Game 2, Erik again in Game 3 — the player picks fresh each time.
 
 **Class-Locked Specialists** (max 1 of each, optional)
@@ -62,9 +62,9 @@ A warband's roster has two kinds of Named Characters:
 - **Banner-bearer** — always carries the army's banner when fielded, per Pillage's Banner rules.
 - **Warhorn-bearer** — always carries the warhorn when fielded, per Pillage's Warhorn rules.
 
-A typical warband holds 4 to 5 Generals plus 0 to 3 specialists. Total Named Roster size is therefore roughly 4 to 8 characters.
+A typical warband holds 4 to 5 Characters plus 0 to 3 specialists. Total Named Roster size is therefore roughly 4 to 8 characters.
 
-**Each Named Character has:**
+**Each member of the Named Roster has:**
 
 - A name (player's choice).
 - An **XP track**.
@@ -74,11 +74,11 @@ A typical warband holds 4 to 5 Generals plus 0 to 3 specialists. Total Named Ros
 - A **Personal Saga** (max 1).
 - An **Injury record** (Saga Injury Table results; see [06_Tables.md](06_Tables.md)).
 - A **wielded Relic**, if any (see [04_Stores_and_Relics.md](04_Stores_and_Relics.md)).
-- **Generals also have** a **Talent slot list** (max 2). Specialists do not earn Talents — they're focused on their craft.
+- **Characters also have** a **Talent slot list** (max 2). Specialists do not earn Talents — they're focused on their craft.
 
 **The bring-or-bench decision:** You choose which Named Characters to deploy each battle. Bringing them earns XP (per [02_XP_and_Advancement.md §2](02_XP_and_Advancement.md)) but risks injury, death, or capture. Bench them, no XP, no risk.
 
-**If all your Generals die in a campaign:** You cannot field a battle without at least one General (someone must be Chieftain). Recruit a fresh General for 50 gp from Treasury; they start with 0 XP and no Skills/Talents/etc.
+**If all your Characters die in a campaign:** You cannot field a battle without at least one Character (someone must be Chieftain). Recruit a fresh Character for 50 gp from Treasury; they start with 0 XP and no Skills/Talents/etc.
 
 Rank-and-file warriors are *not* persistent. Buy them fresh each battle from your Treasury at standard Pillage prices. A Named Character may be equipped from the same options as a rank-and-file warrior (or as a Chieftain / Berserker / etc. when faction rules permit) — only their persistent Skills, Talents, Stat improvements, Named-Weapon Unlocks, and Personal Saga distinguish them.
 

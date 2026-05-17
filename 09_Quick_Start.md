@@ -50,10 +50,10 @@ See [01_Core_Rules.md §2](01_Core_Rules.md) for full mode details. The campaign
 2. **Pick a warband name** (e.g., "The Wolves of Hedeby," "Brokenmoor's Sworn").
 3. **Starting Treasury: 300 gp**, plus the standard army budget for your first battle.
 4. **Build your Named Roster:**
-   - Name **1 Chieftain candidate** (your default Chieftain, a General Named Character).
-   - Name **2 to 4 additional Generals** (your battle bench — these are the people who can become Chieftain in future battles).
+   - Name **1 Chieftain candidate** (your default Chieftain, a Named Character).
+   - Name **2 to 4 additional Characters** (your battle bench — these are the people who can become Chieftain in future battles).
    - Optionally name **1 Healer**, **1 Banner-bearer**, and/or **1 Warhorn-bearer** (class-locked specialists).
-5. **Distribute up to 2 starting Talents** across your Generals at standard gp prices (paid from your starting Treasury). Concentrate on one character or spread for flexibility — your call.
+5. **Distribute up to 2 starting Talents** across your Characters at standard gp prices (paid from your starting Treasury). Concentrate on one character or spread for flexibility — your call.
 6. **Write everything on a Warband Sheet** (see §6 below for the template).
 
 ### Step 4: Establish the ban list
@@ -179,7 +179,7 @@ RENOWN: ____________________
 
 NAMED ROSTER
 
-Generals (max 5):
+Characters (max 5):
 1. [Name] _________________ XP: __ Title(s): _________________
    Talents: _________________________________________________
    Skills: __________________________________________________
@@ -256,7 +256,7 @@ A: They start with the standard Treasury (300 gp), standard roster (build per §
 A: Encouraged but not required. The Saga Journal Annual Event (AE30) rewards warbands with completed Legendary Boasts, Titles, and Holdings — these are the seeds of a written saga. Many groups find that writing 2-3 paragraphs per meeting (the deeds of your Jarl, the names of fallen Named Characters) is more fun than they expected.
 
 **Q: My Chieftain just died. Now what?**
-A: Pick a different General as Chieftain for your next battle. No formal succession needed — the Chieftain title is per-battle. If all your Generals are dead, recruit a fresh one for 50 gp from Treasury. They start with 0 XP. The new Chieftain gets a free Title roll their first battle as a recognition of fresh leadership.
+A: Pick a different Character as Chieftain for your next battle. No formal succession needed — the Chieftain title is per-battle. If all your Characters are dead, recruit a fresh one for 50 gp from Treasury. They start with 0 XP. The new Chieftain gets a free Title roll their first battle as a recognition of fresh leadership.
 
 **Q: Can two warbands of the same faction fight each other (Feuds Mode)?**
 A: Yes — intra-faction feuds are normal in the Viking age and many other settings. Honor your in-fiction grievance.
@@ -291,7 +291,7 @@ A: Yes — intra-faction feuds are normal in the Viking age and many other setti
 - **Renown** — the campaign leaderboard; also spendable on Bards, Feasts, Sagas, Boasts
 
 ### Three character types:
-- **General Named Character** (1-5 per warband) — class-flex; one is Chieftain each battle
+- **Named Character** (1-5 per warband) — class-flex; one is Chieftain each battle
 - **Class-Locked Specialists** (max 1 each: Healer, Banner-bearer, Warhorn-bearer)
 - **Rank-and-file warriors** — fresh per battle, not persistent
 

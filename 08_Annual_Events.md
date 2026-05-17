@@ -111,7 +111,7 @@ A deck of campaign-wide event cards drawn at the start of every other club meeti
 
 > *A man of repute seeks a Jarl worthy of his oath.*
 
-**Effect:** Each warband may immediately recruit a free Named Character of their choice: either a General Named Character, or a class-locked specialist (Healer, Banner-bearer, or Warhorn-bearer) if they do not already have one. They start with 0 XP. If the warband's roster is at its cap for the chosen type (5 Generals, 1 of each specialist), decline or replace a current Named Character.
+**Effect:** Each warband may immediately recruit one of the following for free: a new Character (the flex slot type), or a class-locked specialist (Healer, Banner-bearer, or Warhorn-bearer) if they do not already have one. The new recruit starts with 0 XP. If the warband's roster is at its cap for the chosen type (5 Characters, 1 of each specialist), decline or replace one current member.
 
 #### AE10 — The Saga Spreads
 
