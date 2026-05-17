@@ -42,6 +42,10 @@ Each player maintains a warband sheet with these sections:
 
 Starts at **300 gp** at campaign creation, in addition to the standard army-building budget for game one. Persistent between battles. The Treasury is *separate* from the army budget each battle, which is drawn from the Treasury for each game.
 
+### Glossary note: Jarl and Chieftain
+
+The Norse-flavored term **Jarl** and the rules-mechanic term **Chieftain** are used interchangeably throughout these documents. They refer to the same role: the General Named Character a player has designated as their army's leader for a given battle. Use whichever reads better in context.
+
 ### 3b. Named Roster
 
 Each warband carries a roster of Named Characters who persist between battles. Named Characters are *people* with personal sagas — they earn XP, hold Talents and Skills, accumulate Titles, and pass into legend. They are not locked into fixed combat roles; you decide how they are kitted out each battle.

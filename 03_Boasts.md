@@ -153,7 +153,7 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 - **First Blood (C14)** triggers only when the very first enemy is killed. If your opponent's figure dies first (to your hand), the Boast completes. If your figure dies first, the Boast fails (cannot be re-attempted later in the game).
 - **Defender's Right (C17)** does not trigger if the enemy charging your figure rolled a failed charge (didn't reach). The enemy must successfully contact your figure with their charge.
 - **A Pyre for the Dead (C21)** requires 2 buildings simultaneously burning at any moment. Buildings that have burned out (per scenario rules, if used) and are extinguished do not count.
-- **Hall of the Fallen (L05) versus Slayer of Jarls (L01)** can overlap. If a single Named Character kills both a Huscarl and the Jarl in the same game, both Boasts trigger.
+- **Hall of the Fallen (L05) versus Slayer of Jarls (L01)** can overlap. If a single Named Character kills both an enemy Named Character and the enemy Jarl in the same game, both Boasts trigger.
 
 ---
 

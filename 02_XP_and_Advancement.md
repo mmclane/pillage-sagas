@@ -259,7 +259,7 @@ Ulf's growth shape is the player's choice. A Talent-focused Ulf is the warband's
 
 - [ ] Playtest balance pass. Some Skills (Backswing, Eagle Eye) are strictly better than equivalent Talents and may be undercosted.
 - [ ] Faction-specific Personal Sagas (Viking-only, Christian-only).
-- [ ] Berserker- and Healer-specific Skills and Sagas (currently the path B–E options are largely Chieftain/Huscarl flavored).
+- [x] Healer- and class-specific Skills added in v0.3 (4 Healer-only, 3 Banner-bearer-only, 3 Warhorn-bearer-only). Berserker is now equipment, not a class — its abilities go through equipment + Mushrooms Store rather than class-locked Skills.
 - [ ] Decide whether Advancement options should be drawn from a deck (Mordheim-style rare-find flavor) or chosen openly (current default).
 - [ ] Consider adding a "Forgo Advancement" option: spend 3 XP to gain +1 Renown directly for the warband. Gives a low-floor exit for XP that can't find a home.
 
@@ -317,4 +317,4 @@ For reference, these are the Talents from Pillage core (p.90–92) and the Fall 
 
 > Note: For Talents over 60 gp original cost (Scramaseax, Shield Bash at 80 gp), the XP cost is 8 — extrapolated from the same gp/10 rule. Watch for balance in playtest.
 
-> **Open design question:** Should Berserkers and Healers have class-specific Talents added to this list? Right now, most existing Talents make sense for Chieftains but not for Berserkers (whose effect is mostly personal). Adding a small set (e.g. *Battle-Frenzy*, *Mead-Born Madness*, *Bone-Setter*) would give every character class a distinctive growth path.
+> **Resolved in v0.3:** The class-flex Named Character model removed this question. Berserker is now an equipment line any figure can use; its abilities work via that equipment plus the Hallucinogenic Mushrooms Store rather than Talents. Healer, Banner-bearer, and Warhorn-bearer (the three class-locked specialists) earn role-restricted Skills instead of Talents — see Path B above.
