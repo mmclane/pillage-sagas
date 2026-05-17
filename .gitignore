@@ -12,3 +12,7 @@ desktop.ini
 .idea/
 *.swp
 *~
+
+# Generated DOCX exports (regenerable via md_to_docx.py)
+docx/
+*.html
