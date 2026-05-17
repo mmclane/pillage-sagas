@@ -10,15 +10,11 @@ Tracked here so we don't lose threads. Resolved items move to the **Decisions Ma
 
 ### Campaign structure
 
-- [ ] **Campaign mode lock-in**: pick one at start vs. let it evolve mid-season? Recommend: lock at start.
-- [ ] **Season length**: 6 raids is brisk, 8 is meatier. Open-ended option?
-- [ ] **Roster size and budget**: is 600-800 gp per battle and 2-4 Named Characters the right scale?
-- [ ] **Painting requirement**: yes vs. no? (Hobby gate, not rules gate.)
+*(Locked in v0.3 — see Decisions Made.)*
 
 ### Boasts
 
-- [ ] **Boast claim**: public-on-trigger (current default, recommended) vs. fully secret until game end?
-- [ ] **Hand size**: 1 active (recommended) vs. 2 vs. 3?
+*(Locked in v0.3 — see Decisions Made.)*
 
 ### XP and Talents
 
@@ -26,7 +22,7 @@ Tracked here so we don't lose threads. Resolved items move to the **Decisions Ma
 
 ### Renown
 
-- [ ] **Renown spend cap per Winter**: yes (recommend 5) vs. no?
+*(Locked in v0.3 — see Decisions Made.)*
 
 ### Injuries
 
@@ -34,17 +30,12 @@ Tracked here so we don't lose threads. Resolved items move to the **Decisions Ma
 
 ### Stores and Relics
 
-- [ ] **Store balance**: which Stores are gp-bought vs. Saga-Roll-only?
-- [ ] **Christendom-flavored Stores**: add a set to balance the Norse list?
-- [ ] **Relic seeding at campaign start**: random draw, scenario-based, or player choice with restrictions?
-- [ ] **Relic histories**: do Relics accumulate effects from prior wielders, or stay as-printed?
+*(Locked in v0.3 — see Decisions Made. Some items deferred to v0.5.)*
 
 ### Scenarios
 
-*(Architectural shift in v0.3 — see Decisions Made. Open questions for v0.4:)*
-- [ ] **Twist Deck size**: 15 in v0.3 is minimal; expand to ~25 in v0.4?
-- [ ] **Twist draw vs open-pick**: v0.3 draws 2 keeps 1; v0.4 may switch to open-pick from the full Twist list.
-- [ ] **Holdings yield cadence**: per post-game (fast clubs) vs per Winter (longer arcs)? Recommended: per post-game default, organiser can switch.
+*(Locked in v0.3 — see Decisions Made. Open items for v0.5:)*
+- [ ] **Twist draw vs open-pick**: v0.3 stays at draw 2 keeps 1. Open-pick deferred for playtest.
 - [ ] **Multi-player Battle Types**: 3-player free-for-all and 2v2 team Battle Types for odd club counts.
 - [ ] **Faction-flavored Battle Types**: longship raids for Norse only, defend-the-pilgrimage for Christians only.
 
@@ -77,6 +68,24 @@ Once an open question is settled, move it here with a brief note on the resoluti
 - **Naval and elevation Locations added.** Lone Hilltop (single dominant hill, slope rules), Tidal Estuary (half-table shallow water, no swim roll, beached ships allowed), Longship Boarding (two ships rail-to-rail, no cavalry, figures push off into the water). Cover the boat/river/hill terrain gaps in v0.3.
 - **Stretch Locations added.** Market Square (Settled — standalone marketplace with Hecatomb-style stalls and a well), Henge (Special — ring of standing stones, sacred ground bonuses and Renown shifts for kills inside), Frozen Lake (Special — half-table ice with break-through risk, auto-Snow weather). Catalog now at 18 Locations: 3 Open country, 5 Wilderness, 6 Settled, 4 Special.
 - **Quick Start guide added** ([09_Quick_Start.md](09_Quick_Start.md)). Onboarding document covering: materials needed, Day 0 setup (campaign mode, season length, warband creation, ban list, yield cadence, Relic seeding), first-meeting walkthrough, a sample 6-meeting season ("The Cold Coast"), campaign-organiser tips, a Warband Sheet template, common questions, and a one-page quick reference card. Designed to get a club from "we want to try this" to running a battle in ~30 minutes of setup.
+
+### v0.3 policy locks
+
+A pass to close out remaining policy-shaped open questions before v0.4 / playtest.
+
+- **Campaign mode → locked at start.** Players pick Feuds Mode or Two Sides Mode at campaign creation. No mid-season mode shifts.
+- **Season length → Short Season default (6 raids + Grand Finale, 7-8 meetings).** Standard Season (8 raids + Finale, 9-10 meetings) is an option for clubs that want longer. Open-ended seasons are not officially supported (the Grand Finale and Title gathering are the closure mechanism).
+- **Roster size → 4-5 General Named Characters + 0 to 3 specialists (max 1 each).** Already in 01_Core_Rules.md §3; explicitly confirmed.
+- **Painting requirement → NO rules gate.** Painting is purely a hobby preference per club. Recommended minimum: figures should be table-ready (assembled, at minimum primed) for visibility, but not strictly enforced. Some clubs may add their own painting requirement as a house rule.
+- **Boast claim → public-on-trigger.** The player reveals the Boast card the moment the trigger condition is met. Renown awarded immediately. Opponent sees what was claimed.
+- **Boast hand size → 1 active Boast plus up to 1 extra slot for multi-game 🌙 Boasts (max 2 cards in hand total).** Already in 03_Boasts.md §1; explicitly confirmed.
+- **Renown spend cap per Winter → NO hard cap.** Players may spend Renown freely on the spend menu (Bards, Feasts, Sagas, Boast draws, Mead-Hall taunts). The campaign organiser may flag and discuss if a single warband is monopolizing Renown-spend advantages, but the system trusts the player to spend wisely. (Earlier recommendation was a cap of 5; removed for simplicity.)
+- **Holdings yield cadence → per post-game by default; organiser can switch to per-Winter at campaign start.** Already documented in 05_Scenarios.md §6 and 09_Quick_Start.md §2. Explicitly confirmed as the default.
+- **Store balance → all gp-bought for v0.3.** Saga Roll grants supplement the gp economy by occasionally awarding free Stores. No Stores are Saga-Roll-only (the existing entries in 06_Tables.md §2 are free *grants*, not unique acquisitions).
+- **Christendom-flavored Stores → deferred to v0.5.** Current Stores list is faction-neutral with Norse flavor in the Mushrooms; Christian flavor (Holy Oil, Saint's Banner, Indulgence Letter) is a future expansion.
+- **Relic seeding at campaign start → organiser's choice between three methods** (random draw assigned, scenario-based pool, or player-choice with organiser veto). All three documented in 04_Stores_and_Relics.md §8a. Organiser picks per campaign.
+- **Relic histories → NO.** Relics are as-printed; they don't accumulate prior-wielder effects. Keeps tracking minimal. (Saga journal can still record a Relic's full provenance for narrative.)
+- **Twist draw mechanic → stays at draw-2-keep-1.** Open-pick from full Twist list deferred for playtest data.
 - **Annual Events deck originally 20 cards, expanded to 30 in v0.3.** Distributed across 4 categories: Hazards (8), Boons (8), Faction-divergent (7), Shake-ups & Holdings (7). New cards added: Wolves Stir in the Wilds (warrior loss roll, mitigation 1 Renown), Old Curses Wake (Chieftain Lingering Wound: Aim risk, mitigation 2 Renown), Sea-Storm at the Coast (no ships next battle, mitigation 1 Renown), A Treasure Found (d6 4+ for 40 gp), Diplomatic Envoy (choose 20 gp or 1 Renown), Festival of the Year (free Feast + 1 Boast draw next battle), Norse Raid Far Away (Norse +1 Renown, Christians cannot deploy cavalry next battle, mitigation 1 Renown), Holy Feast Day (Christians' Healers heal on 3+ next battle, Norse get 20 gp), A New Hall Rises (next Sack the Hall win gives double Burned Hall yield), The Saga Journal (cumulative Renown bonus: +2 for Legendary Boast, +1 for Title, +1 per Holding). Mitigation via Renown spend on most Hazards; some are unavoidable. Effects stay flat regardless of player count. Renown never goes negative; floors at 0.
 - **Named Characters are class-flexible** except for three locked-role specialists. Generals (4-5 max) have no fixed class; their kit is chosen fresh each battle from any warrior/Chieftain/Berserker-equipped option per Pillage's army-building rules. One General is designated Chieftain per battle and only their Talents fire. Healer, Banner-bearer, and Warhorn-bearer are class-locked specialists (max 1 each) who always play in their role when fielded; they do not earn Talents but can earn role-restricted Skills (4 Healer Skills, 3 Banner Skills, 3 Warhorn Skills added to the Saga Advancement Table).
 - **Berserker becomes equipment, not a class.** Any figure can be equipped as a Berserker for a battle by paying the Pillage Berserker cost (faction-restricted to Vikings per Pillage core). They get the full Berserker profile and game-long mushroom rage per Pillage's existing rules.
