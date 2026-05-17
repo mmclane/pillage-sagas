@@ -99,8 +99,8 @@ When players agree on a Battle Type, they may use a specific published scenario 
 | Pillage Town | Plunder | even (800 gp) | 8 | Loot (5 gp each) + 30 gp bonus on win |
 | Wagon Train Ambush | Plunder | 600/700 (ambusher / defender) | 6 | 50 gp tribute on win |
 | Cattle Raid | Plunder | even (700 gp) + livestock | 6 | Cattle Fold Holding (+10 gp/Winter + free livestock) |
-| Saga Duel | Glory | each: Chieftain + 4 fig | 6 | +3 Renown + Soubriquet, +1 Renown to loser |
-| Rival Warband Feud | Glory | even (700 gp) | 8 | +2 Renown + Soubriquet |
+| Saga Duel | Glory | each: Chieftain + 4 fig | 6 | +3 Renown + Title, +1 Renown to loser |
+| Rival Warband Feud | Glory | even (700 gp) | 8 | +2 Renown + Title |
 | Pitched Battle | Glory | even (800 gp) | 10 | +1 Renown |
 | Sack the Hall | Holding | 800/600 (raider / defender) | 8 | Burned Hall Holding (+30 gp + 1 Renown/Winter) |
 | Coast Watch Tower | Holding | 700/500 (raider / defender) + reinf. | 6 | Watch Tower Holding (+20 gp/Winter) |
@@ -165,7 +165,7 @@ A defender's herd is the target. Raiders attempt to drive the livestock off the 
 
 ### Glory Stakes
 
-Winner gains significant Renown and triggers a Soubriquet roll. Standard loot is incidental.
+Winner gains significant Renown and triggers a Title roll. Standard loot is incidental.
 
 #### Saga Duel
 
@@ -179,9 +179,9 @@ Two Jarls and their elite retinues meet in a personal score-settling. Honor is o
 - **Victory:**
   - **Side wins** if their Chieftain still stands at game end AND the opposing Chieftain is dead or has fled the table.
   - **If both Chieftains die,** the side with more figures alive wins.
-  - **If both Chieftains die and forces are equal,** draw (both sides gain +1 Renown for the spectacle, no Soubriquet).
+  - **If both Chieftains die and forces are equal,** draw (both sides gain +1 Renown for the spectacle, no Title).
 - **Special rules:** Retinue figures may not target the enemy Chieftain in any way (melee, ranged, fire) until turn 3 (the honor of the duel forbids it). Retinues may freely fight each other before then. Chieftains may target each other from turn 1.
-- **Reward:** Winner gains +3 Renown and triggers a Soubriquet roll for their Chieftain. Loser gains +1 Renown for the spectacle.
+- **Reward:** Winner gains +3 Renown and triggers a Title roll for their Chieftain. Loser gains +1 Renown for the spectacle.
 
 #### Rival Warband Feud
 
@@ -193,8 +193,8 @@ A grudge match. Two warbands meet on neutral ground to settle it with steel.
 - **Deployment:** Both sides deploy within 6" of opposite edges (chosen by mutual agreement or coin flip).
 - **Initiative:** Roll-off on turn 1.
 - **Victory:** Side with more figures alive at game end wins. Tie if equal figure counts (no Renown to either side).
-- **Special rules:** A major victory is awarded if the winner has 50% or more figures alive than the loser. Major victories grant the Soubriquet roll trigger; minor victories grant only the Renown.
-- **Reward:** Winner gains +2 Renown. On a major victory, also triggers a Soubriquet roll.
+- **Special rules:** A major victory is awarded if the winner has 50% or more figures alive than the loser. Major victories grant the Title roll trigger; minor victories grant only the Renown.
+- **Reward:** Winner gains +2 Renown. On a major victory, also triggers a Title roll.
 
 #### Pitched Battle
 
@@ -331,7 +331,7 @@ The 12 codified Battle Types cover the common cases, but the proposal mechanic w
 In Step 1 of the Composition Procedure (§1), the challenger may declare a Custom Battle Type instead of choosing from the catalog. The challenger specifies:
 
 - A **name** for the scenario (e.g., "Burn the Bridge," "The Witch's Grove").
-- A **reward category** from the 5 standard categories: Plunder (gp bonus), Glory (Renown + Soubriquet trigger), Holding (a new Holding the winner gains), Relic (a Relic from the campaign pool), or Tribute (forced cost on the loser).
+- A **reward category** from the 5 standard categories: Plunder (gp bonus), Glory (Renown + Title trigger), Holding (a new Holding the winner gains), Relic (a Relic from the campaign pool), or Tribute (forced cost on the loser).
 - **Force balance** (gp budgets per side).
 - **Turn limit.**
 - **Special elements** (any custom terrain pieces, NPC figures, loot placements, etc.).
@@ -357,7 +357,7 @@ To keep custom Battle Types fair and consistent with the campaign economy:
 - The reward **must map to one of the 5 standard categories**. No inventing rewards like "+10 Renown and a free Relic." A Custom Battle Type cannot grant more than the standard Holding/Relic/Tribute amounts unless both players explicitly agree it's a "Major Stakes" engagement (in which case raise the difficulty proportionally — e.g., add asymmetric force budgets that favor the disadvantaged side).
 - **Force budgets** for both sides should sum to no more than about 1600 gp (the average of catalog Battle Types). Higher budgets are allowed if both players want a "Pitched Battle" scale fight.
 - **Turn limits** should fall within 4 to 12 turns (catalog range).
-- **The campaign organiser may veto** a Custom Battle Type they consider unbalanced or exploitative (e.g., a "Saga Duel" reward category attached to a Pitched Battle setup that gives the proposer easy access to Soubriquets).
+- **The campaign organiser may veto** a Custom Battle Type they consider unbalanced or exploitative (e.g., a "Saga Duel" reward category attached to a Pitched Battle setup that gives the proposer easy access to Titles).
 
 #### Archiving
 
@@ -374,7 +374,7 @@ Erik wants to fight over a specific battlefield: a frozen river crossing where h
 - **Special elements:** 1 frozen river bisecting the table; figures break through on a natural 1 movement roll (Frozen Lake-style mechanic).
 - **Deployment:** Both sides deploy within 6" of opposite edges. Both Jarls must be deployed.
 - **Initiative:** Roll-off turn 1.
-- **Victory:** The side whose Jarl kills the enemy Jarl in single combat (no supporting attackers) wins +3 Renown + Soubriquet. If both Jarls survive, side with more figures alive wins +1 Renown. If both Jarls die, the side that drew first blood on the enemy Jarl wins +2 Renown.
+- **Victory:** The side whose Jarl kills the enemy Jarl in single combat (no supporting attackers) wins +3 Renown + Title. If both Jarls survive, side with more figures alive wins +1 Renown. If both Jarls die, the side that drew first blood on the enemy Jarl wins +2 Renown.
 - **Special rules:** A Jarl killed by anyone but the enemy Jarl grants the enemy side no Renown bonus.
 - **Reward:** Glory (per Saga Duel scaling).
 
@@ -555,7 +555,7 @@ A club meeting with 4 players. Saga Season, Two Sides Mode (Northmen vs Christen
 
 **Reward:** Erik gains the **Burned Hall of Cyneford** Holding (+30 gp + 1 Renown per Winter). Erik adds it to his warband sheet.
 
-**Meanwhile:** Sven proposes a Cattle Raid in Riverbank to Cynewulf, who counter-proposes a Rival Warband Feud in Forest Edge. Sven accepts the counter, no Twist. They play. Cynewulf wins among the trees, gaining +2 Renown and a Soubriquet trigger.
+**Meanwhile:** Sven proposes a Cattle Raid in Riverbank to Cynewulf, who counter-proposes a Rival Warband Feud in Forest Edge. Sven accepts the counter, no Twist. They play. Cynewulf wins among the trees, gaining +2 Renown and a Title trigger.
 
 ---
 

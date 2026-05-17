@@ -44,7 +44,7 @@ Starts at **300 gp** at campaign creation, in addition to the standard army-buil
 
 ### 3b. Named Roster
 
-Each warband carries a roster of Named Characters who persist between battles. Named Characters are *people* with personal sagas — they earn XP, hold Talents and Skills, accumulate Soubriquets, and pass into legend. They are not locked into fixed combat roles; you decide how they are kitted out each battle.
+Each warband carries a roster of Named Characters who persist between battles. Named Characters are *people* with personal sagas — they earn XP, hold Talents and Skills, accumulate Titles, and pass into legend. They are not locked into fixed combat roles; you decide how they are kitted out each battle.
 
 A warband's roster has two kinds of Named Characters:
 
@@ -123,6 +123,6 @@ After every battle, resolve in order. Skip any step that doesn't apply.
 7. **Mead-Hall.** Optional: spend gp or Renown to refresh Boasts (see [03_Boasts.md](03_Boasts.md)).
 8. **Recruit and Re-equip.** Spend gp on replacement warriors, new equipment, Stores. Hire specialists.
 9. **Advancement.** XP-eligible Named Characters spend XP per [02_XP_and_Advancement.md](02_XP_and_Advancement.md).
-10. **Reputation Check.** Players whose victory margin was wide enough (TBD threshold) roll on the **Soubriquet Table** ([06_Tables.md](06_Tables.md)) for a new epithet. Victors may also assign unflattering soubriquets to losers.
+10. **Reputation Check.** Players whose victory margin was wide enough (TBD threshold) roll on the **Title Table** ([06_Tables.md](06_Tables.md)) for a new epithet. Victors may also assign unflattering titles to losers.
 11. **Holdings Updates.** Pay yield (gp + Renown) from any Holdings still held (per [05_Scenarios.md §5](05_Scenarios.md)). If this battle contested a Holding, resolve the change of control.
 12. **Draw Next Boasts.** Each player draws 2 and keeps 1 (carried-over multi-game Boasts stay; see [03_Boasts.md](03_Boasts.md)).

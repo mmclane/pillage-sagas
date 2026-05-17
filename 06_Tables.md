@@ -182,7 +182,7 @@ Rolled in **Step 5 of the post-game sequence**, once per player. Adapted from Po
 | 75 | Confessor's Absolution | Clear 1 Bitter Enmity mark from any Named Character on your roster (Norse and Christian warbands both qualify; the absolution may be sought from any priest). |
 | 76 | Wandering Avenger Seeks You | One random Named Character on your roster gains a Bitter Enmity mark against a random other warband in the campaign (campaign organiser determines randomly). |
 | 77–78 | Your Jarl's Name Spreads | +1 Renown. |
-| 79 | Rumor Reaches the Kingdom | Force a re-roll on your next Soubriquet Table result (yours or one inflicted on you). May be banked indefinitely until used. |
+| 79 | Rumor Reaches the Kingdom | Force a re-roll on your next Title Table result (yours or one inflicted on you). May be banked indefinitely until used. |
 
 #### Narrative and flavor (15 slots)
 
@@ -220,26 +220,26 @@ Rolled in **Step 5 of the post-game sequence**, once per player. Adapted from Po
 
 ---
 
-## 3. The Soubriquet Table (d10 × d6)
+## 3. The Title Table (d10 × d6)
 
 Rolled in **Step 10 of the post-game sequence** for the winner of any battle that qualifies. Adapted from Dux Britanniarum's Reputation system. Each result is a single epithet attached to the Chieftain's name forever (Erik becomes *Erik the Bold*, *Sven Skull-Splitter*, *Aelfric Dungbreath*).
 
 ### When to roll
 
-A Soubriquet roll is triggered by a **major victory**. Define this as winning the scenario AND meeting at least one of these conditions:
+A Title roll is triggered by a **major victory**. Define this as winning the scenario AND meeting at least one of these conditions:
 
 - Inflicted at least 50% more enemy casualties than you took.
 - Completed a Legendary Boast during the battle.
 - Killed the enemy Chieftain.
 - Captured the enemy Chieftain alive.
 
-If no condition is met, no Soubriquet roll occurs that battle.
+If no condition is met, no Title roll occurs that battle.
 
 ### Resolution
 
 1. Roll **d10 and d6 simultaneously**. The d10 selects a row, the d6 selects a column. Look up the cell.
 2. The player may **keep the rolled cell** OR **pick any orthogonally adjacent cell** (up, down, left, or right — not diagonal). Edge cells have fewer neighbors. This gives narrative control without removing randomness.
-3. The selected soubriquet is appended to the Chieftain's name and recorded on the warband sheet.
+3. The selected title is appended to the Chieftain's name and recorded on the warband sheet.
 
 ### The Table
 
@@ -269,24 +269,24 @@ The table is arranged top-to-bottom from desirable to insulting:
 
 This gradient means that a roll in the middle gives the player real choice via adjacency: a roll at d10=5 can shift up to d10=4 (more flattering) or down to d10=6 (still respectable). A roll at d10=2 can only shift up to d10=1 or down to d10=3 — both still good. The randomness creates the boundary; adjacency creates the agency.
 
-### Inflicting an unflattering soubriquet on a loser
+### Inflicting an unflattering title on a loser
 
-After a major victory, the winner may **spend 1 Renown** to force the loser's Chieftain to take a soubriquet. The winner rolls d10 and d6 on the loser's behalf and selects an adjacent cell (or the rolled cell). The loser cannot refuse. The winner does not gain a soubriquet of their own from this roll — they spent the Renown to insult, not to glorify.
+After a major victory, the winner may **spend 1 Renown** to force the loser's Chieftain to take a title. The winner rolls d10 and d6 on the loser's behalf and selects an adjacent cell (or the rolled cell). The loser cannot refuse. The winner does not gain a title of their own from this roll — they spent the Renown to insult, not to glorify.
 
-If the winner wants both — their own soubriquet AND inflict one on the loser — they pay 1 Renown for the loser's insult and also roll separately for themselves (no extra cost for their own roll).
+If the winner wants both — their own title AND inflict one on the loser — they pay 1 Renown for the loser's insult and also roll separately for themselves (no extra cost for their own roll).
 
 ### Stacking
 
-A character may hold up to **2 soubriquets at once**. If a third is gained, the player chooses which two to keep on the character's name. Discarded soubriquets are gone permanently.
+A character may hold up to **2 titles at once**. If a third is gained, the player chooses which two to keep on the character's name. Discarded titles are gone permanently.
 
 ### Death and legacy
 
-A character's soubriquets remain part of their saga even after death. When the campaign ends, players read aloud the full saga of each fallen named character including all soubriquets earned. A character who dies as *Erik the Bold, Spear-Famed* is remembered that way forever in the campaign's saga journal.
+A character's titles remain part of their saga even after death. When the campaign ends, players read aloud the full saga of each fallen named character including all titles earned. A character who dies as *Erik the Bold, Spear-Famed* is remembered that way forever in the campaign's saga journal.
 
 ### TODO (v0.3)
 
 - [ ] Faction-flavored sub-tables (Christian vs Norse) — currently faction-neutral. The Christ-Lover and Pagan-Slayer entries in row 7 are inherently faction-tinted; could be expanded.
-- [ ] Decide if Bald-and-One-Eyed style soubriquets should also reflect Lasting Injury Table results. A character who rolled Lost an Eye should perhaps automatically gain "the One-Eyed" without needing a Soubriquet roll.
-- [ ] Add a small set of legendary super-soubriquets unlocked only by Grand Finale victories: "the Saga-Bound," "the Wyrd-Touched," "the Eternal."
-- [ ] Decide whether soubriquets confer mechanical effects. Currently flavor-only. Possibly: characters named *the Bold* get +1 to charge rolls, *the One-Eyed* takes the existing penalty as canon, etc. Caution: this risks runaway power creep on long-lived characters.
-- [ ] Consider letting the loser's player spend 1 Renown to negate the winner's forced soubriquet. Creates an in-fiction "I challenge that name" mini-bid.
+- [ ] Decide if Bald-and-One-Eyed style titles should also reflect Lasting Injury Table results. A character who rolled Lost an Eye should perhaps automatically gain "the One-Eyed" without needing a Title roll.
+- [ ] Add a small set of legendary super-titles unlocked only by Grand Finale victories: "the Saga-Bound," "the Wyrd-Touched," "the Eternal."
+- [ ] Decide whether titles confer mechanical effects. Currently flavor-only. Possibly: characters named *the Bold* get +1 to charge rolls, *the One-Eyed* takes the existing penalty as canon, etc. Caution: this risks runaway power creep on long-lived characters.
+- [ ] Consider letting the loser's player spend 1 Renown to negate the winner's forced title. Creates an in-fiction "I challenge that name" mini-bid.

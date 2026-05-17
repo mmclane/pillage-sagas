@@ -257,7 +257,7 @@ In Two Sides Mode, all warbands on the Northmen side count as Norse; all on the 
 
 **Effect:** All warbands earn cumulative bonus Renown based on their season's achievements:
 - +2 Renown if they have completed at least one Legendary Boast this season.
-- +1 Renown if their Chieftain has any Soubriquet.
+- +1 Renown if their Chieftain has any Title.
 - +1 Renown for each Holding they currently control (no cap; a warband with 3 Holdings gains 3 Renown from this clause alone).
 
 ---

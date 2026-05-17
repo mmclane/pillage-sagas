@@ -70,7 +70,7 @@ After campaign start, all new Talent acquisitions are XP-only.
 There is no formal Chieftain succession mechanic. The Chieftain is chosen each battle from your living General Named Characters (per [01_Core_Rules.md §3](01_Core_Rules.md)). When a General dies, you simply have fewer candidates to pick from.
 
 - A General's death takes their **Talents, Skills, Stat improvements, Named-Weapon Unlock, Personal Saga, and any wielded Relic** with them. Relics may drop to the warband's inventory under specific rules ([04_Stores_and_Relics.md §8c](04_Stores_and_Relics.md)).
-- If a General dies during a battle in which they were the Chieftain, the **new Chieftain for the next battle** (whoever you designate) is granted a free **Soubriquet roll**, representing the warband adopting a new leader with a fresh reputation.
+- If a General dies during a battle in which they were the Chieftain, the **new Chieftain for the next battle** (whoever you designate) is granted a free **Title roll**, representing the warband adopting a new leader with a fresh reputation.
 
 **If all your Generals die:** You cannot field a battle (someone must be Chieftain). Before your next battle, recruit a fresh General from Treasury for 50 gp. They start with 0 XP and no Skills, Talents, Stat improvements, Named-Weapon Unlocks, or Personal Saga. Name them and add them to your roster.
 
