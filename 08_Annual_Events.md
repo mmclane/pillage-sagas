@@ -2,7 +2,7 @@
 
 A deck of campaign-wide event cards drawn at the start of every other club meeting. Annual Events affect every warband simultaneously, though some have asymmetric (faction-based) effects. They are the "kingdom shifts" — the larger world reacting around the warbands.
 
-20 cards for v0.3, organised into 4 categories of 5 each: Hazards, Boons, Faction-Divergent, and Shake-ups & Holdings.
+30 cards organised into 4 categories: Hazards (8), Boons (8), Faction-Divergent (7), and Shake-ups & Holdings (7).
 
 ---
 
@@ -19,7 +19,7 @@ A deck of campaign-wide event cards drawn at the start of every other club meeti
 
 ## 2. The Deck
 
-### Hazards (5 cards)
+### Hazards (8 cards)
 
 #### AE01 — Plague Sweeps the Halls
 
@@ -61,9 +61,33 @@ A deck of campaign-wide event cards drawn at the start of every other club meeti
 
 **Mitigation:** None. The Jarl chose to leave.
 
+#### AE21 — Wolves Stir in the Wilds
+
+> *The forests echo with howls. Distant travel becomes dangerous.*
+
+**Effect:** Each warband rolls d6. On 1-2, they lose 1 rank-and-file warrior from their roster (the warrior was attacked while crossing wilderness on the way to a raid; replacement costs apply as normal).
+
+**Mitigation:** Spend 1 Renown to negate the loss for your warband.
+
+#### AE22 — Old Curses Wake
+
+> *Wise women whisper of cursed lands. The omens are bad, and the chieftains feel it.*
+
+**Effect:** Each warband's current Chieftain (whoever was Chieftain in their most recent battle) rolls d6 in the next post-game. On a 1, the Chieftain takes a Lingering Wound: Aim (-1 to all hit rolls until cleared by a Feast or relevant Saga Roll result).
+
+**Mitigation:** Spend 2 Renown to negate the roll for your Chieftain.
+
+#### AE23 — Sea-Storm at the Coast
+
+> *Black clouds blot out the sun. Ships are battered against the rocks.*
+
+**Effect:** For the next battle each warband fights, they cannot deploy ships, longships, or any Location requiring intact water vessels (effectively bars Longship Boarding Location; figures from beached ships in other water Locations can still deploy on land per the Location rules, but ships themselves stay docked).
+
+**Mitigation:** Spend 1 Renown to negate for your warband's next battle.
+
 ---
 
-### Boons (5 cards)
+### Boons (8 cards)
 
 #### AE06 — A Successful Trading Season
 
@@ -95,9 +119,27 @@ A deck of campaign-wide event cards drawn at the start of every other club meeti
 
 **Effect:** All warbands gain +1 Renown.
 
+#### AE24 — A Treasure Found
+
+> *A buried hoard is unearthed. Word spreads of where it lies.*
+
+**Effect:** Each warband rolls d6. On 4+, the warband gains 40 gp (they found it in time). On 1-3, no effect (someone else got there first).
+
+#### AE25 — Diplomatic Envoy
+
+> *A messenger arrives from a distant court, seeking allies and bearing favors.*
+
+**Effect:** Each warband chooses one: gain 20 gp (accept the court's tribute) OR gain 1 Renown (refuse, keeping your honor intact). Declare immediately, no take-backs.
+
+#### AE26 — Festival of the Year
+
+> *The great festival draws warriors from across the lands. Tales are told, mead flows, alliances are sworn.*
+
+**Effect:** All warbands gain a free **Feast** (clear one Injury per Named Character — same effect as the Renown spend, but free this Winter). All warbands also gain +1 Boast draw for their next battle (drawn at battle start, respecting the hand size cap).
+
 ---
 
-### Faction-divergent (5 cards)
+### Faction-divergent (7 cards)
 
 These cards have asymmetric effects on Norse and Christian warbands. Faction assignment:
 
@@ -147,9 +189,25 @@ In Two Sides Mode, all warbands on the Northmen side count as Norse; all on the 
 - **Christian warbands** choose: bless the pilgrimage for +1 Renown, or rob it for +30 gp (taking -1 Renown for the sin).
 - **Norse / Pagan warbands** automatically rob the pilgrimage for +30 gp. No Renown loss; this is who they are.
 
+#### AE27 — Norse Raid Far Away
+
+> *The longships sail south, drawing warriors and threats to distant glory.*
+
+**Effect:** Norse warbands gain +1 Renown (their cousins return with stories of plunder). Christian warbands cannot deploy cavalry in their next battle (their horsemen are scattered defending unfamiliar threats).
+
+**Mitigation:** A Christian warband may spend 1 Renown to deploy cavalry normally in their next battle.
+
+#### AE28 — Holy Feast Day
+
+> *Christ's church celebrates a great feast. Pagans see it as easy raiding.*
+
+**Effect:**
+- **Christian warbands'** Healers heal on a 3+ roll instead of 5+ for the next battle (one battle only — divine grace at the feast).
+- **Norse / Pagan warbands** gain 20 gp (they raid pilgrims arriving for the feast).
+
 ---
 
-### Shake-ups and Holdings (5 cards)
+### Shake-ups and Holdings (7 cards)
 
 #### AE16 — Civil War
 
@@ -187,6 +245,21 @@ In Two Sides Mode, all warbands on the Northmen side count as Norse; all on the 
 
 **Mitigation:** Spend 3 Renown to make your Jarl immune to this roll.
 
+#### AE29 — A New Hall Rises
+
+> *Word spreads of a Jarl building a new hall — a fresh target, ripe for a contested raid.*
+
+**Effect:** The next time any warband completes the Sack the Hall Battle Type after this card fires, the resulting **Burned Hall Holding** yields **double** its normal value (+60 gp + 2 Renown per Winter) for the rest of the season. Only the first such victory triggers the bonus.
+
+#### AE30 — The Saga Journal
+
+> *Scribes and skalds record the deeds of the year. Reputations crystallize, names are written, sagas are sung in the king's hall.*
+
+**Effect:** All warbands earn cumulative bonus Renown based on their season's achievements:
+- +2 Renown if they have completed at least one Legendary Boast this season.
+- +1 Renown if their Chieftain has any Soubriquet.
+- +1 Renown for each Holding they currently control (no cap; a warband with 3 Holdings gains 3 Renown from this clause alone).
+
 ---
 
 ## 3. Rules notes
@@ -202,7 +275,7 @@ In Two Sides Mode, all warbands on the Northmen side count as Norse; all on the 
 
 ## 4. TODO (v0.4)
 
-- [ ] Expand the deck to 30 cards. 20 is enough for one season's variety but a second season would feel repetitive.
+- [x] **Expanded the deck to 30 cards in v0.3.** Added 10 cards: Hazards (3): Wolves Stir, Old Curses Wake, Sea-Storm; Boons (3): A Treasure Found, Diplomatic Envoy, Festival of the Year; Faction-divergent (2): Norse Raid Far Away, Holy Feast Day; Shake-ups (2): A New Hall Rises, The Saga Journal.
 - [ ] Add Holdings-specific events that interact with specific Holding types (a Burned Hall is rebuilt, a Watch Tower is reinforced).
 - [ ] Add 2-3 "Grand Finale Approaches" cards that fire only in the second half of the season — building campaign-arc tension.
 - [ ] Decide whether some Annual Events should be **mode-locked** (e.g., AE19 Holdings Raided in Absence only fires if at least one player holds a Holding). v0.3 fires all cards regardless of state.
