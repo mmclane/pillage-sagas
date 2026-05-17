@@ -94,6 +94,8 @@ The Advancement step (post-game step 9) is where Named Characters spend XP. Five
 
 A character earning 3 XP per battle over a 7-battle season earns 21 XP, enough for maybe 5-7 advancements in practice. The hard caps prevent runaway optimization on a single character who survives many seasons.
 
+A 6th path — **Donate to the Warband** (3 XP → +1 Renown to the warband, no character advancement) — exists as a safety valve for capped characters and as a flat exchange rate for players who prefer the leaderboard over character mechanics. See below.
+
 ---
 
 ### Path B: Skills
@@ -236,6 +238,20 @@ A Personal Saga is a passive Renown generator that fires whenever the character 
 
 ---
 
+### Path F: Donate to the Warband (3 XP → +1 Renown)
+
+A safety-valve option for characters whose XP has nowhere useful to go. Once a character has filled all their advancement caps (2 Talents, 4 Skills, 3 Stat Improvements, 1 Named-Weapon Unlock, 1 Personal Saga), or simply chooses not to advance further, they may spend XP to grant Renown to their warband:
+
+- **Cost:** 3 XP
+- **Effect:** +1 Renown to the warband (added to the player's Renown total in the post-game sequence)
+- **Restriction:** This is the only XP path where the spent XP doesn't go on the character's sheet. The XP is "spent" but produces no permanent character improvement.
+- **No cap** on number of times this is used per character per Advancement step (a character with 9 XP could donate 3 times for +3 Renown), though the standard 5-XP-per-game earning cap means this is bounded in practice.
+
+Use cases:
+- A long-lived Chieftain has filled their advancement caps; their continued battlefield deeds should still count toward warband Renown
+- A specialist (Healer, Banner-bearer, Warhorn-bearer) who can't earn Talents has fewer spend options; this path gives them a use for excess XP
+- A player who just wants to lean into the leaderboard race rather than character mechanics
+
 ### How XP gets spent — example progression
 
 A General Named Character named Ulf participates in his warband's first 4 battles. Over those battles he earns:
@@ -261,7 +277,7 @@ Ulf's growth shape is the player's choice. A Talent-focused Ulf is the warband's
 - [ ] Faction-specific Personal Sagas (Viking-only, Christian-only).
 - [x] Healer- and class-specific Skills added in v0.3 (4 Healer-only, 3 Banner-bearer-only, 3 Warhorn-bearer-only). Berserker is now equipment, not a class — its abilities go through equipment + Mushrooms Store rather than class-locked Skills.
 - [ ] Decide whether Advancement options should be drawn from a deck (Mordheim-style rare-find flavor) or chosen openly (current default).
-- [ ] Consider adding a "Forgo Advancement" option: spend 3 XP to gain +1 Renown directly for the warband. Gives a low-floor exit for XP that can't find a home.
+- [x] Forgo Advancement option added in v0.5 (now called **Donate to the Warband**, Path F). 3 XP → +1 Renown to the warband.
 
 ---
 

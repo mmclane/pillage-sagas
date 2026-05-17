@@ -283,10 +283,81 @@ A character may hold up to **2 titles at once**. If a third is gained, the playe
 
 A character's titles remain part of their saga even after death. When the campaign ends, players read aloud the full saga of each fallen named character including all titles earned. A character who dies as *Erik the Bold, Spear-Famed* is remembered that way forever in the campaign's saga journal.
 
-### TODO (v0.3)
+### Lasting Injury → automatic Title mapping
 
-- [ ] Faction-flavored sub-tables (Christian vs Norse) — currently faction-neutral. The Christ-Lover and Pagan-Slayer entries in row 7 are inherently faction-tinted; could be expanded.
-- [ ] Decide if Bald-and-One-Eyed style titles should also reflect Lasting Injury Table results. A character who rolled Lost an Eye should perhaps automatically gain "the One-Eyed" without needing a Title roll.
-- [ ] Add a small set of legendary super-titles unlocked only by Grand Finale victories: "the Saga-Bound," "the Wyrd-Touched," "the Eternal."
-- [ ] Decide whether titles confer mechanical effects. Currently flavor-only. Possibly: characters named *the Bold* get +1 to charge rolls, *the One-Eyed* takes the existing penalty as canon, etc. Caution: this risks runaway power creep on long-lived characters.
-- [ ] Consider letting the loser's player spend 1 Renown to negate the winner's forced title. Creates an in-fiction "I challenge that name" mini-bid.
+A character who rolls a permanent Injury on the Saga Injury Table is automatically known by a Title appropriate to their wound. These auto-Titles cost no Title roll; they're applied at the same post-game step as the Injury. They count toward the 2-Title cap on the character.
+
+| Saga Injury result | Auto-Title | Notes |
+|---|---|---|
+| Lost an Eye (slot 7) | **the One-Eyed** | Inherits the Injury's -1 to ranged hit rolls. |
+| Lost a Hand (slot 6) | **the One-Handed** (or **the Maimed**) | Inherits the Injury's chosen effect (-1 melee hit, or no shield). |
+| Spinal Injury (slot 5) | **the Broken-Backed** (or **the Limping**) | Inherits the Injury's permanent -1" movement. |
+| Impressive Scar (slot 19) | **the Scarred** | Inherits the Injury's Inspiring trait (+1 morale to friendlies within 6"). |
+| Death's Door (slot 4) survived after a recovery roll | **the Twice-Born** | Pure narrative; no mechanical effect beyond the Injury. |
+| Infection (slot 8) survived after the chronic d6 cleared | **the Iron-Bellied** | Pure narrative; no mechanical effect beyond the Injury. |
+| Psychological Trauma (slot 9) | **the Haunted** | Inherits the Injury's morale-on-1 = flee effect. |
+
+Auto-Titles do not generate Renown by themselves — they're naming flavor consistent with the character's scarred body. The Injury's mechanical effect comes from the Injury itself, not from the Title.
+
+A player may decline to take the auto-Title if they'd prefer their character go by another name (the Injury still applies). They cannot, however, take the auto-Title without the Injury.
+
+### Optional: light mechanical effects on Titles
+
+Currently Titles are pure flavor (except for the Lasting-Injury auto-Titles, which inherit their Injury's effect). Some groups may want to spice them up. Below is an **optional** mechanical-effect layer the campaign organiser may enable at campaign start. If enabled, all listed Titles confer the listed effect. Default is off.
+
+| Title | Effect (only if optional layer enabled) |
+|---|---|
+| **the Bold** | Once per game, this character may re-roll one failed charge distance roll. |
+| **the Mighty** | Once per game, this character may re-roll one failed melee hit roll. |
+| **the Cunning** | Once per game, this character's warband may re-roll one initiative roll. |
+| **the Magnanimous** | When this character's warband captures an enemy alive, the ransom may be returned for half the normal price (already half-cost; this lowers further to one-quarter). |
+| **the Generous** | At the start of each season the holder is alive, +20 gp to the warband's Treasury (gifts to the warriors). |
+| **the Pious** | When defending a chapel, abbey, henge, or Monastery Grounds Location, +1 morale to all friendly figures while this character is on the table. |
+| **the Coward** | -1 to all morale checks for this character. (Inflicted title; bites the holder.) |
+| **the Drunken** | -1 to all initiative rolls when this character is the Chieftain. (Inflicted title.) |
+| **Dungbreath** | -1 to all hit rolls in melee against this character (no one wants to get close enough to fight properly). Cuts both ways — a small benefit hidden in the insult. |
+| **the One-Eyed** (auto from Injury) | Already covered by the Injury's -1 ranged effect. No additional Title effect. |
+
+The optional layer is balanced for symmetry: positive Titles (rows 1-6) confer modest benefits; negative Titles (rows 8-10, inflicted by enemies) carry small drawbacks. Auto-Titles use their Injury's effect, not a separate Title effect.
+
+> **If you enable the optional layer**, write "Title Effects: ON" on the campaign organiser's master sheet at campaign start. All Title rolls during the campaign use the optional effects.
+
+### Title Negation (optional)
+
+After a winner rolls a Title to inflict on a loser, the loser's player may **spend 1 Renown** to negate it (the loser's player declares "I challenge that name" and pays the Renown). The Title is not applied. The winner does not get their Renown back from the original spend, however — both sides have paid for the dispute.
+
+This is an optional rule; many groups will find it adds drama, others will find it adds bookkeeping. Default: off.
+
+---
+
+## 4. Legendary Titles (Grand Finale only)
+
+A small additional table for the supreme achievements. **Legendary Titles can only be awarded after the Grand Finale**, to the warband whose victory closed the season. They are above and beyond the regular Title Table.
+
+### When awarded
+
+- **The winner of the Grand Finale** (the single warband with the most Renown in the final battle, or the winning side's standout in Two Sides Mode) gains **1 Legendary Title** for their Chieftain.
+- The Chieftain may receive a Legendary Title **on top of any regular Titles** they already hold. The 2-Title cap does not apply to Legendary Titles — these are saga-supreme.
+- Each Legendary Title may only be claimed **once per campaign**. If two seasons of the same group run consecutively, a Title taken in season 1 is unavailable in season 2 unless that Chieftain has died.
+
+### The five Legendary Titles
+
+| Title | Award context | Effect |
+|---|---|---|
+| **the Saga-Bound** | The Grand Finale's most prolific Boast-completer (most Boasts of any character that game) | Pure narrative; the character's name is permanently inscribed in the campaign saga journal as the season's saga-singer. +2 Renown to the warband's season total. |
+| **the Wyrd-Touched** | The Grand Finale's winner who survived against the longest odds (last figure on the table at some point during the Finale) | Pure narrative; the character is said to be touched by Wyrd, a holy or fated figure. |
+| **the Eternal** | The Grand Finale's overall winner whose Chieftain has survived the entire campaign without dying | Pure narrative; the character's name is recited at the start of any future campaign by this group, granting +1 morale to their first battle's warband. |
+| **the Crown-Maker** | The Grand Finale's winner who personally killed the most enemy Named Characters during the Finale | Pure narrative; the Crown-Maker is said to elevate other warriors to glory. |
+| **the Saga-King** | The overall Grand Finale champion (highest Renown total for the season) | The crown jewel; the character is named the season's Saga-King at the end ceremony. Pure narrative supremacy. |
+
+In Two Sides Mode, Legendary Titles are awarded to standout Chieftains on the winning side. The campaign organiser may consult with players to choose recipients (the saga is a group activity).
+
+Legendary Titles are deliberately **narrative**, not mechanical. They are awards for stories told, not for power gained. Some groups may extend them with mechanical effects in the next campaign (the Eternal's morale aura, for instance), but the default is "your name is sung in the halls forever, and that is enough."
+
+---
+
+### TODO (v0.5+)
+
+- [ ] Faction-flavored sub-tables (Christian vs Norse) — the current Title Table is faction-neutral with hints in row 7 (Christ-Lover, Pagan-Slayer). Could be expanded with full sub-decks.
+- [ ] Playtest the optional Title mechanical effects layer to see if the balance holds.
+- [ ] Title Negation playtest: does spending 1 Renown to deflect insults feel right?
