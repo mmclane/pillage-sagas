@@ -80,16 +80,20 @@ A typical warband holds 4 to 5 Characters plus 0 to 3 specialists. Total Named R
 
 **If all your Characters die in a campaign:** You cannot field a battle without at least one Character (someone must be Chieftain). Recruit a fresh Character for 50 gp from Treasury; they start with 0 XP and no Skills/Talents/etc.
 
-**Rank-and-file warriors are persistent.** Surviving warriors stay with your warband between battles; you do not rebuild your army from scratch each game.
+**Army economy (rebuy-then-refund).** Each battle, you assemble your army by paying full Pillage gp prices from your Treasury for every figure you field, equipment and all. After the battle, the gp value of every **surviving figure** returns to your Treasury (this happens in the **Collect Treasure** step of the post-game sequence — see [§6 step 3](#6-the-post-game-sequence)). You effectively pay only for casualties.
 
-- When you build your army for a battle, you may field any combination of your existing surviving warriors PLUS new recruits paid from Treasury at standard Pillage prices (per faction).
-- Casualties from a battle (figures killed) are removed from your warband roster permanently. Their gp value is lost.
-- Captured warriors may be ransomed back in the post-game **Ransom step** (per [§6 step 4](#6-the-post-game-sequence)) at half their gp cost, or treated as lost (the captor may keep them indefinitely, sacrifice them, or hold them as leverage).
-- You may freely re-equip surviving warriors between battles for the standard gp cost of any equipment changes (e.g., upgrading from improvised weapon to a hand weapon: pay the difference in gp).
+- **Surviving figure** = a figure still on the table at game end, OR a figure who went Down but survived their Saga Injury Table roll (Injury results other than "Dead").
+- **Killed figure** = a Named Character who rolled "Dead," "Death's Door" resolving to death, or "Infection" resolving to death; or a rank-and-file figure killed during the battle. Their gp value is lost.
+- **Captured figure** = held by the enemy, resolved in the **Ransom step** (see [§6 step 4](#6-the-post-game-sequence)). Captured figures' value is NOT auto-refunded — it's either ransomed back or lost.
+
+This framing means:
+- Rank-and-file warriors don't have a persistent roster between battles. You just have Treasury, your Named Characters, and a free hand to assemble whatever army your gp affords each game.
+- Re-equipping is free between battles (just choose different gear at the next army-build).
+- A warband that fights cautiously and loses few figures sees Treasury grow over time. A warband that takes heavy losses bleeds gp.
 
 A Named Character may be equipped from the same options as a rank-and-file warrior (or as a Chieftain / Berserker / etc. when faction rules permit) — only their persistent Skills, Talents, Stat improvements, Named-Weapon Unlocks, and Personal Saga distinguish them.
 
-> **Note on the economy (v0.5):** The persistent rank-and-file model replaces the earlier "buy a fresh army each battle" rule, which made Treasury unsustainable. Math examples and balance assumptions are tracked in [07_Design_Notes.md](07_Design_Notes.md).
+> **Note on the economy (v0.5):** The rebuy-then-refund model replaces the earlier "buy a fresh army each battle with no refund" rule, which made Treasury unsustainable in 2-3 games. Math examples and balance assumptions are tracked in [07_Design_Notes.md](07_Design_Notes.md).
 
 ### 3c. Renown
 
@@ -129,15 +133,25 @@ After every battle, resolve in order. Skip any step that doesn't apply.
 
 1. **Wound Rolls.** Each Named Character who fell rolls on the **Saga Injury Table** ([06_Tables.md](06_Tables.md)).
 2. **Tally Renown.** Add up Renown earned during the battle (kills, scenario objectives, terrain held, captures, Boasts completed mid-game).
-3. **Collect Treasure.** Loot tokens carried off the board convert to gp at 5 gp each. Add scenario-specific gold.
-4. **Ransom and Relic Transfer.** Resolve captured figures and Relic moves:
-   - **Captured Named Characters**: ransom back at half gp cost, execute (captor gains Renown, victim's warband loses the character), or hold indefinitely. See [04_Stores_and_Relics.md §8c](04_Stores_and_Relics.md) for Relic-specific transfer rules.
-   - **Captured rank-and-file warriors**: ransom back at half the captured figure's gp cost (paid by the original owner to the captor). If the original owner declines or cannot pay, the captor may either sacrifice the prisoner (+1 Renown to captor, no gp to either side) or keep them indefinitely (the warrior is effectively dead from the original warband's view; captor gains no gp). The captor cannot recruit captured warriors into their own warband — captured enemies don't switch sides.
+3. **Collect Treasure.** Three sub-steps:
+   - **Loot:** Loot tokens carried off the board convert to gp at 5 gp each. Add scenario-specific gold (Plunder Stakes bonuses, etc.).
+   - **Refund Survivors:** Add the full gp value (figure + equipment) of every **surviving figure** in your army back to your Treasury. A surviving figure is one still on the table at game end OR a Named Character who went Down but survived their Saga Injury Table roll (any result other than "Dead").
+   - **Casualties Lost:** Dead figures' gp value is lost; no refund. Captured figures are not refunded — they're resolved in the Ransom step (next).
+4. **Ransom and Relic Transfer.** Resolve captured figures and Relic moves. Captured figures' gp value is **not refunded** in step 3 — their fate is resolved here:
+   - **Captured Named Characters**: the original owner may pay half the character's gp cost (figure + equipment) to the captor to ransom them back. The ransomed character returns to the owner's roster (full gp value not refunded — the owner paid half to recover them). Alternatively, the captor may execute the character (captor gains Renown, character is removed from the roster permanently; no gp to either side) or hold indefinitely (character is effectively dead from owner's view; captor gains no gp). See [04_Stores_and_Relics.md §8c](04_Stores_and_Relics.md) for Relic-specific transfer rules.
+   - **Captured rank-and-file warriors**: same as Named Characters — owner pays half the figure's gp cost to the captor to ransom. If declined or unaffordable, the captor may sacrifice (+1 Renown to captor) or hold (warrior is lost from owner's view; captor gains no gp). Captured warriors cannot be recruited into the captor's warband — captured enemies don't switch sides.
+   - **Net effect of ransom**: ransomed figures save the owner ~50% of replacement cost vs buying a fresh figure. Captors may prefer Renown (sacrifice) over gp (ransom) depending on the warband's needs.
    - **Resolve Relic transfers** per [04_Stores_and_Relics.md](04_Stores_and_Relics.md).
 5. **Saga Roll.** Roll d100 on the Saga Roll Table ([06_Tables.md](06_Tables.md)) for a between-game event.
 6. **Divide Shares.** Pay your Named Characters their winter share. Shortfall triggers an **Oathbreaking Check**: roll d10 plus shortfall in gp/10; on a fail, one or more Named Characters leave the warband (and may be recruited by a rival next Winter).
 7. **Mead-Hall.** Optional: spend gp or Renown to refresh Boasts (see [03_Boasts.md](03_Boasts.md)).
-8. **Recruit and Re-equip.** Spend gp on replacement warriors, new equipment, Stores. Hire specialists.
+8. **Recruit and Re-equip.** Spend gp on persistent things between battles:
+   - **Stores** (single-use consumables, kept until used) per [04_Stores_and_Relics.md Part A](04_Stores_and_Relics.md).
+   - **New Named Characters** (replacements for any who died this season; 50 gp each per [02_XP_and_Advancement.md §6](02_XP_and_Advancement.md)).
+   - **New class-locked Specialists** (Healer, Banner-bearer, Warhorn-bearer; 50 gp each if not already on the roster).
+   - **Permanent equipment upgrades** on Named Characters that you want to lock in (rare — usually you choose equipment fresh each battle since rank-and-file are rebuilt anyway).
+
+   Rank-and-file warriors are not recruited here — they're built fresh from Treasury at army-build before each battle. The rebuy-then-refund model (see [§3b](#3b-named-roster)) handles their economics.
 9. **Advancement.** XP-eligible Named Characters spend XP per [02_XP_and_Advancement.md](02_XP_and_Advancement.md).
 10. **Reputation Check.** Players whose victory margin was wide enough (TBD threshold) roll on the **Title Table** ([06_Tables.md](06_Tables.md)) for a new epithet. Victors may also assign unflattering titles to losers.
 11. **Holdings Updates.** Pay yield (gp + Renown) from any Holdings still held (per [05_Scenarios.md §5](05_Scenarios.md)). If this battle contested a Holding, resolve the change of control.

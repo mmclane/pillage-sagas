@@ -128,40 +128,53 @@ A pass to close out remaining policy-shaped open questions before v0.4 / playtes
 
 ### v0.5+ peer-review feedback fixes
 
-**Rank-and-file warriors are now persistent (was: fresh each battle).** The previous "buy a fresh army each battle" rule was financially unsustainable — Treasury drained in 2-3 battles. New model: surviving rank-and-file stay with the warband between games; you only pay Treasury to replace casualties or add new figures.
+**Army economy reworked as rebuy-then-refund (peer feedback round 1).** The previous "buy a fresh army each battle, no refund" rule was financially unsustainable — Treasury drained in 2-3 games. The intermediate "persistent rank-and-file roster" idea worked mathematically but added bookkeeping overhead. Final model per peer feedback: each battle the player assembles their army from Treasury paying full Pillage gp prices for everyone fielded. Post-battle, surviving figures' gp value refunds to Treasury. Killed figures' gp is lost. Captured figures are resolved separately in the Ransom step.
 
-**Captured rank-and-file may be ransomed back** at half their gp cost, paid by the original owner to the captor. Declined or unaffordable ransoms leave the captor with the prisoner (effectively dead from the original warband's view; captor may sacrifice for +1 Renown or hold). Captured warriors cannot be recruited into the captor's warband.
+This framing is mathematically equivalent to a persistent-roster model but simpler at the table:
+- No need to track individual rank-and-file figures between battles.
+- Re-equipping happens naturally at the next army-build (just buy different gear).
+- Players can scale their army size up or down by choosing how much Treasury to commit per battle.
+
+**Captured figures may be ransomed back** at half their gp cost (paid by the original owner to the captor) in the Ransom step. Declined or unaffordable ransoms leave the captor with the prisoner; captor may sacrifice for +1 Renown or hold indefinitely. Captured warriors cannot be recruited into the captor's warband — captured enemies don't switch sides. The half-cost ransom saves the owner ~50% vs replacement when they can pay.
 
 **Math notes (v0.5, requires playtest):**
 
 Assumptions for a typical battle:
-- Starting army: ~800 gp in figures (1 Chieftain + 6-7 warriors + 1 Banner-bearer, varies by faction equipment costs)
-- Casualty rate: 20-30% per battle = 2-3 figures dead per battle
-- Average gp value of a casualty: ~40 gp (a typical warrior with shield + spear + armor)
-- Loot earnings per battle: 50-100 gp (Pillage Town with bonus = 50 gp baseline + ~30 gp bonus on win)
-- Holdings yield: persistent Holdings add 10-40 gp per cadence cycle
+- Army built fresh from Treasury: ~800 gp (1 Chieftain + 6-7 warriors + 1 Banner-bearer, varies by faction equipment costs).
+- Casualty rate: 20-30% per battle = 2-3 figures dead per battle.
+- Average gp value of a casualty: ~40 gp (a typical warrior with shield + spear + armor).
+- Loot earnings per battle: 50-100 gp (Pillage Town with bonus = 50 gp baseline + ~30 gp bonus on win).
+- Holdings yield: persistent Holdings add 10-40 gp per cadence cycle.
 
-With persistent rank-and-file:
-- Replacement cost per battle: 2-3 × ~40 gp = 80-120 gp
-- Gp income per battle (win): ~80-130 gp
-- Net Treasury change per battle: roughly break-even to +20 gp if you win, -50 to -80 gp if you lose
-- Starting Treasury (300 gp) buffers 3-4 bad battles before pressure forces hard choices
+Per-battle Treasury accounting (rebuy-then-refund):
+- Step 1: Spend full army cost. Treasury -800 gp.
+- Step 2: Battle happens. Some figures die.
+- Step 3 (Collect Treasure): Add loot gp (e.g., +80 gp on win) AND refund surviving figures' value (e.g., 720 gp returned from 6/8 figures alive at ~120 gp/figure on average if we assume 2 died).
+- Step 4 (Ransom): Resolve any captures. Owner pays half cost if ransoming back.
+- **Net Treasury change**: ~+80 gp on a clean win (loot) - 80-120 gp casualty value = roughly **break-even on wins** when 2-3 figures die.
+- A 4-casualty bad battle costs ~160 gp net.
+- A perfect-victory zero-casualty battle nets ~+80 gp (rare; usually some attrition).
 
 Sustainability check:
-- A 6-battle Short Season with 3 wins and 3 losses: net Treasury change ≈ 0 to +60 gp. Sustainable.
-- Holdings income compounds: 2 Holdings producing 30 gp each per Winter = +60 gp passive (60% of a battle's worth of replacement cost).
-- Players who lose a Healer or have no Holdings will feel the squeeze; this is intentional pressure.
+- 6-battle Short Season with 3 wins (2 casualties each) + 3 losses (3 casualties each):
+  - Wins: 3 × ~break-even = ~0 gp net
+  - Losses: 3 × ~-50 to -80 gp = -150 to -240 gp
+  - Holdings: 2 small Holdings × 6 cadences × 25 gp = +300 gp
+  - **Net season**: roughly +60 to +150 gp Treasury growth over 6 battles. Sustainable.
+- Holdings income is the buffer; warbands with no Holdings will feel pressure.
+- Starting Treasury 300 gp covers ~5 bad battles' worth of casualties even before Holdings income.
 
 Ransom impact:
-- Without ransom: captured figure = dead = 40 gp replacement cost
-- With ransom: captured figure ransomed for 20 gp = saves 20 gp per ransom
-- Captor option: refuse ransom and sacrifice = +1 Renown but no gp gain (worth it for Renown-hungry warbands)
+- Without ransom: captured figure = dead = 40 gp replacement cost.
+- With ransom: captured figure ransomed for 20 gp = saves 20 gp per ransom.
+- Captor's call: ransom (+20 gp) or sacrifice (+1 Renown, no gp). Renown-rich warbands tend to take gp; Renown-poor tend to sacrifice for the Renown bump.
 
 Open math questions to playtest:
 - Is 50% ransom rate fair to both sides, or does it advantage the captor too much? Consider 40% or 60%.
 - Should the Healer's heal mechanic prevent some casualties from becoming permanent deaths? Currently it does (heals during the battle).
 - Should there be a "campaign salary" — a small per-meeting Treasury injection (e.g., +30 gp from your domain) to soften the squeeze? Currently no.
 - Should starting Treasury be raised from 300 to 400-500 gp to give more cushion for the first 3 battles?
+- Does the rebuy-then-refund framing actually feel cleaner at the table than persistent-roster, or do players want to keep the same warriors visibly between battles for narrative reasons? Playtest will tell.
 
 **Grand Finale needs rework (v0.5+).** The current spec ("all players field their full Treasury and Roster in one battle") is too large for a single tabletop session. Marked as a placeholder in 01_Core_Rules.md §4. **Design direction (per peer feedback):** expand The Althing Multi-player Battle Type into the season climax — secret targets among all Chieftains, with season-ending stakes (Legendary Titles, side victory in Two Sides Mode, Renown multipliers). Each surviving Chieftain participates with a smaller retinue rather than full warband strength. Full design deferred to a later revision.
 
