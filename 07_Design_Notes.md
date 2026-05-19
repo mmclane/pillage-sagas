@@ -189,6 +189,30 @@ Sustainability check:
 - Holdings income is the buffer; warbands with no Holdings will feel pressure.
 - Starting Treasury 600 gp covers ~3-5 bad battles' worth of casualties (at ~70-100 gp drain per loss) even before Holdings income.
 
+**TODO — write a simulation script** (`simulate_campaign.py`) that runs many randomized seasons and reports sustainability metrics across parameter sweeps. The current math is analytical (best/typical/worst case); a Monte Carlo simulation will validate the actual distribution of outcomes.
+
+Parameters to vary:
+- Starting Treasury (300, 500, 600, 800, 1000 gp)
+- Loot token value (5, 10, 15, 20 gp)
+- Army budget (300, 400, 500 gp)
+- Casualty rate (15%, 20%, 25%, 30% per battle)
+- Holdings acquired during season (0, 1, 2, 3+)
+- Win/loss ratio (50/50, 60/40, 40/60)
+- Healer presence (with/without injury re-roll mitigation)
+
+Metrics to measure per simulated season:
+- Treasury trajectory across battles (mean, median, percentiles)
+- Bankruptcy rate (% of warbands unable to field a 300+ gp army at any battle)
+- Named Character permanent death count (lethality of the Saga Injury Table)
+- Final Renown distribution
+- Ransom decisions taken (count and aggregate gp)
+
+Goal: find the **starting Treasury value** where ≥80% of warbands can sustain themselves through an 8-game season without going bankrupt, given typical play (mixed wins/losses, 2 Holdings acquired mid-season, no extreme bad luck on Annual Events). Validate the recommended 600 gp or recommend an adjustment.
+
+Implementation sketch: a Python script reading parameters from a config dict, running `N=1000` seasons per parameter set, outputting a results table or CSV. Could re-use the `md_to_docx.py` style structure (single Python file in the project root).
+
+This is a deferred task; it doesn't block playtest but will sharpen the numbers before publication.
+
 Ransom impact:
 - Without ransom: captured figure = dead = 40 gp replacement cost.
 - With ransom: captured figure ransomed for 20 gp = saves 20 gp per ransom.
