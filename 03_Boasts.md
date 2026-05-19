@@ -74,7 +74,7 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 | C09 | **Drink the Mead** | Your Jarl is on the table and has lost no hit points at the end of the game. |
 | C10 | **Cavalry Glory** | One of your cavalry figures kills an enemy with a charging attack. |
 | C11 | **Spear of Reach** | One of your figures kills an enemy in a melee where a supporting spear's bonus contributed to the win. |
-| C12 | **Dogged Pursuit** | One of your figures catches and kills a Fleeing enemy figure. |
+| C12 | **Dogged Pursuit** | An enemy figure attempts to Flee from your figure's charge, fails their Flee roll (1-3), and is destroyed when your figure makes contact (per Pillage's charge-reaction rules). |
 | C13 | **Door-Burster** | One of your figures breaks down a fortified door during the game. |
 | C14 | **First Blood** | The first enemy figure killed in the game (across both warbands) is killed by one of your figures. |
 | C15 | **The Bowman's Pride** | One of your figures kills an enemy with a bow at long range (greater than half the bow's maximum range). |
