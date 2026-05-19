@@ -163,20 +163,22 @@ Decision: **10 gp per loot token** for the campaign baseline. Doubles Pillage ca
 Non-Plunder battles (Glory Stakes, Holding Stakes, Relic Stakes) yield no immediate gp from loot — they trade gp income for Renown, Holdings income, or Relic acquisition. Warbands that win primarily non-Plunder battles need to lean on Holdings yield and ransom income. This is intentional pressure that encourages diverse Battle Type selection.
 
 **Other assumptions for a typical battle:**
-- Army built fresh from Treasury: ~800 gp (1 Chieftain + 6-7 warriors + 1 Banner-bearer, varies by faction equipment costs).
-- Casualty rate: 20-30% per battle = 2-3 figures dead per battle.
+- Army built fresh from Treasury: ~400 gp (1 Chieftain + 7-9 warriors + 1 Banner-bearer, ~8-12 figures total, varies by faction equipment costs). Battle Type force balances range 250-500 gp.
+- Why 400 gp instead of Pillage's standard ~800 gp: Pillage's army budget includes Talent costs (5-60 gp each, 2 per chieftain). This campaign moves Talents to XP rewards, so the same army equipment costs ~half the gp. 400 gp now buys what 800 gp used to.
+- Casualty rate: 20-30% per battle = 2-3 figures dead per battle (similar absolute numbers in smaller armies, similar percentages).
 - Average gp value of a casualty: ~35 gp.
 - Loot earnings per battle: 70-100 gp on Plunder Stakes wins (at 10 gp/token rate); 20-40 gp on losses; 0-20 gp on non-Plunder battles.
 - Holdings yield: persistent Holdings add 10-40 gp per cadence cycle.
 
-Per-battle Treasury accounting (rebuy-then-refund, 10 gp/token):
-- Step 1: Spend full army cost. Treasury -800 gp.
+Per-battle Treasury accounting (rebuy-then-refund, 400 gp army, 10 gp/token):
+- Step 1: Spend full army cost. Treasury -400 gp.
 - Step 2: Battle happens. Some figures die.
-- Step 3 (Collect Treasure): Add loot gp (e.g., +70-90 gp on a Plunder win at 10 gp/token) AND refund surviving figures' value (e.g., 730 gp returned from 7/8 figures alive at ~104 gp/figure on average if we assume 2 died).
+- Step 3 (Collect Treasure): Add loot gp (e.g., +70-90 gp on a Plunder win at 10 gp/token) AND refund surviving figures' value (e.g., 330 gp returned from 8/10 figures alive at ~40 gp/figure on average if we assume 2 died).
 - Step 4 (Ransom): Resolve any captures. Owner pays half cost if ransoming back.
-- **Net Treasury change**: ~+70-90 gp loot - 70-105 gp casualty value = roughly **break-even on Plunder wins** when 2-3 figures die.
+- **Net Treasury change**: ~+70-90 gp loot - 70 gp casualty value = roughly **break-even on Plunder wins** when 2-3 figures die.
 - A 4-casualty bad battle costs ~140 gp; partly offset by loot.
 - A perfect-victory zero-casualty battle nets ~+70-90 gp (rare; usually some attrition).
+- Starting Treasury 600 gp absorbs the first ~3 bad battles before requiring Holdings income or smarter play.
 
 Sustainability check:
 - 6-battle Short Season with 3 wins (2 casualties each) + 3 losses (3 casualties each):
@@ -185,7 +187,7 @@ Sustainability check:
   - Holdings: 2 small Holdings × 6 cadences × 25 gp = +300 gp
   - **Net season**: roughly +60 to +150 gp Treasury growth over 6 battles. Sustainable.
 - Holdings income is the buffer; warbands with no Holdings will feel pressure.
-- Starting Treasury 300 gp covers ~5 bad battles' worth of casualties even before Holdings income.
+- Starting Treasury 600 gp covers ~3-5 bad battles' worth of casualties (at ~70-100 gp drain per loss) even before Holdings income.
 
 Ransom impact:
 - Without ransom: captured figure = dead = 40 gp replacement cost.

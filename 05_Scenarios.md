@@ -96,18 +96,18 @@ When players agree on a Battle Type, they may use a specific published scenario 
 
 | Battle Type | Category | Force | Turns | Reward |
 |---|---|---|---|---|
-| Pillage Town | Plunder | even (800 gp) | 8 | Loot (10 gp each, campaign rate) + 30 gp bonus on win |
-| Wagon Train Ambush | Plunder | 600/700 (ambusher / defender) | 6 | 50 gp tribute on win |
-| Cattle Raid | Plunder | even (700 gp) + livestock | 6 | Cattle Fold Holding (+10 gp/Winter + free livestock) |
-| Saga Duel | Glory | each: Chieftain + 4 fig | 6 | +3 Renown + Title, +1 Renown to loser |
-| Rival Warband Feud | Glory | even (700 gp) | 8 | +2 Renown + Title |
-| Pitched Battle | Glory | even (800 gp) | 10 | +1 Renown |
-| Sack the Hall | Holding | 800/600 (raider / defender) | 8 | Burned Hall Holding (+30 gp + 1 Renown/Winter) |
-| Coast Watch Tower | Holding | 700/500 (raider / defender) + reinf. | 6 | Watch Tower Holding (+20 gp/Winter) |
-| Storm the Keep | Holding | 1000/700 (attacker / defender) | 10 | Stone Keep Holding (+40 gp + 1 Renown/Winter) |
-| Sack the Monastery | Relic | 800/600 (raider / defender) | 8 | A Relic; or Holy Site Holding if pool empty |
-| Rescue the Hostage | Tribute | even (700 gp) | 6 | Loser pays 30 gp or -2 Renown |
-| Defend the Longship | Tribute | 800/600 (attacker / defender) | 6 | Loser cannot deploy cavalry next battle |
+| Pillage Town | Plunder | even (400 gp) | 8 | Loot (10 gp each, campaign rate) + 30 gp bonus on win |
+| Wagon Train Ambush | Plunder | 300/400 (ambusher / defender) | 6 | 50 gp tribute on win |
+| Cattle Raid | Plunder | even (400 gp) + livestock | 6 | Cattle Fold Holding (+10 gp/Winter + free livestock) |
+| Saga Duel | Glory | each: Chieftain + 4 fig (~250 gp soft cap) | 6 | +3 Renown + Title, +1 Renown to loser |
+| Rival Warband Feud | Glory | even (400 gp) | 8 | +2 Renown + Title |
+| Pitched Battle | Glory | even (400 gp) | 10 | +1 Renown |
+| Sack the Hall | Holding | 500/300 (raider / defender) | 8 | Burned Hall Holding (+30 gp + 1 Renown/Winter) |
+| Coast Watch Tower | Holding | 400/250 (raider / defender) + reinf. | 6 | Watch Tower Holding (+20 gp/Winter) |
+| Storm the Keep | Holding | 500/350 (attacker / defender) | 10 | Stone Keep Holding (+40 gp + 1 Renown/Winter) |
+| Sack the Monastery | Relic | 500/300 (raider / defender) | 8 | A Relic; or Holy Site Holding if pool empty |
+| Rescue the Hostage | Tribute | even (400 gp) | 6 | Loser pays 30 gp or -2 Renown |
+| Defend the Longship | Tribute | 500/300 (attacker / defender) | 6 | Loser cannot deploy cavalry next battle |
 
 ---
 
@@ -119,7 +119,7 @@ Winner gains bonus treasure (gp) beyond standard loot extraction.
 
 A village or trading post is sacked for whatever wealth can be carried off.
 
-- **Force balance:** Even gp (recommended 800 gp each). Raider may be advantaged by Location (Coastal Village, Trading Town).
+- **Force balance:** Even gp (recommended 400 gp each). Raider may be advantaged by Location (Coastal Village, Trading Town).
 - **Turn limit:** 8 turns.
 - **Special elements:** 6 to 8 loot tokens placed across the table — in buildings (use Pillage's search rules), at market stalls, on wagons. Half should be visible loot tokens; half should be search-required tokens in buildings or chests.
 - **Deployment:** Defender deploys first within 6" of their chosen table edge, OR scattered inside buildings (defender's choice). Raider deploys second within 6" of the opposite table edge.
@@ -135,7 +135,7 @@ A village or trading post is sacked for whatever wealth can be carried off.
 
 An ambusher springs from cover on a slow-moving wagon train escorted across the countryside.
 
-- **Force balance:** Ambusher 600 gp, Defender (escort) 700 gp.
+- **Force balance:** Ambusher 300 gp, Defender (escort) 400 gp.
 - **Turn limit:** 6 turns.
 - **Special elements:** 2 wagons (per Pillage's wagon rules) on the table, moving along a "road" path that crosses the table from one edge to the other.
 - **Deployment:** Defender places the 2 wagons along the road path, then deploys their escort within 6" of either wagon. Ambusher deploys in 2 separate zones, one on each flank of the road, anywhere more than 8" from a wagon.
@@ -150,7 +150,7 @@ An ambusher springs from cover on a slow-moving wagon train escorted across the 
 
 A defender's herd is the target. Raiders attempt to drive the livestock off the table.
 
-- **Force balance:** Even gp (recommended 700 gp each).
+- **Force balance:** Even gp (recommended 400 gp each).
 - **Turn limit:** 6 turns.
 - **Special elements:** 3 livestock figures (cows, pigs, or sheep) placed in the defender's deployment zone. Use Pillage's prisoner-escort rules for moving captured livestock.
 - **Deployment:** Defender deploys first within 6" of their edge along with the 3 livestock. Raider deploys second within 6" of the opposite edge.
@@ -171,7 +171,7 @@ Winner gains significant Renown and triggers a Title roll. Standard loot is inci
 
 Two Jarls and their elite retinues meet in a personal score-settling. Honor is on the line.
 
-- **Force balance:** Each side fields their Chieftain (must be a Named Character) plus exactly 4 figures. Total per side limited to 5 figures regardless of gp cost (each player may field whichever 4 figures they wish from their roster, including additional Named Characters). Optional: each side has a 500 gp soft cap on the 4 figures.
+- **Force balance:** Each side fields their Chieftain (must be a Named Character) plus exactly 4 figures. Total per side limited to 5 figures regardless of gp cost (each player may field whichever 4 figures they wish from their roster, including additional Named Characters). Optional: each side has a 250 gp soft cap on the 4 figures.
 - **Turn limit:** 6 turns.
 - **Special elements:** A "duel zone" 6"×6" in the center of the table, marked clearly. Both Chieftains must enter the duel zone by turn 2 or take a -1 to all rolls until they do.
 - **Deployment:** Both sides deploy simultaneously within 4" of their respective table edges.
@@ -187,7 +187,7 @@ Two Jarls and their elite retinues meet in a personal score-settling. Honor is o
 
 A grudge match. Two warbands meet on neutral ground to settle it with steel.
 
-- **Force balance:** Even gp (recommended 700 gp each).
+- **Force balance:** Even gp (recommended 400 gp each).
 - **Turn limit:** 8 turns.
 - **Special elements:** None required beyond Location defaults.
 - **Deployment:** Both sides deploy within 6" of opposite edges (chosen by mutual agreement or coin flip).
@@ -200,7 +200,7 @@ A grudge match. Two warbands meet on neutral ground to settle it with steel.
 
 A traditional open-field engagement. No subtlety, just steel and shields.
 
-- **Force balance:** Even gp (recommended 800 gp each).
+- **Force balance:** Even gp (recommended 400 gp each).
 - **Turn limit:** 10 turns.
 - **Special elements:** None required beyond Location defaults.
 - **Deployment:** Both sides deploy within 6" of opposite edges (chosen by mutual agreement or coin flip).
@@ -219,7 +219,7 @@ Winner gains a persistent Holding. The Holding's name is chosen at the moment of
 
 A great hall, lord's seat, the symbol of a rival's power. Burn it.
 
-- **Force balance:** Raider 800 gp, Defender 600 gp.
+- **Force balance:** Raider 500 gp, Defender 300 gp.
 - **Turn limit:** 8 turns.
 - **Special elements:** 1 great hall building (the primary objective) plus 2-3 outbuildings. The great hall is a fortified building (per Pillage's fortified building rules — fire ignites on 7+ rather than 4+). Defender deploys inside/around the hall.
 - **Deployment:** Defender deploys first within 6" of the hall (interior or exterior). Raider deploys second within 6" of any one table edge (defender may dictate which edge if they wish to use terrain to their advantage).
@@ -234,7 +234,7 @@ A great hall, lord's seat, the symbol of a rival's power. Burn it.
 
 A watch tower must be silenced before reinforcements arrive from the village beyond.
 
-- **Force balance:** Raider 700 gp, Defender 500 gp + reinforcements at turn 7.
+- **Force balance:** Raider 400 gp, Defender 250 gp + reinforcements at turn 7.
 - **Turn limit:** 6 turns of raid + 2 turns of reinforcement window (8 turns max).
 - **Special elements:** 1 watch tower (a small fortified building) where the defender's force starts. Best paired with Highland Crags, Coastal Village, or Lone Hilltop Locations.
 - **Deployment:** Defender deploys all figures inside the watch tower or within 4" of it. Raider deploys second within 6" of any one opposite table edge.
@@ -250,7 +250,7 @@ A watch tower must be silenced before reinforcements arrive from the village bey
 
 A stone keep is the seat of regional power. Walls must fall.
 
-- **Force balance:** Attacker 1000 gp, Defender 700 gp (the attacker has the gp advantage to balance the keep's fortifications).
+- **Force balance:** Attacker 500 gp, Defender 350 gp (the attacker has the gp advantage to balance the keep's fortifications).
 - **Turn limit:** 10 turns.
 - **Special elements:** 1 stone keep at the table center surrounded by an outer wall + small courtyard with 1-2 outbuildings. The keep is a fortified building. The outer wall is high — climbable only via siege ladders or dangerous climb (Pillage rules).
 - **Deployment:** Defender deploys all figures inside the walls (in the keep, on its roof, in the courtyard, or atop the outer wall). Attacker deploys within 8" of any one table edge.
@@ -271,7 +271,7 @@ Winner gains a Relic from the campaign pool.
 
 An abbey holds a sacred relic. Raiders come for it.
 
-- **Force balance:** Raider 800 gp, Defender 600 gp.
+- **Force balance:** Raider 500 gp, Defender 300 gp.
 - **Turn limit:** 8 turns.
 - **Special elements:** A chapel building (the primary objective) plus 2-3 monastic outbuildings. The chapel contains a relic, treated as loot (1 loot token, but worth +3 Renown if extracted alive). Defender's choice of mode at proposal time:
   - **Extract Mode** (default, Sack of Saint Lunaire style): the relic starts inside the chapel; raider searches and extracts.
@@ -294,7 +294,7 @@ Winner forces a tribute on the loser. The loser pays in the next post-game seque
 
 A captive is held in enemy territory. Pull them out.
 
-- **Force balance:** Even gp (recommended 700 gp each).
+- **Force balance:** Even gp (recommended 400 gp each).
 - **Turn limit:** 6 turns.
 - **Special elements:** 1 captive figure (rank-and-file marker; UA, no equipment, no weapons, 1 HP, cannot attack). The captive is placed in the defender's deployment zone.
 - **Deployment:** Defender deploys around the captive within their zone. Attacker deploys within 6" of the opposite table edge.
@@ -309,7 +309,7 @@ A captive is held in enemy territory. Pull them out.
 
 A defender's longship is grounded on the beach. The attacker must burn it before the tide turns.
 
-- **Force balance:** Attacker 800 gp, Defender 600 gp.
+- **Force balance:** Attacker 500 gp, Defender 300 gp.
 - **Turn limit:** 6 turns.
 - **Special elements:** 1 longship (24" × 6" per Pillage's ship rules) beached or grounded on the defender's table edge (or center, depending on Location — Tidal Estuary and Coastal Village pair well). Defender's force begins around or aboard the longship.
 - **Deployment:** Defender deploys around the longship within 6". Attacker deploys within 6" of the opposite table edge.
@@ -355,7 +355,7 @@ The target responds as usual but with one extra option:
 To keep custom Battle Types fair and consistent with the campaign economy:
 
 - The reward **must map to one of the 5 standard categories**. No inventing rewards like "+10 Renown and a free Relic." A Custom Battle Type cannot grant more than the standard Holding/Relic/Tribute amounts unless both players explicitly agree it's a "Major Stakes" engagement (in which case raise the difficulty proportionally — e.g., add asymmetric force budgets that favor the disadvantaged side).
-- **Force budgets** for both sides should sum to no more than about 1600 gp (the average of catalog Battle Types). Higher budgets are allowed if both players want a "Pitched Battle" scale fight.
+- **Force budgets** for both sides should sum to no more than about 800 gp (the average of catalog Battle Types). Higher budgets are allowed if both players want a "Pitched Battle" scale fight.
 - **Turn limits** should fall within 4 to 12 turns (catalog range).
 - **The campaign organiser may veto** a Custom Battle Type they consider unbalanced or exploitative (e.g., a "Saga Duel" reward category attached to a Pitched Battle setup that gives the proposer easy access to Titles).
 
@@ -369,7 +369,7 @@ Erik wants to fight over a specific battlefield: a frozen river crossing where h
 
 - **Name:** Oath at the Frozen Ford.
 - **Reward category:** Glory.
-- **Force balance:** 700 gp each.
+- **Force balance:** 400 gp each.
 - **Turn limit:** 6 turns.
 - **Special elements:** 1 frozen river bisecting the table; figures break through on a natural 1 movement roll (Frozen Lake-style mechanic).
 - **Deployment:** Both sides deploy within 6" of opposite edges. Both Jarls must be deployed.
@@ -378,7 +378,7 @@ Erik wants to fight over a specific battlefield: a frozen river crossing where h
 - **Special rules:** A Jarl killed by anyone but the enemy Jarl grants the enemy side no Renown bonus.
 - **Reward:** Glory (per Saga Duel scaling).
 
-Aelfric responds: "Counter-amend. I want the budgets at 600 gp each instead of 700 — fewer retinue figures so the Jarls actually fight. Otherwise accepted." Erik accepts. They play.
+Aelfric responds: "Counter-amend. I want the budgets at 300 gp each instead of 400 — fewer retinue figures so the Jarls actually fight. Otherwise accepted." Erik accepts. They play.
 
 ---
 
@@ -392,7 +392,7 @@ Only a Norse warband may propose this as the raider. The target may accept regar
 
 A Norse warband strikes from the sea, beaches a longship, and raids inland before the defenders can muster.
 
-- **Force balance:** Raider (Norse) 800 gp, Defender 600 gp.
+- **Force balance:** Raider (Norse) 400 gp, Defender 300 gp.
 - **Turn limit:** 8 turns.
 - **Special elements:** 1 longship beached on one of the raider's table edges (treat as Pillage longship rules). 4-6 loot tokens placed across the table (similar to Pillage Town's distribution). Best paired with Coastal Village or Tidal Estuary Locations.
 - **Deployment:** Defender deploys first within 6" of their chosen table edge or within scattered buildings. The raider's figures start aboard the longship; they may disembark during their first movement phase per Pillage's ship rules.
@@ -409,7 +409,7 @@ Only a Christian warband (Anglo-Saxons, Normans, Carolingian Franks, Bretons, We
 
 A pilgrimage of monks and relic-bearers moves across the countryside. The Christian warband escorts them; the attacker raids them.
 
-- **Force balance:** Defender (Christian) 600 gp, Attacker 800 gp.
+- **Force balance:** Defender (Christian) 300 gp, Attacker 400 gp.
 - **Turn limit:** 6 turns.
 - **Special elements:** 4 NPC pilgrim figures (UA, no equipment, 1 HP each, cannot attack). Placed in a column along a road. They move 4" per turn under the defender's control toward the defender's table edge.
 - **Deployment:** Defender deploys the pilgrims and their warband within a single 12" zone along the road. Attacker deploys within 6" of any table edge (not the road's exit edge).
@@ -426,7 +426,7 @@ Only a Pict, Welsh, or Irish/Scots warband may propose this as the ambusher. The
 
 A warband uses the deep forests they know to surprise an invader.
 
-- **Force balance:** Ambusher 700 gp, Target 800 gp (the target is stronger but disadvantaged by terrain).
+- **Force balance:** Ambusher 350 gp, Target 400 gp (the target is stronger but disadvantaged by terrain).
 - **Turn limit:** 6 turns.
 - **Special elements:** Must be played in Forest Edge Location (per the Best For pairing). Optional: 1-2 hidden ambush markers (per the King of Ambushes Talent rules, free for this battle).
 - **Deployment:** Ambusher deploys hidden — they write down deployment positions on paper, hidden from the target. The target deploys first within 6" of their chosen table edge.
@@ -445,7 +445,7 @@ Three Battle Types designed for 3 or 4 players when pairing doesn't work — odd
 
 Drawn from Pillage's Winding Ways supplement, formalized into the campaign system. 4 Jarls meet at the Althing in supposedly peaceful gathering. Each has been assigned a secret target by lot. First to kill their target wins.
 
-- **Force balance:** Each warband 600 gp.
+- **Force balance:** Each warband 300 gp.
 - **Turn limit:** Ends when first target dies (or rout).
 - **Special elements:** All 4 Jarls must be Named Character Chieftains. Targets assigned secretly via lottery (per Winding Ways scenario).
 - **Deployment:** Each player rolls d6. Highest deploys first, lowest last. Jarls deploy in the center within 6" of each other.
@@ -458,7 +458,7 @@ Drawn from Pillage's Winding Ways supplement, formalized into the campaign syste
 
 Three warbands meet on neutral ground. No alliances; pure score-settling.
 
-- **Force balance:** Each warband 600 gp.
+- **Force balance:** Each warband 300 gp.
 - **Turn limit:** 10 turns.
 - **Special elements:** None beyond Location defaults.
 - **Deployment:** Each player picks one table edge. They deploy within 6" of their chosen edge.
@@ -471,7 +471,7 @@ Three warbands meet on neutral ground. No alliances; pure score-settling.
 
 Two pairs of allied warbands fight together. Pair members coordinate.
 
-- **Force balance:** Each warband 600 gp; each side fields 1200 gp total.
+- **Force balance:** Each warband 300 gp; each side fields 600 gp total.
 - **Turn limit:** 10 turns.
 - **Special elements:** Both sides agree on alliance structure before deployment. Allied warbands may share initiative and Boast hand-offs.
 - **Deployment:** Each side deploys within 8" of one table edge. The allies on a side may intermix freely.

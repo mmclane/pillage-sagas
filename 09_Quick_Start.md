@@ -48,7 +48,7 @@ See [01_Core_Rules.md §2](01_Core_Rules.md) for full mode details. The campaign
 
 1. **Pick a faction** from Pillage core (Vikings, Anglo-Saxons, Normans, Irish/Scots/Picts, Carolingian Franks, Bretons, Welsh, Generic) or Fall of Rome supplement.
 2. **Pick a warband name** (e.g., "The Wolves of Hedeby," "Brokenmoor's Sworn").
-3. **Starting Treasury: 300 gp**, plus the standard army budget for your first battle.
+3. **Starting Treasury: 600 gp.** Game 1's army is built from Treasury like any other game; the starting amount covers a typical 400 gp first army plus a buffer.
 4. **Build your Named Roster:**
    - Name **1 Chieftain candidate** (your default Chieftain, a Named Character).
    - Name **2 to 4 additional Characters** (your battle bench — these are the people who can become Chieftain in future battles).
@@ -250,7 +250,7 @@ A: No. Faction locks at campaign creation. Build a new warband for the next seas
 A: Campaign organiser is the final arbiter. The design docs are authoritative.
 
 **Q: A player joined the campaign late. How do they catch up?**
-A: They start with the standard Treasury (300 gp), standard roster (build per §3 above), no Holdings, 0 Renown. They are not retroactively affected by past Annual Events. The campaign organiser may offer a "catch-up" boost (extra starting gp or Renown) for late joiners to keep the field competitive — recommend +1 Renown per previous meeting they missed, capped at +3.
+A: They start with the standard Treasury (600 gp), standard roster (build per §3 above), no Holdings, 0 Renown. They are not retroactively affected by past Annual Events. The campaign organiser may offer a "catch-up" boost (extra starting gp or Renown) for late joiners to keep the field competitive — recommend +1 Renown per previous meeting they missed, capped at +3.
 
 **Q: Are we supposed to write a saga journal?**
 A: Encouraged but not required. The Saga Journal Annual Event (AE30) rewards warbands with completed Legendary Boasts, Titles, and Holdings — these are the seeds of a written saga. Many groups find that writing 2-3 paragraphs per meeting (the deeds of your Jarl, the names of fallen Named Characters) is more fun than they expected.

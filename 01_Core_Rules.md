@@ -42,7 +42,9 @@ Each player maintains a warband sheet with these sections:
 
 ### 3a. Treasury (gp)
 
-Starts at **300 gp** at campaign creation, in addition to the standard army-building budget for game one. Persistent between battles. The Treasury is *separate* from the army budget each battle, which is drawn from the Treasury for each game.
+Starts at **600 gp** at campaign creation. Persistent between battles. Every battle's army is built from Treasury (per the rebuy-then-refund model — see §3b). There is no separate "free first-game army budget"; the starting Treasury covers your first assembly plus a buffer of about one battle's worth.
+
+Why 600 gp? It funds a typical 400 gp first army with 200 gp left over, which is enough cushion to absorb 2-3 bad battles before pressure forces hard choices. Holdings yield and battle income build the buffer from there. See [07_Design_Notes.md](07_Design_Notes.md) for the math.
 
 ### Glossary note: Jarl and Chieftain
 
