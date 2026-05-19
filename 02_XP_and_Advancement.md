@@ -87,7 +87,7 @@ The Advancement step (post-game step 9) is where Named Characters spend XP. Five
 | Path | XP cost | Cap per character | Available to | Notes |
 |---|---|---|---|---|
 | **Talents** | 1–8 (per gp/10 conversion in §3) | 2 Talents | Characters only | Only fires when this character is the designated Chieftain |
-| **Skills** | 2–3 each | 4 Skills | All Named Characters; some Skills are role-restricted | Always active for the character |
+| **Skills** | 2–4 each | 4 Skills | All Named Characters; some Skills are role-restricted | Always active for the character |
 | **Stat Improvements** | 5 each | +2 cumulative per stat from ALL sources | All Named Characters | Permanent |
 | **Named-Weapon Unlocks** | 3 each | 1 per character | All Named Characters (rarely useful for specialists) | Grants access to a weapon outside faction list |
 | **Personal Sagas** | 4 each | 1 per character | All Named Characters | Permanent passive Renown generator |
@@ -163,7 +163,7 @@ Skills are permanent traits attached to a specific Named Character. They activat
 | **Bone-Setter** | 2 | This Healer's heal rolls succeed on 4+ instead of 5+. |
 | **Cunning Folk** | 2 | Once per game, this Healer may move up to half their movement AND heal in the same turn. |
 | **Field Surgeon** | 3 | This Healer may heal a friendly figure currently engaged in melee. |
-| **Wise Woman** | 3 | The first heal attempt each game does not consume the Healer's action — they may heal once at no action cost, then continue acting normally that turn. |
+| **Wise Woman** | 4 | This Healer may move their full movement AND heal in the same turn (instead of having to choose one or the other). Always active, every turn. |
 
 #### Banner-bearer-only Skills (the Banner-bearer Named Character only)
 
