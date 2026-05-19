@@ -162,7 +162,7 @@ Skills are permanent traits attached to a specific Named Character. They activat
 |---|---|---|
 | **Bone-Setter** | 2 | This Healer's heal rolls succeed on 4+ instead of 5+. |
 | **Cunning Folk** | 2 | Once per game, this Healer may move up to half their movement AND heal in the same turn. |
-| **Field Surgeon** | 3 | This Healer may heal a friendly figure currently engaged in melee. |
+| **Field Surgeon** | 2 | Once per game, this Healer may re-roll a failed healing roll. |
 | **Wise Woman** | 4 | This Healer may move their full movement AND heal in the same turn (instead of having to choose one or the other). Always active, every turn. |
 
 #### Banner-bearer-only Skills (the Banner-bearer Named Character only)
