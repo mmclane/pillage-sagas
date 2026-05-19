@@ -108,7 +108,7 @@ Skills are permanent traits attached to a specific Named Character. They activat
 |---|---|
 | **Quick Strike** | Once per game, this character may re-roll one failed melee hit roll. |
 | **Iron Stance** | Once per game, this character may re-roll one failed defence roll. |
-| **Backswing** | When fighting with a hand weapon, +1 to all melee hit rolls. |
+| **Backswing** | When this character charges into melee with a hand weapon, +1 to all melee hit rolls for that turn. Does not apply on turns this character is the defender of a charge. |
 | **Beast-Bane** | +1 to melee hit rolls when targeting a cavalry figure's mount (the horse). Per Pillage's cavalry rules, melee attacks against cavalry may target either the horse or the rider; this Skill applies only when targeting the horse. |
 | **Shield-Splitter** | +1 to melee hit rolls against figures with a shield (whether equipped as SA with shield, or FA). |
 | **Spear-Wise** | When supporting an ally with a spear, the supported ally gains +1 to their melee hit roll (in addition to the support bonus). |
