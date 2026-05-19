@@ -163,7 +163,7 @@ Open math questions to playtest:
 - Should there be a "campaign salary" — a small per-meeting Treasury injection (e.g., +30 gp from your domain) to soften the squeeze? Currently no.
 - Should starting Treasury be raised from 300 to 400-500 gp to give more cushion for the first 3 battles?
 
-**Grand Finale needs rework (v0.5+).** The current spec ("all players field their full Treasury and Roster in one battle") is too large for a single tabletop session. Marked as a placeholder in 01_Core_Rules.md §4. To be redesigned in a future revision.
+**Grand Finale needs rework (v0.5+).** The current spec ("all players field their full Treasury and Roster in one battle") is too large for a single tabletop session. Marked as a placeholder in 01_Core_Rules.md §4. **Design direction (per peer feedback):** expand The Althing Multi-player Battle Type into the season climax — secret targets among all Chieftains, with season-ending stakes (Legendary Titles, side victory in Two Sides Mode, Renown multipliers). Each surviving Chieftain participates with a smaller retinue rather than full warband strength. Full design deferred to a later revision.
 
 **DOCX export CSS improved.** The Google Docs / Word table overflow was caused by missing `width: 100%` and `table-layout: fixed` in the export script's CSS. Updated `md_to_docx.py` to apply 9pt font, 0.75in page margins, and fixed-layout tables that wrap content. Regenerated all 12 DOCX files.
 

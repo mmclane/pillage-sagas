@@ -105,7 +105,7 @@ A season is a sequence of **6 to 8 battles**, ending with a **Grand Finale**. Th
 |---|---|---|
 | **Raid** | One per club meeting (or per week) | A single Pillage battle composed via the proposal/accept/twist procedure (see [05_Scenarios.md](05_Scenarios.md)). Post-game sequence resolved after each. |
 | **Annual Event** | Every other club meeting (4 per typical season) | The campaign organiser draws and reveals a card from the Annual Events deck before proposals begin (see [08_Annual_Events.md](08_Annual_Events.md)). Affects every warband at once. |
-| **Grand Finale** | Season's final battle | A climactic closing battle. **Note (v0.5): the current spec — "all players field their full Treasury and Roster in one battle" — is too big and needs rework. We'll redesign this in a later revision; placeholder for now.** Renown bonuses for victory. |
+| **Grand Finale** | Season's final battle | A climactic closing battle. **Note (v0.5): current "field your full Treasury and Roster" spec is too big and is being reworked. Direction: expand The Althing Battle Type ([05_Scenarios.md §3 Multi-player Battle Types](05_Scenarios.md)) into a season-ending climax — secret targets, all surviving Chieftains, season-ending stakes. Full design deferred to a later revision.** |
 
 ---
 
