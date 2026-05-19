@@ -52,6 +52,23 @@ Yes. Long Strides is a permanent personal stat improvement that applies to whate
 
 The Boast is discarded with no Renown awarded. The player draws a fresh Boast at the start of their next battle as normal. They do not get a free re-draw — losing the multi-game Boast is part of the risk of choosing it.
 
+### A player draws two Boasts that are both unusable. What happens?
+
+The new both-impossible redraw rule (added in v0.5 peer review) handles this. If both drawn Boasts are clearly impossible for the player (faction-locked to a faction other than theirs, OR Battle-Type-locked to a Battle Type other than the current one), the player automatically discards both to the bottom of the deck and draws 2 fresh ones. This repeats as needed and does not count against the mulligan limit. With a 73-card deck and ~15-20% locked cards, getting two impossible draws back-to-back is rare (~4% per attempt); needing more than one redraw is vanishingly rare.
+
+What counts as "clearly impossible" for the auto-redraw? Strict objective criteria only:
+
+- **Faction lock**: The Boast names a faction other than the player's (e.g., a Norman warband drew "War Paint Glory (Picts)"). Auto-redraw applies.
+- **Battle-Type lock**: The Boast names a Battle Type other than the current battle (e.g., the current battle is Pillage Town, the Boast is "Cattle Drive — Cattle Raid only"). Auto-redraw applies.
+
+What does NOT trigger auto-redraw (use the per-game mulligan instead):
+
+- The Boast requires a specific Location feature (e.g., "Rooftop Raider" needs a building) and the chosen Location has no buildings.
+- The Boast requires a Healer to heal something and your warband has no Healer.
+- The Boast requires a unit type you don't field (e.g., cavalry-themed Boast in an infantry-only warband).
+
+These "soft impossibilities" depend on judgment, so they go through the mulligan rule (once per game). If both initial draws are soft-impossible and the mulligan also fails, the no-Boast last resort kicks in.
+
 ### Skald's Ear (Skill) and a Boast whose trigger was missed several turns ago
 
 Skald's Ear allows claiming a Boast on the turn following the trigger, up to the end of that next turn. It does NOT extend further back. If you missed claiming a Boast 3 turns ago, it's gone — Skald's Ear is for the most recent turn.

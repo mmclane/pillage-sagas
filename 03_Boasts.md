@@ -7,7 +7,9 @@ Each player draws a private **Boast card** before each battle. Boasts encourage 
 ## 1. Drawing Boasts
 
 - At the start of every battle, the player draws **2 Boasts and keeps 1** (the other is discarded face-down to the bottom of the deck).
+- **Both-impossible redraw (free):** If both drawn Boasts are clearly impossible for this player given the current matchup (faction-locked to a faction other than the player's, OR Battle-Type-locked to a Battle Type other than the current one), the player immediately discards both to the bottom of the deck and draws 2 fresh ones. Repeat as needed; this is not a mulligan and doesn't count against any limit. Solves the rare case of drawing two unusable cards.
 - A player may **discard their Boast at deployment** for a one-time mulligan per game if the matchup makes it clearly impossible. Draw 1 replacement.
+- **No-Boast last resort:** If after the initial draw, both-impossible redraws, and the mulligan, the player still has no usable Boast, they may play with no Boast in their hand that battle. No Renown from a Boast that game; no penalty.
 - Boasts are **private** until claimed. Kept face-down in front of the player.
 - A **multi-game Boast** (marked with a moon icon) rolls over into the next battle if not completed. Worth more Renown but takes up a permanent hand slot.
 - **Hand size cap: 2 active Boasts** (1 from standard draw + 1 from any other source).
