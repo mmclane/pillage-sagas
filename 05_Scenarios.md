@@ -674,3 +674,4 @@ A club meeting with 4 players. Saga Season, Two Sides Mode (Northmen vs Christen
 - [ ] Decide whether the Twist Deck is drawn-and-shuffled (some twists rarer than others) or open-pick (acceptor sees full list and picks). v0.3 says draw 2, keep 1; v0.4 may move to open-pick.
 - [ ] Holdings yield cadence: per post-game vs per Winter. v0.3 says per post-game for fast clubs. Locked decision needed before publication.
 - [ ] Build a sample first-season set of 6 scenarios as a "ready to play" starter chain for clubs that don't want to compose.
+- [ ] **Add ONE "Great Battle" Battle Type that supports ~20-figure armies per side.** Per user feedback (peer review round 1): there should be exactly one large-scale scenario in the catalog for special climactic occasions — not a whole tier. Force balance ~700-800 gp per side (vs the standard 300-500 gp). Probably in the Glory Stakes category, used sparingly. Strict limit: ONE such Battle Type, no more.
