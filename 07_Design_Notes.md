@@ -137,23 +137,46 @@ This framing is mathematically equivalent to a persistent-roster model but simpl
 
 **Captured figures may be ransomed back** at half their gp cost (paid by the original owner to the captor) in the Ransom step. Declined or unaffordable ransoms leave the captor with the prisoner; captor may sacrifice for +1 Renown or hold indefinitely. Captured warriors cannot be recruited into the captor's warband — captured enemies don't switch sides. The half-cost ransom saves the owner ~50% vs replacement when they can pay.
 
-**Math notes (v0.5, requires playtest):**
+**Loot token campaign value: 10 gp (was Pillage canonical 5 gp).**
 
-Assumptions for a typical battle:
+Detailed math for the increase:
+
+Per-battle casualty cost analysis:
+- A typical warrior fully equipped: spear + shield + armor = 25-35 gp (varies by faction).
+- A Berserker-equipped or kit-heavy figure: 50-80 gp.
+- Average gp value of a casualty: ~35 gp.
+- Casualty rate per battle: 2-3 figures dead = **70-105 gp lost per battle**.
+
+Per-battle income needed for sustainability: ~70-105 gp (matching casualty cost).
+
+Income comparison at different loot values, for a winning Pillage Town (4 loot extracted + 30 gp Battle Type bonus):
+
+| Loot value | Win income | Net vs casualties | Verdict |
+|---|---|---|---|
+| 5 gp (Pillage canon) | 4×5 + 30 = 50 gp | -20 to -55 gp | Treasury bleeds out in 3-5 games |
+| **10 gp (2× canon)** | **4×10 + 30 = 70 gp** | **0 to -35 gp** | **Break-even on wins; Holdings yield buffers** |
+| 15 gp (3× canon) | 4×15 + 30 = 90 gp | +20 to -15 gp | Mild surplus on wins; comfortable |
+| 20 gp (4× canon) | 4×20 + 30 = 110 gp | +40 to +5 gp | Possibly too generous |
+
+Decision: **10 gp per loot token** for the campaign baseline. Doubles Pillage canonical without making players rich. Hits break-even on Plunder Stakes wins, and Holdings yield (10-40 gp per cadence) covers the slow drain. If playtest shows it's still too tight, organisers may bump to 15 gp.
+
+Non-Plunder battles (Glory Stakes, Holding Stakes, Relic Stakes) yield no immediate gp from loot — they trade gp income for Renown, Holdings income, or Relic acquisition. Warbands that win primarily non-Plunder battles need to lean on Holdings yield and ransom income. This is intentional pressure that encourages diverse Battle Type selection.
+
+**Other assumptions for a typical battle:**
 - Army built fresh from Treasury: ~800 gp (1 Chieftain + 6-7 warriors + 1 Banner-bearer, varies by faction equipment costs).
 - Casualty rate: 20-30% per battle = 2-3 figures dead per battle.
-- Average gp value of a casualty: ~40 gp (a typical warrior with shield + spear + armor).
-- Loot earnings per battle: 50-100 gp (Pillage Town with bonus = 50 gp baseline + ~30 gp bonus on win).
+- Average gp value of a casualty: ~35 gp.
+- Loot earnings per battle: 70-100 gp on Plunder Stakes wins (at 10 gp/token rate); 20-40 gp on losses; 0-20 gp on non-Plunder battles.
 - Holdings yield: persistent Holdings add 10-40 gp per cadence cycle.
 
-Per-battle Treasury accounting (rebuy-then-refund):
+Per-battle Treasury accounting (rebuy-then-refund, 10 gp/token):
 - Step 1: Spend full army cost. Treasury -800 gp.
 - Step 2: Battle happens. Some figures die.
-- Step 3 (Collect Treasure): Add loot gp (e.g., +80 gp on win) AND refund surviving figures' value (e.g., 720 gp returned from 6/8 figures alive at ~120 gp/figure on average if we assume 2 died).
+- Step 3 (Collect Treasure): Add loot gp (e.g., +70-90 gp on a Plunder win at 10 gp/token) AND refund surviving figures' value (e.g., 730 gp returned from 7/8 figures alive at ~104 gp/figure on average if we assume 2 died).
 - Step 4 (Ransom): Resolve any captures. Owner pays half cost if ransoming back.
-- **Net Treasury change**: ~+80 gp on a clean win (loot) - 80-120 gp casualty value = roughly **break-even on wins** when 2-3 figures die.
-- A 4-casualty bad battle costs ~160 gp net.
-- A perfect-victory zero-casualty battle nets ~+80 gp (rare; usually some attrition).
+- **Net Treasury change**: ~+70-90 gp loot - 70-105 gp casualty value = roughly **break-even on Plunder wins** when 2-3 figures die.
+- A 4-casualty bad battle costs ~140 gp; partly offset by loot.
+- A perfect-victory zero-casualty battle nets ~+70-90 gp (rare; usually some attrition).
 
 Sustainability check:
 - 6-battle Short Season with 3 wins (2 casualties each) + 3 losses (3 casualties each):

@@ -4,11 +4,13 @@
 
 Each player runs a persistent **warband** through a **season** of 6 to 8 battles. Between battles, warbands collect treasure, recruit replacements, earn reputations, and complete private boasts. The season ends in a **Grand Finale** that fields each warband's full strength in one climactic battle.
 
+> **Loot token value (campaign-specific).** Pillage's core rulebook values a loot token at 5 gp ("this value has no effect on the battle, it does open up opportunities for stories and campaigns based on the game's currency" — Pillage p.69). This campaign **doubles that to 10 gp per loot token** so that an 8-game season is financially sustainable. The 5 gp baseline drained Treasury too quickly (3-5 battles to broke). Detailed math in [07_Design_Notes.md](07_Design_Notes.md). If your group finds the 10 gp rate still too tight after playtest, organisers may raise to 15 gp.
+
 Three currencies drive the campaign:
 
 | Currency | Earned by | Spent on |
 |---|---|---|
-| **Treasure (gp)** | Loot tokens carried off the board at 5 gp each, ransoms, holdings tribute, raid scenario rewards | Recruiting replacements, buying equipment, buying Stores, refreshing Boasts, ransoming captured characters back from rivals |
+| **Treasure (gp)** | Loot tokens carried off the board at **10 gp each** (campaign rate; see note below), ransoms, holdings tribute, raid scenario rewards | Recruiting replacements, buying equipment, buying Stores, refreshing Boasts, ransoming captured characters back from rivals |
 | **XP** | Per Named Character, per battle, based on participation and feats | Talents, individual skills, named-weapon unlocks, personal Saga unlocks (see [02_XP_and_Advancement.md](02_XP_and_Advancement.md)) |
 | **Renown** | Per battle: kills, objectives, completed Boasts, holding terrain, captures | Campaign leaderboard, plus optional spends on Bards, Feasts, Skalds, and saga immortalization (see §5 below) |
 
@@ -134,7 +136,7 @@ After every battle, resolve in order. Skip any step that doesn't apply.
 1. **Wound Rolls.** Each Named Character who fell rolls on the **Saga Injury Table** ([06_Tables.md](06_Tables.md)).
 2. **Tally Renown.** Add up Renown earned during the battle (kills, scenario objectives, terrain held, captures, Boasts completed mid-game).
 3. **Collect Treasure.** Three sub-steps:
-   - **Loot:** Loot tokens carried off the board convert to gp at 5 gp each. Add scenario-specific gold (Plunder Stakes bonuses, etc.).
+   - **Loot:** Loot tokens carried off the board convert to gp at **10 gp each** (campaign rate; doubled from Pillage canonical 5 gp for sustainability). Add scenario-specific gold (Plunder Stakes bonuses, etc.).
    - **Refund Survivors:** Add the full gp value (figure + equipment) of every **surviving figure** in your army back to your Treasury. A surviving figure is one still on the table at game end OR a Named Character who went Down but survived their Saga Injury Table roll (any result other than "Dead").
    - **Casualties Lost:** Dead figures' gp value is lost; no refund. Captured figures are not refunded — they're resolved in the Ransom step (next).
 4. **Ransom and Relic Transfer.** Resolve captured figures and Relic moves. Captured figures' gp value is **not refunded** in step 3 — their fate is resolved here:

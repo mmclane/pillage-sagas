@@ -96,7 +96,7 @@ When players agree on a Battle Type, they may use a specific published scenario 
 
 | Battle Type | Category | Force | Turns | Reward |
 |---|---|---|---|---|
-| Pillage Town | Plunder | even (800 gp) | 8 | Loot (5 gp each) + 30 gp bonus on win |
+| Pillage Town | Plunder | even (800 gp) | 8 | Loot (10 gp each, campaign rate) + 30 gp bonus on win |
 | Wagon Train Ambush | Plunder | 600/700 (ambusher / defender) | 6 | 50 gp tribute on win |
 | Cattle Raid | Plunder | even (700 gp) + livestock | 6 | Cattle Fold Holding (+10 gp/Winter + free livestock) |
 | Saga Duel | Glory | each: Chieftain + 4 fig | 6 | +3 Renown + Title, +1 Renown to loser |
@@ -129,7 +129,7 @@ A village or trading post is sacked for whatever wealth can be carried off.
   - **Defender wins** if fewer than 4 loot tokens have been extracted by game end.
   - **Tie** if exactly 4 are extracted AND raider has lost more figures than defender (the raid was technically a loss for the raider).
 - **Special rules:** Standard Pillage rules for loot tokens, search, building entry, fire, and morale apply. Defender may set their own buildings on fire to deny loot (any defender figure may declare arson on a building they occupy at the start of their movement phase).
-- **Reward:** Each extracted loot token converts to 5 gp per Pillage's standard rule (already in the rulebook). If the raider wins, they gain +30 gp bonus to Treasury.
+- **Reward:** Each extracted loot token converts to **10 gp** at the campaign rate (doubled from Pillage's canonical 5 gp for season sustainability — see [01_Core_Rules.md §1](01_Core_Rules.md)). If the raider wins, they gain +30 gp bonus to Treasury.
 
 #### Wagon Train Ambush
 
@@ -227,7 +227,7 @@ A great hall, lord's seat, the symbol of a rival's power. Burn it.
 - **Victory:**
   - **Raider wins** if the great hall is on fire AND still burning at game end.
   - **Defender wins** if the great hall is not burning at game end.
-- **Special rules:** The great hall counts as a fortified building. Defender may place loot tokens inside the hall (up to 3) and the raider may attempt to extract them for the standard 5 gp each. The hall's door must be broken to enter (per Pillage's fortified building rules) unless the raider enters through a window (counts as climbing).
+- **Special rules:** The great hall counts as a fortified building. Defender may place loot tokens inside the hall (up to 3) and the raider may attempt to extract them at the campaign rate of 10 gp each. The hall's door must be broken to enter (per Pillage's fortified building rules) unless the raider enters through a window (counts as climbing).
 - **Reward:** Winner gains the **Burned Hall Holding** (+30 gp + 1 Renown per Winter). The Holding is named at this moment.
 
 #### Coast Watch Tower
@@ -401,7 +401,7 @@ A Norse warband strikes from the sea, beaches a longship, and raids inland befor
   - **Raider wins** if 3+ loot tokens are extracted off their own table edge AND at least one figure boards the longship to escape by game end (the longship must still be intact).
   - **Defender wins** if the raider fails either condition.
 - **Special rules:** The longship is flammable. Defender may attempt to set it on fire to deny the raider's escape. If the longship burns, raider auto-loses (lost their ride home).
-- **Reward:** Standard loot at 5 gp each. Raider gains +40 gp bonus on win (greater plunder than Pillage Town due to risk).
+- **Reward:** Standard loot at 10 gp each (campaign rate). Raider gains +40 gp bonus on win (greater plunder than Pillage Town due to risk).
 
 #### Defend the Pilgrimage (Christian-only)
 
