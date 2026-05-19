@@ -13,9 +13,9 @@ SOFFICE = r"C:\Program Files\LibreOffice\program\soffice.exe"
 
 CSS = """
 <style>
-@page { size: letter; margin: 1in; }
+@page { size: letter; margin: 0.75in; }
 body { font-family: Calibri, 'Segoe UI', Arial, sans-serif; font-size: 11pt;
-       line-height: 1.4; color: #000; max-width: 6.5in; }
+       line-height: 1.4; color: #000; max-width: 7in; }
 h1 { font-size: 18pt; font-weight: bold; margin-top: 18pt; margin-bottom: 12pt;
      color: #1f3864; }
 h2 { font-size: 14pt; font-weight: bold; margin-top: 14pt; margin-bottom: 8pt;
@@ -31,8 +31,10 @@ strong { font-weight: bold; }
 hr { border: 0; border-top: 1px solid #888; margin: 16pt 0; }
 blockquote { border-left: 3px solid #888; margin: 10pt 0; padding: 0 12pt;
              color: #333; font-style: italic; }
-table { border-collapse: collapse; margin: 10pt 0; font-size: 10pt; }
-th, td { border: 1px solid #888; padding: 4pt 8pt; vertical-align: top; }
+table { border-collapse: collapse; margin: 10pt 0; font-size: 9pt;
+        width: 100%; table-layout: fixed; }
+th, td { border: 1px solid #888; padding: 3pt 5pt; vertical-align: top;
+         word-wrap: break-word; overflow-wrap: break-word; }
 th { background-color: #d9e2f3; font-weight: bold; }
 code { font-family: Consolas, 'Courier New', monospace; font-size: 10pt;
        background-color: #f0f0f0; padding: 1pt 3pt; }

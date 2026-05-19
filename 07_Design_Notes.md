@@ -126,6 +126,47 @@ A pass to close out remaining policy-shaped open questions before v0.4 / playtes
 - **Inflicting titles on losers → costs 1 Renown.** Makes the "Dungbreath" effect a deliberate spend, not a free insult.
 - **Faction-flavored Title sub-tables → deferred to v0.3.** The current table has faction-tinted entries in row 7 but is otherwise faction-neutral. Will revisit if playtest shows Christendom and Norse warbands feel undifferentiated.
 
+### v0.5+ peer-review feedback fixes
+
+**Rank-and-file warriors are now persistent (was: fresh each battle).** The previous "buy a fresh army each battle" rule was financially unsustainable — Treasury drained in 2-3 battles. New model: surviving rank-and-file stay with the warband between games; you only pay Treasury to replace casualties or add new figures.
+
+**Captured rank-and-file may be ransomed back** at half their gp cost, paid by the original owner to the captor. Declined or unaffordable ransoms leave the captor with the prisoner (effectively dead from the original warband's view; captor may sacrifice for +1 Renown or hold). Captured warriors cannot be recruited into the captor's warband.
+
+**Math notes (v0.5, requires playtest):**
+
+Assumptions for a typical battle:
+- Starting army: ~800 gp in figures (1 Chieftain + 6-7 warriors + 1 Banner-bearer, varies by faction equipment costs)
+- Casualty rate: 20-30% per battle = 2-3 figures dead per battle
+- Average gp value of a casualty: ~40 gp (a typical warrior with shield + spear + armor)
+- Loot earnings per battle: 50-100 gp (Pillage Town with bonus = 50 gp baseline + ~30 gp bonus on win)
+- Holdings yield: persistent Holdings add 10-40 gp per cadence cycle
+
+With persistent rank-and-file:
+- Replacement cost per battle: 2-3 × ~40 gp = 80-120 gp
+- Gp income per battle (win): ~80-130 gp
+- Net Treasury change per battle: roughly break-even to +20 gp if you win, -50 to -80 gp if you lose
+- Starting Treasury (300 gp) buffers 3-4 bad battles before pressure forces hard choices
+
+Sustainability check:
+- A 6-battle Short Season with 3 wins and 3 losses: net Treasury change ≈ 0 to +60 gp. Sustainable.
+- Holdings income compounds: 2 Holdings producing 30 gp each per Winter = +60 gp passive (60% of a battle's worth of replacement cost).
+- Players who lose a Healer or have no Holdings will feel the squeeze; this is intentional pressure.
+
+Ransom impact:
+- Without ransom: captured figure = dead = 40 gp replacement cost
+- With ransom: captured figure ransomed for 20 gp = saves 20 gp per ransom
+- Captor option: refuse ransom and sacrifice = +1 Renown but no gp gain (worth it for Renown-hungry warbands)
+
+Open math questions to playtest:
+- Is 50% ransom rate fair to both sides, or does it advantage the captor too much? Consider 40% or 60%.
+- Should the Healer's heal mechanic prevent some casualties from becoming permanent deaths? Currently it does (heals during the battle).
+- Should there be a "campaign salary" — a small per-meeting Treasury injection (e.g., +30 gp from your domain) to soften the squeeze? Currently no.
+- Should starting Treasury be raised from 300 to 400-500 gp to give more cushion for the first 3 battles?
+
+**Grand Finale needs rework (v0.5+).** The current spec ("all players field their full Treasury and Roster in one battle") is too large for a single tabletop session. Marked as a placeholder in 01_Core_Rules.md §4. To be redesigned in a future revision.
+
+**DOCX export CSS improved.** The Google Docs / Word table overflow was caused by missing `width: 100%` and `table-layout: fixed` in the export script's CSS. Updated `md_to_docx.py` to apply 9pt font, 0.75in page margins, and fixed-layout tables that wrap content. Regenerated all 12 DOCX files.
+
 ---
 
 ## 3. Sources mined for inspiration

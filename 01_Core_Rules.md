@@ -80,7 +80,16 @@ A typical warband holds 4 to 5 Characters plus 0 to 3 specialists. Total Named R
 
 **If all your Characters die in a campaign:** You cannot field a battle without at least one Character (someone must be Chieftain). Recruit a fresh Character for 50 gp from Treasury; they start with 0 XP and no Skills/Talents/etc.
 
-Rank-and-file warriors are *not* persistent. Buy them fresh each battle from your Treasury at standard Pillage prices. A Named Character may be equipped from the same options as a rank-and-file warrior (or as a Chieftain / Berserker / etc. when faction rules permit) — only their persistent Skills, Talents, Stat improvements, Named-Weapon Unlocks, and Personal Saga distinguish them.
+**Rank-and-file warriors are persistent.** Surviving warriors stay with your warband between battles; you do not rebuild your army from scratch each game.
+
+- When you build your army for a battle, you may field any combination of your existing surviving warriors PLUS new recruits paid from Treasury at standard Pillage prices (per faction).
+- Casualties from a battle (figures killed) are removed from your warband roster permanently. Their gp value is lost.
+- Captured warriors may be ransomed back in the post-game **Ransom step** (per [§6 step 4](#6-the-post-game-sequence)) at half their gp cost, or treated as lost (the captor may keep them indefinitely, sacrifice them, or hold them as leverage).
+- You may freely re-equip surviving warriors between battles for the standard gp cost of any equipment changes (e.g., upgrading from improvised weapon to a hand weapon: pay the difference in gp).
+
+A Named Character may be equipped from the same options as a rank-and-file warrior (or as a Chieftain / Berserker / etc. when faction rules permit) — only their persistent Skills, Talents, Stat improvements, Named-Weapon Unlocks, and Personal Saga distinguish them.
+
+> **Note on the economy (v0.5):** The persistent rank-and-file model replaces the earlier "buy a fresh army each battle" rule, which made Treasury unsustainable. Math examples and balance assumptions are tracked in [07_Design_Notes.md](07_Design_Notes.md).
 
 ### 3c. Renown
 
@@ -96,7 +105,7 @@ A season is a sequence of **6 to 8 battles**, ending with a **Grand Finale**. Th
 |---|---|---|
 | **Raid** | One per club meeting (or per week) | A single Pillage battle composed via the proposal/accept/twist procedure (see [05_Scenarios.md](05_Scenarios.md)). Post-game sequence resolved after each. |
 | **Annual Event** | Every other club meeting (4 per typical season) | The campaign organiser draws and reveals a card from the Annual Events deck before proposals begin (see [08_Annual_Events.md](08_Annual_Events.md)). Affects every warband at once. |
-| **Grand Finale** | Season's final battle | All players field their full Treasury and Roster in one battle (Sides Mode: coalition battle; Feuds Mode: multi-player free-for-all). Renown bonuses for victory. |
+| **Grand Finale** | Season's final battle | A climactic closing battle. **Note (v0.5): the current spec — "all players field their full Treasury and Roster in one battle" — is too big and needs rework. We'll redesign this in a later revision; placeholder for now.** Renown bonuses for victory. |
 
 ---
 
@@ -121,7 +130,10 @@ After every battle, resolve in order. Skip any step that doesn't apply.
 1. **Wound Rolls.** Each Named Character who fell rolls on the **Saga Injury Table** ([06_Tables.md](06_Tables.md)).
 2. **Tally Renown.** Add up Renown earned during the battle (kills, scenario objectives, terrain held, captures, Boasts completed mid-game).
 3. **Collect Treasure.** Loot tokens carried off the board convert to gp at 5 gp each. Add scenario-specific gold.
-4. **Ransom and Relic Transfer.** Resolve captured Named Characters: ransom, execute, or trade. Resolve Relic transfers per [04_Stores_and_Relics.md](04_Stores_and_Relics.md).
+4. **Ransom and Relic Transfer.** Resolve captured figures and Relic moves:
+   - **Captured Named Characters**: ransom back at half gp cost, execute (captor gains Renown, victim's warband loses the character), or hold indefinitely. See [04_Stores_and_Relics.md §8c](04_Stores_and_Relics.md) for Relic-specific transfer rules.
+   - **Captured rank-and-file warriors**: ransom back at half the captured figure's gp cost (paid by the original owner to the captor). If the original owner declines or cannot pay, the captor may either sacrifice the prisoner (+1 Renown to captor, no gp to either side) or keep them indefinitely (the warrior is effectively dead from the original warband's view; captor gains no gp). The captor cannot recruit captured warriors into their own warband — captured enemies don't switch sides.
+   - **Resolve Relic transfers** per [04_Stores_and_Relics.md](04_Stores_and_Relics.md).
 5. **Saga Roll.** Roll d100 on the Saga Roll Table ([06_Tables.md](06_Tables.md)) for a between-game event.
 6. **Divide Shares.** Pay your Named Characters their winter share. Shortfall triggers an **Oathbreaking Check**: roll d10 plus shortfall in gp/10; on a fail, one or more Named Characters leave the warband (and may be recruited by a rival next Winter).
 7. **Mead-Hall.** Optional: spend gp or Renown to refresh Boasts (see [03_Boasts.md](03_Boasts.md)).
