@@ -74,7 +74,7 @@ There is no formal Chieftain succession mechanic. The Chieftain is chosen each b
 
 **If all your Characters die:** You cannot field a battle (someone must be Chieftain). Before your next battle, recruit a fresh Character from Treasury for 50 gp. They start with 0 XP and no Skills, Talents, Stat improvements, Named-Weapon Unlocks, or Personal Saga. Name them and add them to your roster.
 
-**A specialist dying** (Healer, Banner-bearer, Warhorn-bearer) follows the same logic: their Skills, Stat improvements, etc. are lost. You may recruit a fresh specialist for 50 gp from Treasury. They start with 0 XP and no advancements.
+**A specialist dying** (Healer, Banner-bearer, Warhorn-bearer) follows the same logic: their Skills, Stat improvements, etc. are lost. You may recruit a fresh specialist by paying their **normal Pillage gp cost** from Treasury (figure base cost + class-specific equipment per Pillage's army-building rules — varies by faction and role; e.g., a Viking Healer at 30 gp, a Banner-bearer at the warrior base + 50 gp Banner equipment, etc.). They start with 0 XP and no advancements.
 
 ---
 
