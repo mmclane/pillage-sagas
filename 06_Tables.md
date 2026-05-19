@@ -159,7 +159,7 @@ Rolled in **Step 5 of the post-game sequence**, once per player. Adapted from Po
 |---|---|---|
 | 54–55 | Barrow Found | A burial mound is opened. Gain a random unassigned Relic from the campaign's Relic pool. If no Relics remain unassigned, gain 1 free Store of your choice instead. |
 | 56–57 | Smith Forges Fine Work | Choose +1 Fire Arrows OR +1 Rune-Stone Store, free. |
-| 58–59 | Berserker Mushroom Harvest | +1 Hallucinogenic Mushrooms Store, free. |
+| 58–59 | A Trader's Bargain | A favorable trade brings extra silver in. +40 gp to Treasury. |
 | 60 | Saint's Bone Recovered | +1 Captured Saint's Bone Store, free. |
 | 61 | Old Weapon Dug Up | Choose +1 Hand Firepot OR +1 Snares Store, free. |
 

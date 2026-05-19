@@ -20,7 +20,6 @@ Two layers of campaign-only gear:
 
 | Item | Cost | Effect (single use, unless noted) |
 |---|---|---|
-| **Hallucinogenic Mushrooms** | 25 gp | Issued to any one figure (Named Character or rank-and-file) at army-build. Once per game, that figure may eat the mushrooms at the start of any of their turns when not engaged in melee. Roll **d6 for Confusion** immediately: on a **1**, the visions take the user — they go Wild this turn, must charge the nearest figure (friend or foe; player chooses if equidistant) using their full charge movement, gain no other rage benefits, and cannot use ranged weapons. On a **2+**, they gain Berserker rage effects for that turn: auto-pass any morale check, +1 attack in melee, and may not flee. Either way, the effect ends at the start of their next turn. A figure already equipped as a Berserker may still benefit from this Store on top of their normal Berserker abilities — the boost stacks once, but they still roll for Confusion. |
 | **Pitch Barrel** | 30 gp | Pre-positioned at deployment within 6" of a friendly figure. If hit by any fire source, ignites on 2+. Counts as a piece of flammable scenery. |
 | **Fire Arrows** | 40 gp | Issued to one specific archer. Once per game, that archer's shot ignites the target's terrain on hit, treating the figure as if it had a torch in base contact. |
 | **Hand Firepot** | 35 gp | Any figure can throw one. Range 4". On a 4+ to hit, target takes a hit AND the spot becomes a small flame that can spread per fire rules. |
@@ -49,7 +48,7 @@ These Stores have Christian-flavored names and effects but are not faction-locke
 ### A3. TODO
 
 - [ ] Balance pass on costs after playtest.
-- [ ] Some Stores may want to be earned via Saga Roll only (e.g. Mushrooms, Rune-Stone), not gp-purchased. Decide which.
+- [ ] Some Stores may want to be earned via Saga Roll only (e.g. Rune-Stone), not gp-purchased. Decide which.
 - [x] **Christendom-flavored Stores added in v0.5:** Holy Oil, Saint's Banner, Indulgence Letter, Confessor's Vial, Pilgrim's Sandal, Blessed Sword. Two are Christian-faction-locked (Indulgence Letter, Confessor's Vial); the rest are open.
 - [ ] Decide how Stores interact with the Sneak/Ambush rules.
 

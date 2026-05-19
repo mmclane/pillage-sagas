@@ -48,7 +48,6 @@ Max one of each Holding type. Each has a name (chosen at victory).
 
 | Store | × |
 |---|---|
-| Hallucinogenic Mushrooms | __ |
 | Pitch Barrel | __ |
 | Fire Arrows | __ |
 | Hand Firepot | __ |

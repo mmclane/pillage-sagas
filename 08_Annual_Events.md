@@ -99,7 +99,7 @@ A deck of campaign-wide event cards drawn at the start of every other club meeti
 
 > *A war-band from across the sea offers their swords to any who'll pay.*
 
-**Effect:** For the next battle each warband plays, they may hire one rank-and-file specialist (Berserker-equipped warrior, Huscarl, Healer, or Pack Master) at half their faction's standard gp cost. The hired specialist is rank-and-file (not a Named Character), is fielded for that battle only, and is gone after — they do not join the Named Roster.
+**Effect:** For the next battle each warband plays, they may hire one rank-and-file specialist (Berserker, Huscarl, Healer, or Pack Master) at half their faction's standard gp cost. The hired specialist is rank-and-file (not a Named Character), is fielded for that battle only, and is gone after — they do not join the Named Roster.
 
 #### AE08 — Skald Tour
 

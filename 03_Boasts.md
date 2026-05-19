@@ -109,7 +109,7 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 | B05 | **Boast Fulfilled** | One of your figures declares and resolves a charge on Turn 1, and that figure is still alive at the end of Turn 1. |
 | B06 | **Rooftop Raider** | At the end of any turn, one of your figures is on a building's roof (top storey, exterior surface). |
 | B07 | **No Shield, No Fear** | Your Jarl wins a melee without a shield, against an opponent who has a shield. |
-| B08 | **Bared Teeth** | A figure in your warband enters rage state during the game (via Berserker equipment, Hallucinogenic Mushrooms Store, or other means) and is still alive at the end of the game. |
+| B08 | **Bared Teeth** | A Berserker in your warband enters rage state during the game and is still alive at the end of the game. |
 | B09 | **Last Stand** | At the end of any turn, your Jarl is the last figure of your warband on the table, and your warband does not rout that turn. |
 | B10 | **Skull-Splitter** | One of your figures kills an enemy Chieftain with a single melee hit (the Chieftain went from full HP to 0 in one strike). |
 | B11 | **Mercy Sells** | One of your figures captures an enemy figure alive (per the prisoner rules) and walks them off your own table edge during the game. |
@@ -120,7 +120,7 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 | B16 | **Pushed Off** | Using the Push Back rule, one of your figures pushes an enemy off the edge of an elevated piece of scenery (slope, ship rail, building edge, cliff). |
 | B17 | **Reckless Glory** | Your Jarl is engaged in a melee with 3 or more enemy figures simultaneously, and is still alive at the end of that turn. |
 | B18 | **The Lone Wolf** | One of your figures kills 2 or more enemy figures during the game, and at the moment of each kill is more than 8" from any other friendly figure. |
-| B19 | **Mead-Tested** *(Vikings)* | A Viking figure equipped as a Berserker, OR a Viking figure who used the Hallucinogenic Mushrooms Store, enters rage state and kills 2 or more enemies during the rage. |
+| B19 | **Mead-Tested** *(Vikings)* | A Viking Berserker enters rage state and kills 2 or more enemies during the rage. |
 | B20 | **Shieldwall Stand** *(Anglo-Saxons)* | At game end, at least one Anglo-Saxon Shieldwall (4+ figures) is still intact on the table. |
 | B21 | **Lance Charge** *(Normans)* | A Norman cavalry figure equipped with a Kontos kills an enemy with a charging attack. |
 | B22 | **Highland Ambush** *(Picts)* | A Pict figure that was hidden (via the Scout Talent, King of Ambushes Talent, or Hidden Force Twist) reveals and kills the first enemy figure of the game. |

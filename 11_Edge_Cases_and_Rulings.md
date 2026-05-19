@@ -36,11 +36,11 @@ Yes. They are separate Skills with separate triggers (Iron Stance is melee defen
 
 This shouldn't happen — Talents are unique within the warband ([02 §4](02_XP_and_Advancement.md)). If it somehow does (e.g., a recruited character was previously someone else's), the duplicate is discarded with full XP refund.
 
-### A Berserker-equipped figure also has the Berserker's Echo Skill — does the Skill effect stack with Berserker rage?
+### A Berserker figure also has the Berserker's Echo Skill — does the Skill effect stack with Berserker rage?
 
-Yes. Berserker's Echo grants the Inspiring trait while engaged in melee. Berserker rage (game-long or one-turn via mushrooms) is a separate set of bonuses (auto-pass morale, +1 attack). Both apply to the figure simultaneously.
+Yes. Berserker's Echo grants the Inspiring trait while engaged in melee. Berserker rage (per Pillage's printed Berserker rules) is a separate set of bonuses (auto-pass morale, +1 attack). Both apply to the figure simultaneously.
 
-### A character with Long Strides (+1" movement) is equipped as a Berserker that game — do they get the Berserker's movement profile plus Long Strides?
+### A character with Long Strides (+1" movement) is fielded as a Berserker that game — do they get the Berserker's movement profile plus Long Strides?
 
 Yes. Long Strides is a permanent personal stat improvement that applies to whatever role the character is in. Stack with Berserker's printed stats up to the +2 cumulative cap on movement.
 
@@ -51,12 +51,6 @@ Yes. Long Strides is a permanent personal stat improvement that applies to whate
 ### A multi-game Boast 🌙 is tied to a specific Named Character (Threefold Saga, Hall of the Fallen). That character dies before completing.
 
 The Boast is discarded with no Renown awarded. The player draws a fresh Boast at the start of their next battle as normal. They do not get a free re-draw — losing the multi-game Boast is part of the risk of choosing it.
-
-### Boast completion in the moment of a Confusion roll
-
-If a figure under mushroom Confusion (rolled 1) charges and kills the nearest figure (friend or foe), does that satisfy Boasts that require killing an enemy?
-
-Yes if the killed figure was an enemy. The mushroom user is still your figure; their actions count as yours regardless of confusion. If they kill a friendly figure, that does not satisfy any Boast (you don't kill your own warband for credit).
 
 ### Skald's Ear (Skill) and a Boast whose trigger was missed several turns ago
 
@@ -77,12 +71,6 @@ A kill in base contact with the Sacred Stone counts for any Boast that requires 
 ---
 
 ## Stores
-
-### Hallucinogenic Mushrooms used by a Berserker-equipped figure
-
-The Berserker-equipped figure may use the mushroom Store on top of their normal Berserker abilities. Per [04 Part A](04_Stores_and_Relics.md), the boost stacks once, but they must still roll for Confusion.
-
-Specifically: the Berserker's rage state is game-long once triggered (per Pillage's rules). The Store's one-turn boost is additive (auto-pass morale even on a 1 already covered, +1 additional attack for that turn). On a Confusion 1 result, the figure goes Wild for that turn — overriding the normal Berserker rage benefits for that turn only. Game-long rage resumes the turn after.
 
 ### A figure with Captured Saint's Bone Store dies before triggering it
 

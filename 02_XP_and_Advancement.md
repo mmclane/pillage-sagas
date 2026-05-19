@@ -129,7 +129,7 @@ Skills are permanent traits attached to a specific Named Character. They activat
 |---|---|
 | **Step Aside** | When targeted by a closing shot, the shooter takes an additional -1 penalty. |
 | **Bone Density** | Once per game, re-roll one failed defence roll against a ranged attack. |
-| **Stoic** | This character passes morale checks on a 1 (treat 1 as Stoic, not Rout). |
+| **Battle Sense** | When this character is the target of a charge, they gain +1 to their defence rolls against the charging figure for that round of melee. |
 | **Berserker's Echo** | While engaged in melee, this character grants the Inspiring trait to friendlies within 4" (+1 morale). |
 
 #### Movement and Positioning (2 XP each)
@@ -152,7 +152,7 @@ Skills are permanent traits attached to a specific Named Character. They activat
 | Skill | Effect |
 |---|---|
 | **Hunter's Mark** | At the start of any turn, declare one enemy figure as Marked. Until end of turn, +1 to all your warband's hit rolls against the Marked figure. Once per game. |
-| **Quartermaster** | If this character deploys, your warband may field 4 Stores this battle instead of 3. |
+| **Quartermaster** | If this character deploys, the warband may bring up to **4 items from their Stores** into this battle instead of the standard cap of 3. |
 | **Looter** | This character may carry up to 4 loot tokens instead of 3. |
 | **Skald's Ear** | Boasts that triggered on a previous turn may be claimed retroactively, but only until the end of the turn following the trigger. (Mitigates the "forgot to call it" problem.) |
 
@@ -163,14 +163,14 @@ Skills are permanent traits attached to a specific Named Character. They activat
 | **Bone-Setter** | 2 | This Healer's heal rolls succeed on 4+ instead of 5+. |
 | **Cunning Folk** | 2 | Once per game, this Healer may move up to half their movement AND heal in the same turn. |
 | **Field Surgeon** | 3 | This Healer may heal a friendly figure currently engaged in melee. |
-| **Wise Woman** | 3 | The first heal each game does not consume the Healer's action (they get a free first cast). |
+| **Wise Woman** | 3 | The first heal attempt each game does not consume the Healer's action — they may heal once at no action cost, then continue acting normally that turn. |
 
 #### Banner-bearer-only Skills (the Banner-bearer Named Character only)
 
 | Skill | XP | Effect |
 |---|---|---|
 | **Banner-Pull** | 3 | The banner's effective range increases by 2". |
-| **Defiant Standard** | 3 | Friendly figures within 6" of the banner pass morale checks on a 2+ instead of the usual threshold. |
+| **Defiant Standard** | 3 | Once per battle, when a friendly figure within 6" of the banner-bearer rolls a 1 on a morale check (would rout), they may re-roll. They must take the second result. |
 | **Banner's Shield** | 3 | Once per game, the banner-bearer ignores one wound (the banner deflects the blow, or a comrade leaps in front). |
 
 #### Warhorn-bearer-only Skills (the Warhorn-bearer Named Character only)
@@ -225,7 +225,7 @@ A Personal Saga is a passive Renown generator that fires whenever the character 
 |---|---|---|
 | **The Wave-Rider** | This character ends the game adjacent to a ship, or having crossed water during the game. | +1 per game |
 | **The Foe-Stalker** | This character personally kills an enemy Named Character. | +1 per kill, max +2 per game |
-| **The Berserker's Friend** | A figure in your warband enters rage state during the game (via Berserker equipment, Hallucinogenic Mushrooms Store, or other means) and is still alive at the end. | +1 per game |
+| **The Berserker's Friend** | A figure in your warband fielded as a Berserker enters rage state during the game and is still alive at the end. | +1 per game |
 | **The Saga-Voice** | This character is on the table when your warband completes any Boast. | +1 per game |
 | **The Ash-Faced** | This character personally lights a fire that damages or kills at least one enemy figure. | +1 per game |
 | **The Sword-Keeper** | This character is wielding a Relic at the start of the game AND that Relic is still in your warband's possession at game end. | +1 per game |
@@ -259,7 +259,7 @@ A Named Character named Ulf participates in his warband's first 4 battles. Over 
 - Battle 1: deployed (equipped as Huscarl-style fighter), killed 2 enemies including an enemy Named Character (1 + 1 + 2 = 4 XP)
 - Battle 2: deployed as Chieftain, killed 1 enemy, was wounded but survived, warband won (1 + 1 + 1 + 1 = 4 XP, capped at 5; he gets 4)
 - Battle 3: deployed as an archer, killed 0 enemies, was wounded but survived (1 + 1 = 2 XP)
-- Battle 4: deployed as Berserker-equipped (paid 50 gp from battle budget), killed 1 enemy (1 + 1 = 2 XP)
+- Battle 4: deployed as a Berserker (paid 50 gp from battle budget), killed 1 enemy (1 + 1 = 2 XP)
 
 Total: 12 XP. Possible spends:
 
@@ -275,7 +275,7 @@ Ulf's growth shape is the player's choice. A Talent-focused Ulf is the warband's
 
 - [ ] Playtest balance pass. Some Skills (Backswing, Eagle Eye) are strictly better than equivalent Talents and may be undercosted.
 - [ ] Faction-specific Personal Sagas (Viking-only, Christian-only).
-- [x] Healer- and class-specific Skills added in v0.3 (4 Healer-only, 3 Banner-bearer-only, 3 Warhorn-bearer-only). Berserker is now equipment, not a class — its abilities go through equipment + Mushrooms Store rather than class-locked Skills.
+- [x] Healer- and class-specific Skills added in v0.3 (4 Healer-only, 3 Banner-bearer-only, 3 Warhorn-bearer-only). Berserker is a troop type in Pillage's army-building rules (alongside Warrior, Huscarl, etc.) — any figure can be built as a Berserker for a battle by paying the Berserker base cost. Berserker's printed abilities (game-long rage, etc.) apply per Pillage's core rules.
 - [ ] Decide whether Advancement options should be drawn from a deck (Mordheim-style rare-find flavor) or chosen openly (current default).
 - [x] Forgo Advancement option added in v0.5 (now called **Donate to the Warband**, Path F). 3 XP → +1 Renown to the warband.
 
@@ -333,4 +333,4 @@ For reference, these are the Talents from Pillage core (p.90–92) and the Fall 
 
 > Note: For Talents over 60 gp original cost (Scramaseax, Shield Bash at 80 gp), the XP cost is 8 — extrapolated from the same gp/10 rule. Watch for balance in playtest.
 
-> **Resolved in v0.3:** The class-flex Named Character model removed this question. Berserker is now an equipment line any figure can use; its abilities work via that equipment plus the Hallucinogenic Mushrooms Store rather than Talents. Healer, Banner-bearer, and Warhorn-bearer (the three class-locked specialists) earn role-restricted Skills instead of Talents — see Path B above.
+> **Resolved in v0.3 and refined in v0.5:** The class-flex Named Character model removed this question. Berserker and Huscarl are troop types in Pillage's army-building rules (alongside Warrior, Chieftain, etc.) — any Named Character can be fielded as a Berserker, Huscarl, or any other troop type for a battle by paying its base cost. The Berserker's printed Pillage abilities (game-long rage state, etc.) work normally; no separate Talents needed. Healer, Banner-bearer, and Warhorn-bearer (the three class-locked specialists in this campaign) earn role-restricted Skills instead of Talents — see Path B above.
