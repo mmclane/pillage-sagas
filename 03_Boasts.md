@@ -49,14 +49,14 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 
 ## 5. The Deck (v0.3)
 
-73 cards organized by tier. Each entry shows the trigger condition; Renown reward follows the tier (Common = 1, Bold = 2, Legendary = 3). A 🌙 icon marks a multi-game Boast (carries over until completed or discarded; occupies a permanent hand slot).
+74 cards organized by tier. Each entry shows the trigger condition; Renown reward follows the tier (Common = 1, Bold = 2, Legendary = 3). A 🌙 icon marks a multi-game Boast (carries over until completed or discarded; occupies a permanent hand slot).
 
 **Restrictions.** Some Boasts are **faction-locked** (only completable by a warband of the named faction) or **Battle-Type-locked** (only completable in a specific Battle Type). If a player draws a Boast they clearly cannot complete given their warband or the current matchup, they may use their once-per-game **mulligan at deployment** (per §1) to discard and re-draw.
 
 ### Distribution
 
 - Common: 36 (49%)
-- Bold: 27 (37%)
+- Bold: 28 (38%)
 - Legendary: 10 (14%)
 
 ### Common (36 cards — 1 Renown each)
@@ -100,7 +100,7 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 | C35 | **Breton Stalker** *(Bretons)* | A Breton cavalry figure successfully flees from melee at least once during the game (per the Master Stalker Talent's improved flee rolls). |
 | C36 | **The Free Northman** *(Generic, non-faction-locked)* | Your warband has no Chieftain in the army for this battle. (Saxons' Men Without Kings rule, generalized — any faction may attempt this once per season.) |
 
-### Bold (27 cards — 2 Renown each)
+### Bold (28 cards — 2 Renown each)
 
 | # | Name | Trigger |
 |---|---|---|
@@ -131,6 +131,7 @@ Approximate deck split: 50% Common, 35% Bold, 15% Legendary.
 | B25 | **Palace Guard's Charge** *(Carolingian Franks)* | A Frankish heavy cavalry figure kills 2 or more enemies in melee in a single game. |
 | B26 | **Storm of the Steppe** *(Huns)* | Hun mounted archers (figures with composite bows from horseback) kill 3 or more enemies with bow shots in a single game. |
 | B27 | **Tribute of the Hostage** *(Rescue the Hostage only)* | The hostage is extracted off the relevant player's own edge AND your warband suffered 2 or fewer casualties during the game (a near-bloodless rescue). |
+| B28 | **Closing Volley** | One of your figures kills an enemy who charged them, specifically with a closing shot (the reactive ranged shot taken as a charge reaction, per Pillage's closing-shot rules). The kill must come from the closing shot itself, not the resulting melee. |
 
 ### Legendary (10 cards — 3 Renown each)
 

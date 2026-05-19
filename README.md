@@ -10,7 +10,7 @@ A persistent multiplayer campaign layer for *Pillage: Ransack the Middle Ages* (
 |---|---|
 | [01_Core_Rules.md](01_Core_Rules.md) | Core concept, currencies, campaign modes, warband structure, season structure, Renown spends, the 12-step post-game sequence |
 | [02_XP_and_Advancement.md](02_XP_and_Advancement.md) | XP economy, Talents converted from gp-purchase to XP rewards, succession, Saga Advancement Table outline |
-| [03_Boasts.md](03_Boasts.md) | Private-objective deck (73 cards) with rules for drawing, refreshing, claiming, and tiered rewards. |
+| [03_Boasts.md](03_Boasts.md) | Private-objective deck (74 cards) with rules for drawing, refreshing, claiming, and tiered rewards. |
 | [04_Stores_and_Relics.md](04_Stores_and_Relics.md) | Single-use consumables (18 Stores, Norse and Christian-flavored) and persistent named artifacts (17 Relics) with transfer/capture rules |
 | [05_Scenarios.md](05_Scenarios.md) | Scenario composition system (Battle Type + Location + Twist + Weather). 12 standard Battle Types + 3 faction-flavored + 3 multi-player + Custom Battle Types mechanic. 18 Locations. 25 Twists. Holdings without a map. |
 | [06_Tables.md](06_Tables.md) | Saga Injury Table (d20), Saga Roll (d100), Title Table (d10 × d6) — all three complete |
