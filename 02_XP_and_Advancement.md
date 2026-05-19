@@ -110,7 +110,7 @@ Skills are permanent traits attached to a specific Named Character. They activat
 | **Iron Stance** | Once per game, this character may re-roll one failed defence roll. |
 | **Backswing** | When fighting with a hand weapon, +1 to all melee hit rolls. |
 | **Beast-Bane** | +1 to melee hit rolls against cavalry figures (rider). |
-| **Wall-Breaker** | +1 to melee hit rolls against figures currently in a Shieldwall. |
+| **Shield-Splitter** | +1 to melee hit rolls against figures with a shield (whether equipped as SA with shield, or FA). |
 | **Spear-Wise** | When supporting an ally with a spear, the supported ally gains +1 to their melee hit roll (in addition to the support bonus). |
 | **Two-Fisted** | If this character is equipped with two hand weapons (paying gp for both), they make +1 attack in melee. |
 
